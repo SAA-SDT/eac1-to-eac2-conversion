@@ -1,0 +1,663 @@
+<eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd">
+   <control>
+      <recordId>118540238</recordId>
+      <otherRecordId localType="PPN">118540238</otherRecordId>
+      <otherRecordId localType="uriKPE">http://kalliope-verbund.info/gnd/118540238</otherRecordId>
+      <otherRecordId localType="URI">http://d-nb.info/gnd/118540238</otherRecordId>
+      <otherRecordId localType="URI"/>
+      <otherRecordId localType="URI"/>
+      <otherRecordId localType="DE-101">(DE-101)118540238</otherRecordId>
+      <otherRecordId localType="DE-588">(DE-588)118540238</otherRecordId>
+      <otherRecordId localType="GNDinvalidId">(DE-588)1131918517</otherRecordId>
+      <otherRecordId localType="GNDinvalidId">(DE-588)1095607278</otherRecordId>
+      <otherRecordId localType="GNDinvalidId">(DE-588)1022736213</otherRecordId>
+      <otherRecordId localType="GNDinvalidId">(DE-588)1032060956</otherRecordId>
+      <otherRecordId localType="SWDInvalidId">(DE-588c)4021455-2</otherRecordId>
+      <otherRecordId localType="GNDinvalidId">(DE-588)1014927390</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)1014927390</otherRecordId>
+      <otherRecordId localType="GNDinvalidId">(DE-588)101488358X</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)101488358X</otherRecordId>
+      <otherRecordId localType="GNDinvalidId">(DE-588)185848826</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)185848826</otherRecordId>
+      <otherRecordId localType="GNDinvalidId">(DE-588)185808069</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)185808069</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)118540238</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)1014123208</otherRecordId>
+      <maintenanceStatus>new</maintenanceStatus>
+      <maintenanceAgency>
+         <agencyCode>DE-101</agencyCode>
+         <agencyName>Deutsche Nationalbibliothek</agencyName>
+      </maintenanceAgency>
+      <languageDeclaration>
+         <language languageCode="ger">deutsch</language>
+         <script scriptCode="Latn"/>
+      </languageDeclaration>
+      <conventionDeclaration>
+         <abbreviation>RDA</abbreviation>
+         <citation/>
+      </conventionDeclaration>
+      <maintenanceHistory>
+         <maintenanceEvent>
+            <eventType>created</eventType>
+            <eventDateTime standardDateTime="1988-07-01"/>
+            <agentType>human</agentType>
+            <agent>W4</agent>
+         </maintenanceEvent>
+         <maintenanceEvent>
+            <eventType>revised</eventType>
+            <eventDateTime standardDateTime="2019-10-04"/>
+            <agentType>human</agentType>
+            <agent>W4</agent>
+         </maintenanceEvent>
+      </maintenanceHistory>
+      <sources>
+         <source>
+            <sourceEntry>ADB</sourceEntry>
+         </source>
+         <source>
+            <sourceEntry>Wikipedia</sourceEntry>
+         </source>
+         <source>
+            <sourceEntry>M</sourceEntry>
+         </source>
+         <source>
+            <sourceEntry>B 1986</sourceEntry>
+         </source>
+         <source>
+            <sourceEntry>LCAuth</sourceEntry>
+         </source>
+         <source>
+            <sourceEntry>Kosch Lit.</sourceEntry>
+         </source>
+         <source>
+            <sourceEntry>DbA</sourceEntry>
+         </source>
+         <source>
+            <sourceEntry>Provenienzmerkmal</sourceEntry>
+         </source>
+         <source>
+            <sourceEntry>Provenienzmerkmal</sourceEntry>
+         </source>
+      </sources>
+   </control>
+   <cpfDescription>
+      <identity>
+         <entityType>person</entityType>
+         <nameEntry>
+            <part>Goethe, Johann Wolfgang von (1749-1832)</part>
+         </nameEntry>
+         <nameEntryParallel>
+            <nameEntry>
+               <part>Goethe, Johann Wolfgang (1749-1832) [ADB]</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goethe, Johan Wolfgang von (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goethe, Johan Wolphgang (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goethe, Johan W. von (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goethe, Joh. Wolfg. v. (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goethe, J. Wolfgang (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goethe, J. W. v. (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goethe, J. W. (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goethe, Jan Wolfgang (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goethe, Jean Wolfgang von (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goethe, Juan Wolfgang von (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goethe, Juan Wolfgang (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goethe, Juan W. (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goethe, João Wolfgang von (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goethe, Iohann Wolfgang (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goethe, Iohan Wolphgang (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goethe, Ioannes W. (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goethe, I. W. (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goethe, Wolfgango (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goethe, Wolfango (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goethe, W. von (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goethe, Volfgango (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goethe, Volfango (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goethe, Giov. L. (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goethe, G. L. (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goethe (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Von Goethe, Johann Wolfgang (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goethius (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Göthe, Johann Wolfgang von (1749-1832) [Vollstaendiger Name]</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Göthe, Johann W. êvonë (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Göthe, Jan Wolfgang (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Göthe, Jan Wolfang (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Göthe, J. W. von (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Göthe, Giov. Volfango (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Göthe (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Göte, Iogann V. (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Göte (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goete, Iohan V. p'on (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goet'e, Iohan Volp'gang (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goet'e (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goe te (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gêôt'ê (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>G'ote, Jochan Volfgang (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gete, Yohan Volfgang (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>G'ote, V. f. (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>G'ote (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gót, J. V. (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gót (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Go't, I. V. (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goithios (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gotenin (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gejteh (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gete, Jōhan Wolfgang fon (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gete, Johann Volʹfgang (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Géte, Johans Volfgangs (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gėtė, Johanas Volfgangas (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gete, Jochan Volfgang (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gete, Jogann Vol'fgang fon (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gete, Jogann Vol'fgang êfonë (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gete, Jogann-Vol'fgang (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gete, J. V. (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gete, J.-V. (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gete, Iogann W. (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gete, I. W. (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gete, Iohan Volfgang (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gëte, Iogann Vol'fgang (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gëte, Johann Volfgang (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Ge͏̈te, Iogann Vol'fgang (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gete, I. V. (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gete, I.-V. (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gete, Yohan Wolfgang (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gete, Yôhân Wôlfgang fôn (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gête, Yôhan Wolfgang (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gete, Yohann Volfqanq (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gete, Yogann Volʹfgang (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gete, Y. W. (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gêtê, Y. W. (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gete, Volʹfgang (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gete, V. (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gete, Egan Vol'fgang (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gete (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gēte (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gě'ṭe (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gette, G. (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gede, Yuehan Wofugang (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gede (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Ge de (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Geteh, Yohan Ṿolfgang fon (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gūta, Yūhān Wulfgāng fun (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gūta, Yūhān Wulfgāng fūn (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Ǧūta, Yūhān Wulfǧānǧ fūn (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gūta (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Ǧīta (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Ǧītā (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Ǧītah (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Ǧītih (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Giote, Johan Wolphgang (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Giote, J. W. (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gǐote, Jochan Volfgang (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Giote, J. V. (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Ġūta, Yūhān Fūlfġānḡ (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Ġūtah, Yūhān Fūlfġānḡ (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Ġūtih, Yūhān Vūlfġanġ fūn (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Ġūtih, Yūhān Fūlfġānḡ (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goytä, Yohan Welfgang fon (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gyote, Johān Bholphgãā (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gyot'e, Yohan Wolfgang (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gyot'e, Yohan Volfgang (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>GŚutih, YŚuhŚan VŚulf·gan·g fŚun (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gkaite, Giochan Bolphnkannk phon (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gkaite, Giochan Bolphnkannk êphonë (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gkaite, Giochan B. phon (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gkaite, Iōann Mpolphgang (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gkaite (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Koet'e, Yohan Polp'ŭgang p'on (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Koet'e (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Kêôt'ê, Volfkank (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Kēōthē (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Kote, Johann Volfgang (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Kote, Jochann Volfgang (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Kote, J. V. (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Kote, V. (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Hete, Johann-Vol'fhanh (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>He͏̈te, E͏̈han Vol'fhanh (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Hëte, &amp;Euml;han Vol'fhanh (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Höte, Iohann Volfqanq (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Yo han Bol peu gang pon Goe te (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Yohan-Bolpeugang-pon-Goete (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Yue han Wo fu gang Ge de (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Yuehan-Wofugang-Gede (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gyote, Yohan Wolfgang (1749-1832) [uigur.]</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goethe, Johann Wolfgang v. (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goethe, Johann W. von (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goethe, Johann W. (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goethe, J. W. von (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goethe, Wolfgang von (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goethe, Wolfgang (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gete, Johan Volfgang (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gete, Iogann Volʹfgang (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gete, J.V. (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goithios, I.V. (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Gēte, Yohan Vorufugangu Fon (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Ġūtih, Yūhān Fūlfġānġ fūn (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goythe (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goethe, J.W. von (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Goethe, J.W. (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part xml:lang="Cyrl">Гёте, Йоҳанн Волфганг (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part xml:lang="Hans">歌德 (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part xml:lang="Hant">約翰・沃爾夫岡・馮・歌德 (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part xml:lang="Hans">约翰・沃尔夫冈・冯・歌德 (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part xml:lang="Jpan">ゲーテ, ヨハン・ヴォルフガング・フォン (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part xml:lang="Hebr">גתה, יוהן וולפגנג פון (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part xml:lang="Hans">歌德 (1749-1832)</part>
+            </nameEntry>
+            <nameEntry>
+               <part xml:lang="Jpan">ゲーテ, ヨハン・ヴォルフガング・フォン (1749-1832)</part>
+            </nameEntry>
+         </nameEntryParallel>
+      </identity>
+      <description>
+         <existDates>
+            <dateRange>
+               <fromDate standardDate="1749-08-28">28.08.1749</fromDate>
+               <toDate standardDate="1832-03-22">22.03.1832</toDate>
+            </dateRange>
+         </existDates>
+         <localDescriptions localType="GND">
+            <localDescription localType="Geschlechtsangabe">
+               <term>1</term>
+               <descriptiveNote>
+                  <p>männlich</p>
+               </descriptiveNote>
+            </localDescription>
+         </localDescriptions>
+         <places>
+            <place>
+               <placeRole>Geburtsort</placeRole>
+               <placeEntry vocabularySource="GND" localType="DE-588-4018118-2">Frankfurt am Main</placeEntry>
+            </place>
+            <place>
+               <placeRole>Sterbeort</placeRole>
+               <placeEntry vocabularySource="GND" localType="DE-588-4065105-8">Weimar</placeEntry>
+            </place>
+            <place>
+               <placeRole>Wirkungsort</placeRole>
+               <placeEntry vocabularySource="GND" localType="DE-588-4065105-8">Weimar</placeEntry>
+            </place>
+         </places>
+         <occupations>
+            <occupation>
+               <term xml:id="DE-588-4053309-8">Schriftsteller</term>
+            </occupation>
+            <occupation>
+               <term xml:id="DE-588-4176310-5">Publizist</term>
+            </occupation>
+            <occupation>
+               <term xml:id="DE-588-4046517-2">Politiker</term>
+            </occupation>
+            <occupation>
+               <term xml:id="DE-588-4029050-5">Jurist</term>
+            </occupation>
+            <occupation>
+               <term xml:id="DE-588-4041423-1">Naturwissenschaftler</term>
+            </occupation>
+            <occupation>
+               <term xml:id="DE-588-4185044-0">Theaterintendant</term>
+            </occupation>
+            <occupation>
+               <term xml:id="DE-588-4037215-7">Maler</term>
+            </occupation>
+            <occupation>
+               <term xml:id="DE-588-4200345-3">Zeichner</term>
+            </occupation>
+         </occupations>
+         <biogHist>
+            <list>
+               <item>Staatsmann, Geheimrat</item>
+            </list>
+         </biogHist>
+      </description>
+      <relations>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/118695940">
+            <relationEntry localType="Beziehung familiaer" xml:id="DE-588-118695940">Goethe, Johann Caspar (1710-1782) [Vater]</relationEntry>
+         </cpfRelation>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/118540246">
+            <relationEntry localType="Beziehung familiaer" xml:id="DE-588-118540246">Goethe, Katharina Elisabeth (1731-1808) [Mutter]</relationEntry>
+         </cpfRelation>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/11871791X">
+            <relationEntry localType="Beziehung familiaer" xml:id="DE-588-11871791X">Goethe, Cornelia (1750-1777) [Schwester]</relationEntry>
+         </cpfRelation>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/118795163">
+            <relationEntry localType="Beziehung familiaer" xml:id="DE-588-118795163">Schlosser, Johann Georg (1739-1799) [Schwager]</relationEntry>
+         </cpfRelation>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/118628011">
+            <relationEntry localType="Beziehung familiaer" xml:id="DE-588-118628011">Goethe, Christiane von (1765-1816) [Ehefrau]</relationEntry>
+         </cpfRelation>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/11854022X">
+            <relationEntry localType="Beziehung familiaer" xml:id="DE-588-11854022X">Goethe, August von (1789-1830) [Sohn]</relationEntry>
+         </cpfRelation>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/118540254">
+            <relationEntry localType="Beziehung familiaer" xml:id="DE-588-118540254">Goethe, Ottilie von (1796-1872) [Schwiegertochter]</relationEntry>
+         </cpfRelation>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/11687256X">
+            <relationEntry localType="Beziehung familiaer" xml:id="DE-588-11687256X">Melber, Johanna Maria (1734-1823) [Tante]</relationEntry>
+         </cpfRelation>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/118617222">
+            <relationEntry localType="Bekanntschaft" xml:id="DE-588-118617222">Stein, Charlotte von (1742-1827) [Freundin]</relationEntry>
+         </cpfRelation>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/118633252">
+            <relationEntry localType="Bekanntschaft" xml:id="DE-588-118633252">Willemer, Marianne von (1784-1860) [Freundin]</relationEntry>
+         </cpfRelation>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/118638076">
+            <relationEntry localType="Bekanntschaft" xml:id="DE-588-118638076">Buff, Charlotte (1753-1828) [Freundin]</relationEntry>
+         </cpfRelation>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/119277387">
+            <relationEntry localType="Bekanntschaft" xml:id="DE-588-119277387">Herzlieb, Minna (1789-1865) [Freundin]</relationEntry>
+         </cpfRelation>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/118727907">
+            <relationEntry localType="Bekanntschaft" xml:id="DE-588-118727907">Levetzow, Ulrike von (1804-1899) [letzte Freundin 1821-1823 (»Marienbader Elegie«)]</relationEntry>
+         </cpfRelation>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/11856014X">
+            <relationEntry localType="Beziehung beruflich" xml:id="DE-588-11856014X">Karl August (1757-1828)</relationEntry>
+         </cpfRelation>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/118607626">
+            <relationEntry localType="Bekanntschaft" xml:id="DE-588-118607626">Schiller, Friedrich (1759-1805)</relationEntry>
+         </cpfRelation>
+      </relations>
+   </cpfDescription>
+</eac-cpf>

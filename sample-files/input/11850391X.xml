@@ -1,0 +1,228 @@
+<eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd">
+   <control>
+      <recordId>11850391X</recordId>
+      <otherRecordId localType="PPN">11850391X</otherRecordId>
+      <otherRecordId localType="uriKPE">http://kalliope-verbund.info/gnd/11850391X</otherRecordId>
+      <otherRecordId localType="URI">http://d-nb.info/gnd/11850391X</otherRecordId>
+      <otherRecordId localType="DE-101">(DE-101)11850391X</otherRecordId>
+      <otherRecordId localType="DE-588">(DE-588)11850391X</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)11850391X</otherRecordId>
+      <otherRecordId localType="SWDInvalidId">(DE-588c)4002884-7</otherRecordId>
+      <maintenanceStatus>new</maintenanceStatus>
+      <maintenanceAgency>
+         <agencyCode>DE-101</agencyCode>
+         <agencyName>Deutsche Nationalbibliothek</agencyName>
+      </maintenanceAgency>
+      <languageDeclaration>
+         <language languageCode="ger">deutsch</language>
+         <script scriptCode="Latn"/>
+      </languageDeclaration>
+      <conventionDeclaration>
+         <abbreviation>RDA</abbreviation>
+         <citation/>
+      </conventionDeclaration>
+      <maintenanceHistory>
+         <maintenanceEvent>
+            <eventType>created</eventType>
+            <eventDateTime standardDateTime="1988-07-01"/>
+            <agentType>human</agentType>
+            <agent>W4</agent>
+         </maintenanceEvent>
+         <maintenanceEvent>
+            <eventType>revised</eventType>
+            <eventDateTime standardDateTime="2020-07-22"/>
+            <agentType>human</agentType>
+            <agent>W4</agent>
+         </maintenanceEvent>
+      </maintenanceHistory>
+      <sources>
+         <source>
+            <sourceEntry>Pressearchiv des Herder-Instituts Marburg</sourceEntry>
+         </source>
+         <source>
+            <sourceEntry>LCAuth</sourceEntry>
+         </source>
+         <source>
+            <sourceEntry>Munzinger-Archiv</sourceEntry>
+         </source>
+         <source>
+            <sourceEntry>Archiv der American Guild for German Cultural Freedom, New York im Deutschen Exilarchiv 1933-945</sourceEntry>
+         </source>
+         <source>
+            <sourceEntry>B Wissen</sourceEntry>
+         </source>
+      </sources>
+   </control>
+   <cpfDescription>
+      <identity>
+         <entityType>person</entityType>
+         <nameEntry>
+            <part>Arendt, Hannah (1906-1975)</part>
+         </nameEntry>
+         <nameEntryParallel>
+            <nameEntry>
+               <part>Arendt, Hanna (1906-1975)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Arendt, Johanna (1906-1975) [Frueherer Name]</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Arendt, Channa (1906-1975)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Arend, Chana (1906-1975)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Arent, Chana (1906-1975)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Arent, Channa (1906-1975)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Ārint, Hānā (1906-1975)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Arent, Hana (1906-1975)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Ārento, Hanna (1906-1975)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Arento, Hanna (1906-1975)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Ārento (1906-1975)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Arendṭ, Ḥanah (1906-1975)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Blücher, Hannah Arendt (1906-1975) [2. Ehename]</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Blücher, Hannah (1906-1975)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Blücher, Johanna (1906-1975) [Frueherer Name]</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Schlemihl, Peter (1906-1975) [Pseudonym]</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Arendt, H. (1906-1975)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Arendt, Heinrich (1906-1975) [falsche Namensform]</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Arendt-Blücher, Hannah (1906-1975)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Blücher, Hannah Arendt- (1906-1975)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Arendt, Herr (1906-1975) [falsche Namensform]</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Arendt, Khanna (1906-1975)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Bluecher, Hannah Arendt (1906-1975)</part>
+            </nameEntry>
+            <nameEntry>
+               <part xml:lang="Hebr">ארנדט, חנה (1906-1975)</part>
+            </nameEntry>
+            <nameEntry>
+               <part xml:lang="Jpan">アーレント, ハナ (1906-1975)</part>
+            </nameEntry>
+            <nameEntry>
+               <part xml:lang="Jpan">アーレント, ハンナ (1906-1975)</part>
+            </nameEntry>
+            <nameEntry>
+               <part xml:lang="Hans">阿伦特, 汉娜 (1906-1975)</part>
+            </nameEntry>
+         </nameEntryParallel>
+      </identity>
+      <description>
+         <existDates>
+            <dateRange>
+               <fromDate standardDate="1906-10-14">14.10.1906</fromDate>
+               <toDate standardDate="1975-12-04">04.12.1975</toDate>
+            </dateRange>
+         </existDates>
+         <localDescriptions localType="GND">
+            <localDescription localType="Geschlechtsangabe">
+               <term>2</term>
+               <descriptiveNote>
+                  <p>weiblich</p>
+               </descriptiveNote>
+            </localDescription>
+         </localDescriptions>
+         <places>
+            <place>
+               <placeRole>Geburtsort</placeRole>
+               <placeEntry vocabularySource="GND" localType="DE-588-4099668-2">Linden</placeEntry>
+            </place>
+            <place>
+               <placeRole>Sterbeort</placeRole>
+               <placeEntry vocabularySource="GND" localType="DE-588-4042011-5">New York, NY</placeEntry>
+            </place>
+         </places>
+         <occupations>
+            <occupation>
+               <term xml:id="DE-588-4393865-6">Soziologin</term>
+            </occupation>
+            <occupation>
+               <term xml:id="DE-588-4629643-8">Politologin</term>
+            </occupation>
+            <occupation>
+               <term xml:id="DE-588-4174285-0">Philosophin</term>
+            </occupation>
+            <occupation>
+               <term xml:id="DE-588-4333423-4">Historikerin</term>
+            </occupation>
+            <occupation>
+               <term xml:id="DE-588-4053311-6">Schriftstellerin</term>
+            </occupation>
+            <occupation>
+               <term>Prof. Dr.</term>
+            </occupation>
+         </occupations>
+         <biogHist>
+            <list>
+               <item>Emigration 1933 nach Frankreich, 1941 in die USA</item>
+            </list>
+         </biogHist>
+      </description>
+      <relations>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/4430639-8">
+            <relationEntry localType="Relation allgemein" xml:id="DE-588-4430639-8">Arendt, Hannah (1906-1975)</relationEntry>
+         </cpfRelation>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/119067159X">
+            <relationEntry localType="Beziehung familiaer" xml:id="DE-588-119067159X">Arendt, Max (1843-1913) [Großvater]</relationEntry>
+         </cpfRelation>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/1190672170">
+            <relationEntry localType="Beziehung familiaer" xml:id="DE-588-1190672170">Arendt-Beerwald, Martha (1874-1948) [Mutter]</relationEntry>
+         </cpfRelation>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/1190671301">
+            <relationEntry localType="Beziehung familiaer" xml:id="DE-588-1190671301">Arendt, Paul (1873-1913) [Vater]</relationEntry>
+         </cpfRelation>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/1190671980">
+            <relationEntry localType="Beziehung familiaer" xml:id="DE-588-1190671980">Beerwald, Martin (1869-1941) [Stiefvater]</relationEntry>
+         </cpfRelation>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/118502751">
+            <relationEntry localType="Beziehung familiaer" xml:id="DE-588-118502751">Anders, Günther (1902-1992) [1. Ehemann]</relationEntry>
+         </cpfRelation>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/119378418">
+            <relationEntry localType="Beziehung familiaer" xml:id="DE-588-119378418">Blücher, Heinrich (1899-1970) [2. Ehemann]</relationEntry>
+         </cpfRelation>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/1071467174">
+            <relationEntry localType="Bekanntschaft" xml:id="DE-588-1071467174">Fränkel, Hilde (1897-1950)</relationEntry>
+         </cpfRelation>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/1038776023">
+            <relationEntry localType="Affiliation" xml:id="DE-588-1038776023">Jewish Cultural Reconstruction Inc. [Geschäftsführerin]</relationEntry>
+         </cpfRelation>
+      </relations>
+
+   </cpfDescription>
+</eac-cpf>

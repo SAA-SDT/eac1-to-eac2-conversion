@@ -1,0 +1,278 @@
+<eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd">
+   <control>
+      <recordId>119333902</recordId>
+      <otherRecordId localType="PPN">119333902</otherRecordId>
+      <otherRecordId localType="uriKPE">http://kalliope-verbund.info/gnd/119333902</otherRecordId>
+      <otherRecordId localType="URI">http://d-nb.info/gnd/119333902</otherRecordId>
+      <otherRecordId localType="DE-101">(DE-101)119333902</otherRecordId>
+      <otherRecordId localType="DE-588">(DE-588)119333902</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)119333902</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)136954251</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)127112685</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)127112677</otherRecordId>
+      <otherRecordId localType="SWDInvalidId">(DE-588c)4410038-3</otherRecordId>
+      <maintenanceStatus>new</maintenanceStatus>
+      <maintenanceAgency>
+         <agencyCode>DE-12</agencyCode>
+         <agencyName/>
+      </maintenanceAgency>
+      <languageDeclaration>
+         <language languageCode="ger">deutsch</language>
+         <script scriptCode="Latn"/>
+      </languageDeclaration>
+      <maintenanceHistory>
+         <maintenanceEvent>
+            <eventType>created</eventType>
+            <eventDateTime standardDateTime="1996-05-10"/>
+            <agentType>human</agentType>
+            <agent>W4</agent>
+         </maintenanceEvent>
+         <maintenanceEvent>
+            <eventType>revised</eventType>
+            <eventDateTime standardDateTime="2018-03-05"/>
+            <agentType>human</agentType>
+            <agent>W4</agent>
+         </maintenanceEvent>
+      </maintenanceHistory>
+      <sources>
+         <source>
+            <sourceEntry>Sowj. Enz.</sourceEntry>
+         </source>
+         <source>
+            <sourceEntry>LCAuth, (OGND), abgeändert gemäss KIDS</sourceEntry>
+         </source>
+      </sources>
+   </control>
+   <cpfDescription>
+      <identity>
+         <entityType>person</entityType>
+         <nameEntry>
+            <part>Tugan-Baranovskij, Michail I. (1865-1919)</part>
+         </nameEntry>
+         <nameEntryParallel>
+            <nameEntry>
+               <part>Tûgān-Bārānôvsqî, M. (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Baranovskij, Michail Tugan- (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Baranovskij, Tugan- (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Baranovsky, Michael Tugan- (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Baranovsʹkyi, Mykhailo Ivanovych Tuhan- (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Baranovsʹkyj, Michajlo T.- (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Baranovsʹkyj, Mychajlo I. Tuhan- (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Baranowskij, Michael Tugan- (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Baranowsky, Michael Tugan- (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Baranowsky, Michael von Tugan- (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Baranowsky, Michail Tugan- (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Baranowsky, Tougan- (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Tougan-Baranowsky (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Tougan-Baranowsky, M. (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Tugan Baranovskij, Michail (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Tugan Baranowsky, Michael (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Tugan-Baranovskii, M. I. (1865-1919) [LCAuth]</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Tugan-Baranovskij (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Tugan-Baranovskij, Michail Ivanovič (1865-1919) [Vollstaendiger Name]</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Tugan-Baranovsky, Michael (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Tugan-Baranovsʹkyj, Michajlo (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Tugan-Baranowskij, Michael (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Tugan-Baranowskij, Michael von (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Tugan-Baranowskij, Michael I. (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Tugan-Baranowskij, Michael Ivanovič (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Tugan-Baranowsky, Michael (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Tugan-Baranowsky, Michael I. (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Tugan-Baranowsky, Michail (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Tuhan-Baranovsʹkyi, Mykhailo Ivanovych (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Tuhan-Baranovsʹkyj, Mychajlo I. (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Tuhan-Baranovsʹkyj, M. I. (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Tuhan-Baranovsʹkyj, Mychajlo Ivanovyč (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Baranovskii, M. I. Tugan- (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Baranovskii, Mikhail Ivanovich Tugan- (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Baranovskij, Michail I. (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Baranovskij, Michail I. Tugan- (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Baranovskij, Michail Ivanovič Tugan- (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Tugan-Baranovskii, Mikhail Ivanovich (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Tugan-Baranovskij, M. I. (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Tugan-Baranovskij, Michail (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Tugan-Baranowskij, Michail Ivanovič (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Tugan-Baranowsky, Michael von (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Tugan-Baranovsky, Mikhail I. (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Von Tugan-Baranowsky, Michael (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Baranovsʹkyǐ, Mykhaǐlo Ivanovych Tuhan- (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Baranovskiǐ, Mikhail Ivanovich Tugan-, (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Baranovsky, Mikhail I. Tugan-, (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>BaranovskiǏ, M. I. Tugan- (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Baranowsky, Michael von Tugan-, (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Ṭugan-Baranovsḳi, M. (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Baranovsḳi, M. Ṭugan-, (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Tugan-Baranovskij, M.I. (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Baranovskij, M. Tugan- (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Tugan-Baranowsky, M. (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Tugan-Baranovskii, M.I. (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Tugan-Baranovskiǐ, M. I. (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Tuhan-Baranovsʹkyj, Mychailo Ivanovyč (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Tuhan-Baranovsʹkyj, Mychailo (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Tugan-Baranovsky, Mikhail (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Tuhan-Baranovs'kyǐ, Mykhaǐlo Ivanovych (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Tugan-Baranovskiǐ, Mikhail Ivanovich (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part xml:lang="Cyrl">Туган-Барановский, Михаил Иванович (1865-1919)</part>
+            </nameEntry>
+            <nameEntry>
+               <part xml:lang="Cyrl">Туган-Барановський Михайло Іванович (1865-1919)</part>
+            </nameEntry>
+         </nameEntryParallel>
+      </identity>
+      <description>
+         <localDescriptions localType="GND">
+            <localDescription localType="Geschlechtsangabe">
+               <term>1</term>
+               <descriptiveNote>
+                  <p>männlich</p>
+               </descriptiveNote>
+            </localDescription>
+         </localDescriptions>
+         <occupations>
+            <occupation>
+               <term xml:id="DE-588-4066533-1">Wirtschaftswissenschaftler</term>
+            </occupation>
+            <occupation>
+               <term xml:id="DE-588-4188566-1">Volkswirt</term>
+            </occupation>
+         </occupations>
+         <biogHist>
+            <list>
+               <item>Ukrain. Wirtschaftswiss.</item>
+               <item>Wirtschaftswissenschaftler, Russland</item>
+               <item>Vollständiger Vorname: Michail Ivanovič</item>
+            </list>
+         </biogHist>
+      </description>
+      <relations>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink"
+            xlink:href="http://kalliope-verbund.info/gnd/5114370-7">
+            <relationEntry localType="Affiliation" xml:id="DE-588-5114370-7">Sankt-Peterburgskij
+               gosudarstvennyj universitet</relationEntry>
+         </cpfRelation>
+      </relations>
+   </cpfDescription>
+</eac-cpf>

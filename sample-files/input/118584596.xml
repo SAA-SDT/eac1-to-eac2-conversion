@@ -1,0 +1,230 @@
+<eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd">
+   <control>
+      <recordId>118584596</recordId>
+      <otherRecordId localType="PPN">118584596</otherRecordId>
+      <otherRecordId localType="uriKPE">http://kalliope-verbund.info/gnd/118584596</otherRecordId>
+      <otherRecordId localType="URI">http://d-nb.info/gnd/118584596</otherRecordId>
+      <otherRecordId localType="DE-101">(DE-101)118584596</otherRecordId>
+      <otherRecordId localType="DE-588">(DE-588)118584596</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)118584596</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)142638765</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)141646209</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)134467612</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)131212036</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)131047655</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)131047663</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)128335378</otherRecordId>
+      <otherRecordId>(DE-101c)310157617</otherRecordId>
+      <otherRecordId localType="SWDInvalidId">(DE-588c)4040424-9</otherRecordId>
+      <maintenanceStatus>new</maintenanceStatus>
+      <maintenanceAgency>
+         <agencyCode>DE-101</agencyCode>
+         <agencyName>Deutsche Nationalbibliothek</agencyName>
+      </maintenanceAgency>
+      <languageDeclaration>
+         <language languageCode="ger">deutsch</language>
+         <script scriptCode="Latn"/>
+      </languageDeclaration>
+      <conventionDeclaration>
+         <abbreviation>RDA</abbreviation>
+         <citation/>
+      </conventionDeclaration>
+      <maintenanceHistory>
+         <maintenanceEvent>
+            <eventType>created</eventType>
+            <eventDateTime standardDateTime="1988-07-01"/>
+            <agentType>human</agentType>
+            <agent>W4</agent>
+         </maintenanceEvent>
+         <maintenanceEvent>
+            <eventType>revised</eventType>
+            <eventDateTime standardDateTime="2019-08-08"/>
+            <agentType>human</agentType>
+            <agent>W4</agent>
+         </maintenanceEvent>
+      </maintenanceHistory>
+      <sources>
+         <source>
+            <sourceEntry>LCAuth</sourceEntry>
+         </source>
+         <source>
+            <sourceEntry>Wikipedia</sourceEntry>
+         </source>
+         <source>
+            <sourceEntry>M</sourceEntry>
+         </source>
+      </sources>
+   </control>
+   <cpfDescription>
+      <identity>
+         <entityType>person</entityType>
+         <nameEntry>
+            <part>Mozart, Wolfgang Amadeus (1756-1791)</part>
+         </nameEntry>
+         <nameEntryParallel>
+            <nameEntry>
+               <part>Mocart, Volfgang Amadeus (1756-1791)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Mocʹarti, Wolpʹgang Amadei (1756-1791)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Mozart, Wolffgango (1756-1791)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Mozart, Wolfg. Amadeus (1756-1791)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Mocart, V. A. (1756-1791)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Mocart, V. (1756-1791)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Mozart, Wolfgang-Amadeus (1756-1791)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Mozart, A. W. (1756-1791)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Mozart, W. Am. (1756-1791)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Mocart, Volʹfgang Amadej (1756-1791) [Sowj. Enz.]</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Mūzār, Wulfgāng Āmādiūs (1756-1791)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Mozart, Wolfgang (1756-1791)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Mozzart, Wolfgang (1756-1791)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Mōtsaruto (1756-1791)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Mozart, Johann Chrysostomus Wolfgang Theophil (1756-1791)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Mozart, Johannes C. (1756-1791)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Mozart, Johannes Chrysostomus Wolfgangus Theophil (1756-1791)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Mozart, Joannes Chrysostomus Wolfgangus Theophil (1756-1791)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Mozart (1756-1791)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Mozart, Wolfgang G. (1756-1791)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Mozart, Wolfgango Amedeo (1756-1791)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Mozartus, Wolfgang A. (1756-1791)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Mozzart, Wolfgango (1756-1791)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Mozart, Wolfgang A. (1756-1791)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Mozart, Johannes Chrysostomus Wolfgang Gottlieb (1756-1791)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Mozart, Johannes Chrysostomus Wolfgangus Theophilus (1756-1791)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Mozart, W. A. (1756-1791)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Mozart, Wolfgang Amadé (1756-1791)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Mozart, Johannes Chrisostomus Wolfgangus Theophilus (1756-1791)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Mozart, Johann Chrysostom Wolfgang Amadeus (1756-1791)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Mozart, Joannes Chrysostomus Wolfgangus Amadeus (1756-1791)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Mozard (1756-1791)</part>
+            </nameEntry>
+         </nameEntryParallel>
+      </identity>
+      <description>
+         <existDates>
+            <dateRange>
+               <fromDate standardDate="1756-01-27">27.01.1756</fromDate>
+               <toDate standardDate="1791-12-05">05.12.1791</toDate>
+            </dateRange>
+         </existDates>
+         <localDescriptions localType="GND">
+            <localDescription localType="Geschlechtsangabe">
+               <term>1</term>
+               <descriptiveNote>
+                  <p>männlich</p>
+               </descriptiveNote>
+            </localDescription>
+         </localDescriptions>
+         <places>
+            <place>
+               <placeRole>Geburtsort</placeRole>
+               <placeEntry vocabularySource="GND" localType="DE-588-4076982-3">Salzburg</placeEntry>
+            </place>
+            <place>
+               <placeRole>Sterbeort</placeRole>
+               <placeEntry vocabularySource="GND" localType="DE-588-4066009-6">Wien</placeEntry>
+            </place>
+         </places>
+         <occupations>
+            <occupation>
+               <term xml:id="DE-588-4032009-1">Komponist</term>
+            </occupation>
+            <occupation>
+               <term xml:id="DE-588-4131406-2">Pianist</term>
+            </occupation>
+         </occupations>
+      </description>
+      <relations>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/11873721X">
+            <relationEntry localType="Beziehung familiaer" xml:id="DE-588-11873721X">Mozart, Constanze (1762-1842) [Ehefrau]</relationEntry>
+         </cpfRelation>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/119176653">
+            <relationEntry localType="Beziehung familiaer" xml:id="DE-588-119176653">Mozart, Franz Xaver Wolfgang (1791-1844) [Sohn]</relationEntry>
+         </cpfRelation>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/117145114">
+            <relationEntry localType="Beziehung familiaer" xml:id="DE-588-117145114">Mozart, Carl (1784-1858) [Sohn]</relationEntry>
+         </cpfRelation>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/11858460X">
+            <relationEntry localType="Beziehung familiaer" xml:id="DE-588-11858460X">Mozart, Maria Anna Walburga Ignatia (1751-1829) [Schwester]</relationEntry>
+         </cpfRelation>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/118584588">
+            <relationEntry localType="Beziehung familiaer" xml:id="DE-588-118584588">Mozart, Leopold (1719-1787) [Vater]</relationEntry>
+         </cpfRelation>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/119285428">
+            <relationEntry localType="Beziehung familiaer" xml:id="DE-588-119285428">Mozart, Anna Maria (1720-1778) [Mutter]</relationEntry>
+         </cpfRelation>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/1068251107">
+            <relationEntry localType="Beziehung familiaer" xml:id="DE-588-1068251107">Mozart, Johann Georg (1679-1736) [Großvater]</relationEntry>
+         </cpfRelation>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/1068251859">
+            <relationEntry localType="Beziehung familiaer" xml:id="DE-588-1068251859">Mozart, Anna Maria (1696-1766) [Großmutter]</relationEntry>
+         </cpfRelation>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/122638212">
+            <relationEntry localType="Beziehung familiaer" xml:id="DE-588-122638212">Weber, Aloysia (1760-1839) [Schwägerin]</relationEntry>
+         </cpfRelation>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/122594967">
+            <relationEntry localType="Beziehung familiaer" xml:id="DE-588-122594967">Mozart, Maria Anna Thekla (1758-1841) [Cousine]</relationEntry>
+         </cpfRelation>
+      </relations>
+   </cpfDescription>
+</eac-cpf>

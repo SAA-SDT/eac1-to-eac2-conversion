@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xsi:schemaLocation="urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd">
+  <control>
+    <recordId>RCR00750</recordId>
+    <maintenanceStatus>new</maintenanceStatus>
+    <maintenanceAgency>
+      <agencyCode>MMeT-C</agencyCode>
+      <agencyName>Tufts University Digital Collections and Archives</agencyName>
+    </maintenanceAgency>
+    <languageDeclaration>
+      <language languageCode="eng">English</language>
+      <script scriptCode="Latn">Latin</script>
+    </languageDeclaration>
+    <conventionDeclaration>
+      <abbreviation>DACS</abbreviation>
+      <citation>Describing Archives: a Content Standard, Society of American Archivists.
+        2004</citation>
+      <descriptiveNote>
+        <p>Locally using rules from chapter 10 and 11.</p>
+      </descriptiveNote>
+    </conventionDeclaration>
+    <conventionDeclaration>
+      <abbreviation>AACR2R</abbreviation>
+      <citation>Anglo-American Cataloging Rules, Revised.</citation>
+      <descriptiveNote>
+        <p>Locally used for their definition of a corporate body.</p>
+      </descriptiveNote>
+    </conventionDeclaration>
+    <maintenanceHistory>
+      <maintenanceEvent>
+        <eventType>created</eventType>
+        <eventDateTime standardDateTime="2011-05-18">2011-05-18</eventDateTime>
+        <agentType>human</agentType>
+        <agent>Williams, Stacie</agent>
+      </maintenanceEvent>
+      <maintenanceEvent>
+        <eventType>revised</eventType>
+        <eventDateTime standardDateTime="2011-06-17">2011-06-17</eventDateTime>
+        <agentType>human</agentType>
+        <agent>Martzahl, Veronica</agent>
+      </maintenanceEvent>
+      <maintenanceEvent>
+        <eventType>revised</eventType>
+        <eventDateTime standardDateTime="2012-01-27">2012-01-27</eventDateTime>
+        <agentType>human</agentType>
+        <agent>Rubinstein, Aaron</agent>
+      </maintenanceEvent>
+      <maintenanceEvent>
+        <eventType>revised</eventType>
+        <eventDateTime standardDateTime="2012-07-06">2012-07-06</eventDateTime>
+        <agentType>human</agentType>
+        <agent>Martzahl, Veronica</agent>
+      </maintenanceEvent>
+    </maintenanceHistory>
+    <sources>
+      <source>
+        <sourceEntry>Tufts Daily, Jan. 20, 1993, 6. Tufts University. Digital Collections and
+          Archives, Medford, MA.</sourceEntry>
+      </source>
+      <source>
+        <sourceEntry>Tufts Daily, Sept. 24, 1987, 11. Tufts University. Digital Collections and
+          Archives, Medford, MA.</sourceEntry>
+      </source>
+      <source>
+        <sourceEntry>Tufts Daily, Nov. 3, 1987, 2. Tufts University. Digital Collections and
+          Archives, Medford, MA.</sourceEntry>
+      </source>
+      <source>
+        <sourceEntry>Tufts Daily, Jan. 18, 1996, 2. Tufts University. Digital Collections and
+          Archives, Medford, MA.</sourceEntry>
+      </source>
+    </sources>
+  </control>
+
+  <cpfDescription>
+
+    <identity>
+      <entityType>corporateBody</entityType>
+      <nameEntry>
+        <part>Lufkin Engineering Library</part>
+        <authorizedForm>local</authorizedForm>
+      </nameEntry>
+    </identity>
+
+    <description>
+
+      <existDates>
+        <dateRange>
+          <fromDate>1928</fromDate>
+          <toDate>1996</toDate>
+        </dateRange>
+      </existDates>
+
+
+      <biogHist>
+        <abstract>
+          Richard H. Lufkin Memorial Library (1928-1996) was a collection started with the Tufts
+            College's School of Engineering to provide resources to engineering students and
+            faculty. The library was merged with Wessell Library in 1996.
+        </abstract>
+        <p>Lufkin Engineering Library (1928-1996) was a collection started with the Tufts College's
+          School of Engineering to provide resources to engineering students and faculty. The
+          collection included resources for mathematics, physics and astronomy departments. The
+          library was merged with Wessell Library in 1996.</p>
+        <p>The Richard H. Lufkin Memorial Library later encompassed the Knipp Physics Library and
+          the Rockwell Chemistry Library all into Wessell, as of summer 1986. Lufkin Library was
+          located in Anderson Hall, the main engineering building.</p>
+        <p>A plan was first proposed in fall 1987 to merge the contents of Lufkin Library with
+          Wessell Library. (Tufts Daily, Oct. 28, 1987). In November 1987, the student Senate voted
+          to oppose the move of Lufkin to Wessell. The proposal included folding the Engineering
+          Library, the Julian K. Knipp Physics Library and the Edward Rockwell Chemistry Library all
+          into Wessell. Lufkin was completely closed and moved to Wessell in Fall 1996 (Tufts Daily,
+          Jan. 18, 1996).</p>
+      </biogHist>
+
+    </description>
+
+    <relations>
+      <cpfRelation cpfRelationType="associative" xlink:type="simple"
+        xlink:role="http://dca.lib.tufts.edu/ontology/rcr#person"
+        xlink:arcrole="http://dca.lib.tufts.edu/ontology/rcr#isAssociatedWith">
+        <relationEntry xml:id="RCR00751">Lufkin, Richard H.</relationEntry>
+        <dateRange>
+          <fromDate standardDate="1928">1928</fromDate>
+          <toDate standardDate="1965">1965</toDate>
+        </dateRange>
+      </cpfRelation>
+      <cpfRelation cpfRelationType="associative" xlink:type="simple"
+        xlink:role="http://dca.lib.tufts.edu/ontology/rcr#corporateBody"
+        xlink:arcrole="http://dca.lib.tufts.edu/ontology/rcr#isAssociatedWith">
+        <relationEntry xml:id="RCR00681">Eaton Library</relationEntry>
+        <dateRange>
+          <fromDate standardDate="1908">1908</fromDate>
+          <toDate standardDate="1965">1965</toDate>
+        </dateRange>
+      </cpfRelation>
+      <cpfRelation cpfRelationType="associative" xlink:type="simple"
+        xlink:role="http://dca.lib.tufts.edu/ontology/rcr#corporateBody"
+        xlink:arcrole="http://dca.lib.tufts.edu/ontology/rcr#isAssociatedWith">
+        <relationEntry xml:id="RCR00580">Wessell Library</relationEntry>
+        <dateRange>
+          <fromDate standardDate="1965">1965</fromDate>
+          <toDate standardDate="1996">1996</toDate>
+        </dateRange>
+      </cpfRelation>
+      <cpfRelation cpfRelationType="associative" xlink:type="simple"
+        xlink:role="http://dca.lib.tufts.edu/ontology/rcr#corporateBody"
+        xlink:arcrole="http://dca.lib.tufts.edu/ontology/rcr#isAssociatedWith">
+        <relationEntry xml:id="RCR00579">Tisch Library</relationEntry>
+        <dateRange>
+          <fromDate standardDate="1996">1996</fromDate>
+          <toDate standardDate="1996">1996</toDate>
+        </dateRange>
+      </cpfRelation>
+
+    </relations>
+  </cpfDescription>
+</eac-cpf>

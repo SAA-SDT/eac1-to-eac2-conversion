@@ -1,0 +1,124 @@
+<eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd">
+   <control>
+      <recordId>2028884-0</recordId>
+      <otherRecordId localType="PPN">004854659</otherRecordId>
+      <otherRecordId localType="uriKPE">http://kalliope-verbund.info/gnd/2028884-0</otherRecordId>
+      <otherRecordId localType="URI">http://d-nb.info/gnd/2028884-0</otherRecordId>
+      <otherRecordId localType="DE-101">(DE-101)004854659</otherRecordId>
+      <otherRecordId localType="DE-588">(DE-588)2028884-0</otherRecordId>
+      <otherRecordId localType="GNDinvalidId">(DE-588)1092098887</otherRecordId>
+      <otherRecordId localType="GNDinvalidId">(DE-588)16294021-X</otherRecordId>
+      <otherRecordId localType="GKDInvalidId">(DE-588b)16294021-X</otherRecordId>
+      <otherRecordId localType="GNDinvalidId">(DE-588)16283389-1</otherRecordId>
+      <otherRecordId localType="GKDInvalidId">(DE-588b)16283389-1</otherRecordId>
+      <otherRecordId localType="GNDinvalidId">(DE-588)16283214-X</otherRecordId>
+      <otherRecordId localType="GKDInvalidId">(DE-588b)16283214-X</otherRecordId>
+      <otherRecordId localType="GNDinvalidId">(DE-588)16282728-3</otherRecordId>
+      <otherRecordId localType="GKDInvalidId">(DE-588b)16282728-3</otherRecordId>
+      <otherRecordId localType="GNDinvalidId">(DE-588)4003845-2</otherRecordId>
+      <otherRecordId localType="SWDInvalidId">(DE-588c)4003845-2</otherRecordId>
+      <otherRecordId localType="GKDInvalidId">(DE-588b)2028884-0</otherRecordId>
+      <maintenanceStatus>new</maintenanceStatus>
+      <maintenanceAgency>
+         <agencyCode>DE-1</agencyCode>
+         <agencyName/>
+      </maintenanceAgency>
+      <languageDeclaration>
+         <language languageCode="ger">deutsch</language>
+         <script scriptCode="Latn"/>
+      </languageDeclaration>
+      <conventionDeclaration>
+         <abbreviation>RDA</abbreviation>
+         <citation/>
+      </conventionDeclaration>
+      <maintenanceHistory>
+         <maintenanceEvent>
+            <eventType>created</eventType>
+            <eventDateTime standardDateTime="1989-04-18"/>
+            <agentType>human</agentType>
+            <agent>W4</agent>
+         </maintenanceEvent>
+         <maintenanceEvent>
+            <eventType>revised</eventType>
+            <eventDateTime standardDateTime="2016-09-23"/>
+            <agentType>human</agentType>
+            <agent>W4</agent>
+         </maintenanceEvent>
+      </maintenanceHistory>
+      <sources>
+         <source>
+            <sourceEntry>Vorlage</sourceEntry>
+         </source>
+      </sources>
+   </control>
+   <cpfDescription>
+      <identity>
+         <entityType>corporateBody</entityType>
+         <nameEntry>
+            <part>Deutschland. Auswärtiges Amt (Bundesrepublik) </part>
+         </nameEntry>
+         <nameEntryParallel>
+            <nameEntry>
+               <part>Auswärtiges Amt</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Bundesministerium des Auswärtigen</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Bundesministerium für Auswärtige Angelegenheiten</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Außenministerium</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Abteilung für Auswärtige Kulturpolitik</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Foreign Office</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Ministerio de Relaciones Exteriores</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Ministère des Affaires Étrangères</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Ministerstvo Inostrannych</part>
+            </nameEntry>
+         </nameEntryParallel>
+      </identity>
+      <description>
+         <places>
+            <place>
+               <placeRole>Ort</placeRole>
+               <placeEntry vocabularySource="GND" localType="DE-588-4007666-0">Bonn</placeEntry>
+            </place>
+            <place>
+               <placeRole>Wirkungsraum</placeRole>
+               <placeEntry vocabularySource="GND" localType="DE-588-4042570-8">Nordrhein-Westfalen</placeEntry>
+            </place>
+            <place>
+               <placeRole>Wirkungsraum</placeRole>
+               <placeEntry vocabularySource="GND" localType="DE-588-4011882-4">Deutschland</placeEntry>
+            </place>
+            <place>
+               <placeRole>Ueberordnung</placeRole>
+               <placeEntry vocabularySource="GND" localType="DE-588-4011889-7">Deutschland</placeEntry>
+            </place>
+         </places>
+         <occupations>
+            <occupation>
+               <term xml:id="DE-588-4170067-3">Ministerium</term>
+            </occupation>
+         </occupations>
+      </description>
+      <relations>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/2029553-4">
+            <relationEntry localType="Vorgaenger" xml:id="DE-588-2029553-4">Deutsches Reich</relationEntry>
+         </cpfRelation>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/2117711-9">
+            <relationEntry localType="Nachfolger" xml:id="DE-588-2117711-9">Deutschland</relationEntry>
+         </cpfRelation>
+      </relations>
+   </cpfDescription>
+</eac-cpf>

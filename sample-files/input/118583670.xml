@@ -1,0 +1,410 @@
+<eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd">
+   <control>
+      <recordId>118583670</recordId>
+      <otherRecordId localType="PPN">118583670</otherRecordId>
+      <otherRecordId localType="uriKPE">http://kalliope-verbund.info/gnd/118583670</otherRecordId>
+      <otherRecordId localType="URI">http://d-nb.info/gnd/118583670</otherRecordId>
+      <otherRecordId localType="URI"/>
+      <otherRecordId localType="URI"/>
+      <otherRecordId localType="URI"/>
+      <otherRecordId localType="URI"/>
+      <otherRecordId localType="URI"/>
+      <otherRecordId localType="DE-101">(DE-101)118583670</otherRecordId>
+      <otherRecordId localType="DE-588">(DE-588)118583670</otherRecordId>
+      <otherRecordId localType="GNDinvalidId">(DE-588)187121575</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)187121575</otherRecordId>
+      <otherRecordId localType="GNDinvalidId">(DE-588)186101287</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)186101287</otherRecordId>
+      <otherRecordId localType="GNDinvalidId">(DE-588)185981879</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)185981879</otherRecordId>
+      <otherRecordId localType="GNDinvalidId">(DE-588)183637682</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)183637682</otherRecordId>
+      <otherRecordId localType="GNDinvalidId">(DE-588)183610970</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)183610970</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)118583670</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)189565543</otherRecordId>
+      <otherRecordId localType="GNDinvalidId">(DE-588)189565543</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)181658593</otherRecordId>
+      <otherRecordId localType="GNDinvalidId">(DE-588)181658593</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)183459997</otherRecordId>
+      <otherRecordId localType="GNDinvalidId">(DE-588)183459997</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)183462912</otherRecordId>
+      <otherRecordId localType="GNDinvalidId">(DE-588)183462912</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)183472721</otherRecordId>
+      <otherRecordId localType="GNDinvalidId">(DE-588)183472721</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)183553950</otherRecordId>
+      <otherRecordId localType="GNDinvalidId">(DE-588)183553950</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)183610830</otherRecordId>
+      <otherRecordId localType="GNDinvalidId">(DE-588)183610830</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)183610857</otherRecordId>
+      <otherRecordId localType="GNDinvalidId">(DE-588)183610857</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)183610865</otherRecordId>
+      <otherRecordId localType="GNDinvalidId">(DE-588)183610865</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)183610873</otherRecordId>
+      <otherRecordId localType="GNDinvalidId">(DE-588)183610873</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)183610881</otherRecordId>
+      <otherRecordId localType="GNDinvalidId">(DE-588)183610881</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)18361092X</otherRecordId>
+      <otherRecordId localType="GNDinvalidId">(DE-588)18361092X</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)183610938</otherRecordId>
+      <otherRecordId localType="GNDinvalidId">(DE-588)183610938</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)183610946</otherRecordId>
+      <otherRecordId localType="GNDinvalidId">(DE-588)183610946</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)183610954</otherRecordId>
+      <otherRecordId localType="GNDinvalidId">(DE-588)183610954</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)183610962</otherRecordId>
+      <otherRecordId localType="GNDinvalidId">(DE-588)183610962</otherRecordId>
+      <maintenanceStatus>new</maintenanceStatus>
+      <maintenanceAgency>
+         <agencyCode>DE-101</agencyCode>
+         <agencyName>Deutsche Nationalbibliothek</agencyName>
+      </maintenanceAgency>
+      <languageDeclaration>
+         <language languageCode="ger">deutsch</language>
+         <script scriptCode="Latn"/>
+      </languageDeclaration>
+      <conventionDeclaration>
+         <abbreviation>RDA</abbreviation>
+         <citation/>
+      </conventionDeclaration>
+      <maintenanceHistory>
+         <maintenanceEvent>
+            <eventType>created</eventType>
+            <eventDateTime standardDateTime="1988-07-01"/>
+            <agentType>human</agentType>
+            <agent>W4</agent>
+         </maintenanceEvent>
+         <maintenanceEvent>
+            <eventType>revised</eventType>
+            <eventDateTime standardDateTime="2020-10-01"/>
+            <agentType>human</agentType>
+            <agent>W4</agent>
+         </maintenanceEvent>
+      </maintenanceHistory>
+      <sources>
+         <source>
+            <sourceEntry>Internet</sourceEntry>
+         </source>
+         <source>
+            <sourceEntry>BnF Cat. général 11916648</sourceEntry>
+         </source>
+         <source>
+            <sourceEntry>LCAuth</sourceEntry>
+         </source>
+      </sources>
+   </control>
+   <cpfDescription>
+      <identity>
+         <entityType>person</entityType>
+         <nameEntry>
+            <part>Montesquieu, Charles Louis de Secondat de (1689-1755)</part>
+         </nameEntry>
+         <nameEntryParallel>
+            <nameEntry>
+               <part>Montesquieu, Charles Louis Joseph de Secondat (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquieu, Charles Louis de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquieu, Charles L. de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquieu, Charles de L. et (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquieu, Charles (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquieu, Charles de, bn. (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquieu, Charles de Secondat, baron de (1689-1755) [LCAuth]</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquieu, Charles de Secondat de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquieu, Charles de Secondat (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquieu, Charles de S. (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquieu, Charles Secondat de La Bréde et de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquieu, Charles Secondat, baron de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquieu, Charles de Secondat de La Brède et de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquieu, Charles de Secondat de La Brède de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquieu, Charles-Louis de Secondat de La Brède et (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquieu, Charles-Louis de Secondat de La Brède et de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquieu, Charles Louis de Secondat de La Brède et de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquieu, Charles Louis de Secondat, baron de La Brède et de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquieu, Charles de Secondat, bn. de La Brède et de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquieu, Charles de Secondat, baron de Labrède et de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquieu, Charles-Louis de Secondat de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquieu, Charles-Louis de Secondat (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquieu, Charles-Louis de S. de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquieu, Charles-Louis de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquieu, Charles Louis (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquieu, Charles de Sercondat (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquieu, Charles de Sewcondat de La Brède et de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquieu, Charles de La Brède et de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquieu, Charles de La Brède de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquieu, Charles di (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquieu, Carolus de Secondat de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquiou, Charles de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Monteskʹe, Šarl Lui (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>De Montesquieu, Charles-Louis de Secondat (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>De Montesquieu, Charles de Secondat (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>La Brède et de Montesquieu, Charles de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>La Brède et de Montesquieu, Charles-Louis de Secondat de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>La Brède et de Montesquieu, Charles-Louis de S. de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>La Brède et de Montesquieu, Charles-Louis de Secondat, baron de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>La Brède et de Montesquieu, Charles de Secondat de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>La Brède et de Montesquieu, Charles de S. (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>La Brède et de Montesquieu, Charles de Secondat, baron de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>La Brède de Montesquieu, Charles de Secondat de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>La Brède et Montesquieu, Charles de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>La Brède, Charles de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>La Brède, Charles-Louis de Secondat, baron de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>La Brede, Charles de Montesquieu, bn. de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Brède et de Montesquieu, Charles-Louis de Secondat de la (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Brede, Charles de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Brède et de Montesquieu, Charles de Secondat de la (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Secondat de La Brède et de Montesquieu, Charles-Louis de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Secondat de La Brède et de Montesquieu, Charles de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Secondat La Brède de Montesquieu, Charles de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Secondat de Montesquieu, Charles Louis de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Secondat de Montesquieu, Charles de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Secondat de Montesquieu, Carolus de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Secondat Montesquieu, Charles de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Secondat Bn de La Brède et de Montesquieu, Charles de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Secondat, Charles de La Bréde et de Montesquieu (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Secondat, Charles de, baron de Montesquieu (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Secondat, Charles Louis Joseph de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Secondat, Charles-Louis de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Secondat, Charles Louis de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Secondat, Charles de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Secondat, Charles (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Monteskiusz (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Charles-Louis de Secondat, baron de La Brède et de Montesquieu (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquiou (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquieu (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquieu, baron de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquieu de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montesquieu, président de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Monteskiju (1689-1755) [russ. Namensform]</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Montjeskjje, Baron dje (1689-1755) [mon]</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Monteské (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>M. de (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Шарл-Луј де Секонда, барон од Бреда и Монтескјеа (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Шарль-Луи де Секонда, барон Ля Брэд и де Монтескьё (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Шарль Луї де Монтеск'є (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Шарл Луи де Секонда, барон дьо Ла Бред и дьо Монтескьо (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Σαρλ Λουί ντε Σεκοντά, βαρόνος της Μπρεντ και του Μοντεσκιέ (1689-1755)</part>
+            </nameEntry>
+            <nameEntry>
+               <part xml:lang="Cyrl">Монтескье, Шарль Луи де (1689-1755)</part>
+            </nameEntry>
+         </nameEntryParallel>
+      </identity>
+      <description>
+         <existDates>
+            <dateRange>
+               <fromDate standardDate="1689-01-18">18.01.1689</fromDate>
+               <toDate standardDate="1755-02-10">10.02.1755</toDate>
+            </dateRange>
+         </existDates>
+         <localDescriptions localType="GND">
+            <localDescription localType="Geschlechtsangabe">
+               <term>1</term>
+               <descriptiveNote>
+                  <p>männlich</p>
+               </descriptiveNote>
+            </localDescription>
+         </localDescriptions>
+         <places>
+            <place>
+               <placeRole>Geburtsort</placeRole>
+               <placeEntry vocabularySource="GND" localType="DE-588-4290994-6">La Brède</placeEntry>
+            </place>
+            <place>
+               <placeRole>Sterbeort</placeRole>
+               <placeEntry vocabularySource="GND" localType="DE-588-4044660-8">Paris</placeEntry>
+            </place>
+            <place>
+               <placeRole>Wirkungsort</placeRole>
+               <placeEntry vocabularySource="GND" localType="DE-588-4290994-6">La Brède</placeEntry>
+            </place>
+            <place>
+               <placeRole>Wirkungsort</placeRole>
+               <placeEntry vocabularySource="GND" localType="DE-588-4044660-8">Paris</placeEntry>
+            </place>
+         </places>
+         <occupations>
+            <occupation>
+               <term xml:id="DE-588-4053309-8">Schriftsteller</term>
+            </occupation>
+            <occupation>
+               <term xml:id="DE-588-4045790-4">Philosoph</term>
+            </occupation>
+            <occupation>
+               <term xml:id="DE-588-4046517-2">Politiker</term>
+            </occupation>
+            <occupation>
+               <term xml:id="DE-588-4196107-9">Gutsherr</term>
+            </occupation>
+         </occupations>
+         <biogHist>
+            <list>
+               <item>Staatstheoretiker; April 1728 bis Oktober 1729 Reise ins Deutsche Reich, dabei auch Aufenthalte in Osnabrück, Hannover, Herrenhausen, Braunschweig, Wolfenbüttel und im Harz (Reisebericht,dt. Ausg.: "Meine Reisen in Deutschland 1728-1729", Stuttgart 2014)</item>
+            </list>
+         </biogHist>
+      </description>
+      <relations>
+         <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://kalliope-verbund.info/gnd/15514-7">
+            <relationEntry localType="Affiliation" xml:id="DE-588-15514-7">Königliche Akademie der Wissenschaften</relationEntry>
+         </cpfRelation>
+      </relations>
+   </cpfDescription>
+</eac-cpf>

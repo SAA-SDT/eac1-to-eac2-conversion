@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd">
+    <control>
+        <recordId>beinecke.prr4xtk</recordId>
+        <otherRecordId localType="url">http://hdl.handle.net/10079/prr4xtk</otherRecordId>
+        <maintenanceStatus>new</maintenanceStatus>
+        <maintenanceAgency>
+            <agencyCode>US-CtY-BR</agencyCode>
+            <agencyName>Beinecke Rare Book and Manuscript Library, Yale University</agencyName>
+        </maintenanceAgency>
+        <languageDeclaration>
+            <language languageCode="eng">English</language>
+            <script scriptCode="Latn">Latin</script>
+        </languageDeclaration>
+        <conventionDeclaration>
+            <abbreviation>aat</abbreviation>
+            <citation>Art &amp; Architecture Thesaurus</citation>
+        </conventionDeclaration>
+        <conventionDeclaration>
+            <abbreviation>dacs</abbreviation>
+            <citation>Describing Archives: A Content Standard</citation>
+            <descriptiveNote>
+                <p>Record created following DACS conventions.</p>
+            </descriptiveNote>
+        </conventionDeclaration>
+        <conventionDeclaration>
+            <abbreviation>lcnaf</abbreviation>
+            <citation>Library of Congress Name Authority File</citation>
+        </conventionDeclaration>
+        <conventionDeclaration>
+            <abbreviation>lcsh</abbreviation>
+            <citation>Library of Congress Subject Headings</citation>
+        </conventionDeclaration>
+        <maintenanceHistory>
+            <maintenanceEvent>
+                <eventType>created</eventType>
+                <eventDateTime standardDateTime="2012-07-26">2012 July 26</eventDateTime>
+                <agentType>human</agentType>
+                <agent>M.K.K. Yearl</agent>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <sources>
+            <source xlink:actuate="onRequest" xlink:show="new" xlink:type="simple"
+                xlink:href="http://lccn.loc.gov/n79141214">
+                <sourceEntry>Library of Congress Control Number: n 79141214</sourceEntry>
+            </source>
+            <source xlink:actuate="onRequest" xlink:show="new" xlink:type="simple"
+                xlink:href="http://www.nytimes.com/1987/05/19/obituaries/frederick-a-pottle-scholar-and-editor-of-boswell-papers.html">
+                <sourceEntry>Gerard, Jeremy. 1998. Frederick A. Pottle, Scholar and Editor of
+                    Boswell Papers. The New York Times. May 19, 1987.</sourceEntry>
+            </source>
+            <source xlink:actuate="onRequest" xlink:show="new" xlink:type="simple"
+                xlink:href="http://hdl.handle.net/10079/fa/mssa.ms.1605">
+                <sourceEntry>Kaplan. Diane E. and Bella Z. Berson. 2000. Guide to the Frederick
+                    Albert Pottle Papers, MS 1605. Yale University Library, Manuscripts and
+                    Archives. New Haven, CT.</sourceEntry>
+            </source>
+            <source xlink:actuate="onRequest" xlink:show="new" xlink:type="simple"
+                xlink:href="http://www.worldcat.org/oclc/6251578">
+                <sourceEntry>Pottle, Frederick A. 1982. Pride and negligence: the history of the
+                    Boswell papers. New York: McGraw-Hill.</sourceEntry>
+            </source>
+            <source xlink:actuate="onRequest" xlink:show="new" xlink:type="simple"
+                xlink:href="http://www.jstor.org/stable/40859293">
+                <sourceEntry>Reed, Joseph. 2003. "The Pottles at Glen Cove: Education of a Country
+                    Mouse." The Yale University Library Gazette, Vol. 77, No. 3/4, pp.
+                    143-165.</sourceEntry>
+            </source>
+        </sources>
+    </control>
+    <cpfDescription>
+        <identity>
+            <entityType>person</entityType>
+            <nameEntry scriptCode="Latn" xml:lang="eng">
+                <part localType="100a">Pottle, Frederick A. </part>
+                <part localType="100q">(Frederick Albert), </part>
+                <part localType="100d">1897-1987 </part>
+                <authorizedForm>lcnaf</authorizedForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng">
+                <part localType="400a">Pottle, Frederick Albert, </part>
+                <part localType="400d">1897- </part>
+                <alternativeForm>lcnaf</alternativeForm>
+            </nameEntry>
+            <nameEntry scriptCode="Latn" xml:lang="eng" localType="directOrder">
+                <part>Frederick Pottle </part>
+            </nameEntry>
+        </identity>
+        <description>
+            <existDates>
+                <dateRange>
+                    <fromDate standardDate="1897-08-03">1897 August 3</fromDate>
+                    <toDate standardDate="1987-05-16">1987 May 16</toDate>
+                </dateRange>
+            </existDates>
+            <places>
+                <place>
+                    <placeRole>birth</placeRole>
+                    <placeEntry vocabularySource="lcsh">Center Lovell (Me.)</placeEntry>
+                    <date standardDate="1897-08-03">1897 August 3</date>
+                </place>
+                <place>
+                    <placeRole>education</placeRole>
+                    <placeEntry vocabularySource="lcsh">Colby College</placeEntry>
+                    <dateRange>
+                        <toDate standardDate="1917">1917</toDate>
+                    </dateRange>
+                </place>
+                <place>
+                    <placeRole>employment</placeRole>
+                    <placeEntry vocabularySource="lcsh">Hebron Academy</placeEntry>
+                    <dateRange>
+                        <fromDate notBefore="1917">1917</fromDate>
+                        <toDate notAfter="1920">1920</toDate>
+                    </dateRange>
+                </place>
+                <place>
+                    <placeRole>employment</placeRole>
+                    <placeEntry vocabularySource="lcsh">Mayen (Germany)</placeEntry>
+                    <dateRange>
+                        <fromDate notBefore="1917">1917</fromDate>
+                        <toDate notAfter="1919">1919</toDate>
+                    </dateRange>
+                </place>
+                <place>
+                    <placeRole>education</placeRole>
+                    <placeEntry vocabularySource="lcsh">Yale University</placeEntry>
+                    <dateRange>
+                        <fromDate notAfter="1920">1920</fromDate>
+                        <toDate standardDate="1925">1925</toDate>
+                    </dateRange>
+                </place>
+                <place>
+                    <placeRole>employment</placeRole>
+                    <placeEntry vocabularySource="lcsh">University of New Hampshire</placeEntry>
+                    <dateRange>
+                        <fromDate notBefore="1921">1921</fromDate>
+                        <toDate notAfter="1923">1923</toDate>
+                    </dateRange>
+                </place>
+                <place>
+                    <placeRole>employment</placeRole>
+                    <placeEntry vocabularySource="lcsh">New Haven (Conn.)</placeEntry>
+                    <dateRange>
+                        <fromDate standardDate="1925">1925</fromDate>
+                        <toDate notBefore="1979">1979</toDate>
+                    </dateRange>
+                </place>
+                <place>
+                    <placeRole>employment</placeRole>
+                    <placeEntry vocabularySource="lcsh">Glen cove (N.Y.)</placeEntry>
+                    <dateRange>
+                        <fromDate standardDate="1930">1930</fromDate>
+                        <toDate notAfter="1932">1932</toDate>
+                    </dateRange>
+                </place>
+                <place>
+                    <placeRole>interment</placeRole>
+                    <placeEntry vocabularySource="lcsh">Otisfield (Me.)</placeEntry>
+                    <date standardDate="1987-05-20">1987 May 20</date>
+                </place>
+            </places>
+            <localDescription localType="sex">
+                <term>male</term>
+            </localDescription>
+            <languageUsed>
+                <language languageCode="eng">English</language>
+                <script scriptCode="Latn">Latin</script>
+            </languageUsed>
+            <occupations>
+                <occupation>
+                    <term vocabularySource="aat">authors</term>
+                </occupation>
+                <occupation>
+                    <term vocabularySource="aat">full professors</term>
+                </occupation>
+                <occupation>
+                    <term vocabularySource="aat">military personnel</term>
+                </occupation>
+                <occupation>
+                    <term vocabularySource="aat">scholars</term>
+                </occupation>
+                <occupation>
+                    <term vocabularySource="aat">teachers</term>
+                </occupation>
+            </occupations>
+            <biogHist>
+                <abstract>Frederick Pottle was born in Center Lovell, Maine, on 3 August 1897. He
+                    graduated from Colby College in 1917, after which he taught for a time at Hebron
+                    Academy and served as an orderly in the Army in World War I. After the war, he
+                    undertook graduate studies at Yale, which is where he began the work on James
+                    Boswell for which he is best known. He taught English at Yale from 1925 until
+                    his retirement; during much of this time, he worked with his wife, Marion (née
+                    Starbird), on the Boswell papers. They began in 1930 at the home of collector
+                    Ralph Heyward Isham and continued when Yale bought the papers in 1949; Marion
+                    Pottle arranged and catalogued the Boswell collection, while Frederick Pottle
+                    served as editor. He remained as editor until he retired due to ill health; he
+                    died in New Haven, Connecticut, on 16 May 1987.</abstract>
+                <chronList>
+                    <chronItem>
+                        <date standardDate="1897-08-03">1897 August 3</date>
+                        <event>Born in Center Lovell, Maine.</event>
+                    </chronItem>
+                    <chronItem>
+                        <date standardDate="1917">1917</date>
+                        <event>Graduated from Colby College.</event>
+                    </chronItem>
+                    <chronItem>
+                        <dateRange>
+                            <fromDate standardDate="1917">1917</fromDate>
+                            <toDate standardDate="1919">1919</toDate>
+                        </dateRange>
+                        <event>Served in Evacuation Hospital No. 8, Mayen, Germany.</event>
+                    </chronItem>
+                    <chronItem>
+                        <date standardDate="1920-09-09">1920 September 9</date>
+                        <event>Married Marion Isabel Starbird.</event>
+                    </chronItem>
+                    <chronItem>
+                        <date standardDate="1921">1921</date>
+                        <event>Awarded M.A. in English, Yale University.</event>
+                    </chronItem>
+                    <chronItem>
+                        <dateRange>
+                            <fromDate standardDate="1921">1921</fromDate>
+                            <toDate standardDate="1923">1923</toDate>
+                        </dateRange>
+                        <event>Taught at the University of New Hampshire.</event>
+                    </chronItem>
+                    <chronItem>
+                        <dateRange>
+                            <fromDate standardDate="1923">1923</fromDate>
+                            <toDate standardDate="1925">1925</toDate>
+                        </dateRange>
+                        <event>Awarded Ph.D. in English, Yale University</event>
+                    </chronItem>
+                    <chronItem>
+                        <dateRange>
+                            <fromDate standardDate="1925">1925</fromDate>
+                            <toDate standardDate="1966">1966</toDate>
+                        </dateRange>
+                        <event>Taught English at Yale University.</event>
+                    </chronItem>
+                    <chronItem>
+                        <date standardDate="1930">1930</date>
+                        <event>Became full professor of English at Yale University.</event>
+                    </chronItem>
+                    <chronItem>
+                        <date standardDate="1930">1930</date>
+                        <event>Began editing Ralph Heyward Isham's Boswell Collection.</event>
+                    </chronItem>
+                    <chronItem>
+                        <dateRange>
+                            <fromDate standardDate="1932">1932</fromDate>
+                            <toDate standardDate="1933">1933</toDate>
+                        </dateRange>
+                        <event>Appointed Chairman of the English Department, Yale
+                            University.</event>
+                    </chronItem>
+                    <chronItem>
+                        <dateRange>
+                            <fromDate standardDate="1939">1939</fromDate>
+                            <toDate standardDate="1945">1945</toDate>
+                        </dateRange>
+                        <event>Appointed Director of Graduate Studies, English Department, Yale
+                            University.</event>
+                    </chronItem>
+                    <chronItem>
+                        <date standardDate="1944">1944</date>
+                        <event>Named Sterling Professor of English.</event>
+                    </chronItem>
+                    <chronItem>
+                        <dateRange>
+                            <fromDate standardDate="1949">1949</fromDate>
+                            <toDate standardDate="1979">1979</toDate>
+                        </dateRange>
+                        <event>Named Editor-in-chief, Yale Editions of the Private Papers of James
+                            Boswell.</event>
+                    </chronItem>
+                    <chronItem>
+                        <date standardDate="1987-05-16">1987 May 16</date>
+                        <event>Died, New Haven Convalescent Home.</event>
+                    </chronItem>
+                    <chronItem>
+                        <date standardDate="1987-05-20">1987 May 20</date>
+                        <event>Interred, Elmwood Memorial Garden, Otisfield, Maine.</event>
+                    </chronItem>
+                </chronList>
+                <p>Frederick A. Pottle was born in Center Lovell, Maine to Leroy and Annette Kemp
+                    Pottle. He studied at Colby College and Yale University and is best known for
+                    editing the private papers of James Boswell. He published several volumes, most
+                    of which pertained to Boswell; among those were <span localType="title"
+                        style="font-style:italic">Boswell’s London Journal: 1762-1763</span> (1950)
+                    and <span localType="title" style="font-style:italic">James Boswell: The Early
+                        Years, 1740-1769</span> (1966).</p>
+                <p> Pottle spent his early life in Maine. He attended Colby College and received his
+                    B.A. in 1917. Afterwards, he taught at Hebron Academy. From 1917-1919, he served
+                    as a medical corpsman with the Army at Evacuation Hospital No. 8 in Mayen,
+                    Germany; he wrote about his experiences in <span localType="title"
+                        style="font-style:italic">Stretchers; The Story of a Hospital Unit on the
+                        Western Front</span>. After the war, he began graduate studies in English at
+                    Yale. After completing his M.A. in 1921, he taught for two years at the
+                    University of New Hampshire. He returned to Yale to complete his doctorate
+                    beginning in 1923, and thus initiated an association with James Boswell that
+                    would endure for the rest of his life.</p>
+                <p>When Pottle began his doctoral studies, Chauncey Brewster Tinker encouraged him
+                    to do a bibliographic analysis of Boswell’s papers. He completed his doctorate
+                    in 1925, at which time be began teaching at Yale. The book based upon his
+                    dissertation, <span localType="title" style="font-style:italic">The Literary
+                        Career of James Boswell</span>, was published in 1929; in 1930, Pottle
+                    became the youngest man appointed to the position of full professor in the
+                    University’s English Department. Although he is best known for his work on
+                    Boswell, Pottle had other literary interests as well. He wrote on <span
+                        localType="title" style="font-style:italic">The Idiom of Poetry</span>
+                    (1963) as well as a work on <span localType="title" style="font-style:italic"
+                        >Shelley and Browning: A Myth and Some Facts</span> (1965).</p>
+                <p>In the same year that he became a full professor, Ralph Heyward Isham asked
+                    Pottle to spend time at his house in Glen Cove, New York, editing the James
+                    Boswell papers that he had collected. Pottle adopted a schedule wherein he
+                    taught at Yale three days a week and commuted to Glen Cove to work on the papers
+                    for another three days. When he was able to take research leave, he and his
+                    wife, Marion, worked full time on the papers. After some time in Glen Cove,
+                    Pottle returned to teaching full time at Yale, and in the ensuing decade assumed
+                    administrative positions including Head of the English Department and Director
+                    of Graduate Studies. In 1944, he was named Sterling Professor of English, a
+                    position he held until his retirement from academic teaching in 1966.</p>
+                <p>When Ralph Isham sold his collection of Boswell papers to Yale in 1949, Pottle
+                    was appointed editor-in-chief of the Yale Editions of the Private Papers of
+                    James Boswell; he remained in that position until he retired in 1979. During his
+                    tenure as Editor, more than ten volumes of edited journals were published, in
+                    addition to scholarly works based on Boswell’s writings.</p>
+                <p>Frederick Pottle was joined in his work by his wife, Marion, who was listed as a
+                    co-author on some of the catalogues. Together they had three children. Their
+                    daughter, Annette, was born and died in 1921; their youngest son, Samuel
+                    (1934-1978) also predeceased them; they were survived by their elder son,
+                    Christopher (1932-2011). Frederick Pottle died at the New Haven Convalescent
+                    Home on 16 May 1987; his wife died on 24 May 1992.</p>
+                <p>Frederick Pottle's publications:</p>
+                <list>
+                    <item><span localType="title" style="font-style:italic">Shelley and Browning; A
+                            Myth and Some Facts. With a Foreword by William Lyon Phelps</span>.
+                        (1923).</item>
+                    <item><span localType="title" style="font-style:italic">Bozzy and Yorick</span>.
+                        (1925).</item>
+                    <item><span localType="title" style="font-style:italic">The Incredible
+                            Boswell</span>. (1925).</item>
+                    <item><span localType="title" style="font-style:italic">The Part Played by
+                            Horace Walpole and James Boswell in the Quarrel between Rousseau and
+                            Hume</span>. (1925).</item>
+                    <item>"Two Notes on Ben Jonson's Staple of News". <span localType="title"
+                            style="font-style:italic">Modern Language Notes</span>. (1925).</item>
+                    <item><span localType="title" style="font-style:italic">A New Portrait of James
+                            Boswell</span>, with Chauncey Brewster Tinker and Bruce Rogers.
+                        (1927).</item>
+                    <item><span localType="title" style="font-style:italic">Private Papers of James
+                            Boswell from Malahide Castle: In the Collection of Lt.-Colonel Ralph
+                            Heyward Isham</span>. (1928-1941).</item>
+                    <item><span localType="title" style="font-style:italic">The Literary Career of
+                            James Boswell, Esq. Being the Bibliographical Materials for a Life of
+                            Boswell</span>. (1929).</item>
+                    <item><span localType="title" style="font-style:italic">Stretchers: The Story of
+                            a Hospital Unit on the Western Front</span>. (1929).</item>
+                    <item><span localType="title" style="font-style:italic">Catalogue of an
+                            Exhibition of the Private Papers of James Boswell from Malahide Castle,
+                            etc.</span>, with Marion Starbird Pottle. (1930).</item>
+                    <item><span localType="title" style="font-style:italic">Næs gīt yfel wīf in
+                            the Old English Apollonius</span>. (1931).</item>
+                    <item>"Printer's copy in the eighteenth century". <span localType="title"
+                            style="font-style:italic">The Papers of the Bibliographical Society of
+                            America</span>. (1933).</item>
+                    <item><span localType="title" style="font-style:italic">Boswell's Journal of a
+                            Tour to the Hebrides with Samuel Johnson, LL. D.</span>. (1936).</item>
+                    <item><span localType="title" style="font-style:italic">Boswell and the Girl
+                            from Botany Bay</span>. (1937).</item>
+                    <item><span localType="title" style="font-style:italic">Index to the Private
+                            Papers from Malahide Castle in the Collection of Ralph Heyward
+                            Isham</span>, with Joseph Foladare, and John P. Kirby. (1937).</item>
+                    <item>"The Dark Hints of Sir John Hawkins and Boswell". <span localType="title"
+                            style="font-style:italic">Modern Language Notes</span>. (1941)</item>
+                    <item><span localType="title" style="font-style:italic">The Idiom of Poetry.
+                            (The Messenger Lectures, 1941.)</span> (1941).</item>
+                    <item><span localType="title" style="font-style:italic">Boswell and Mrs.
+                            Piozzi</span>. (1942?).</item>
+                    <item><span localType="title" style="font-style:italic">Notes on the History of
+                            Marriage Legislation</span>. (1945).</item>
+                    <item><span localType="title" style="font-style:italic">Boswell's London Journal
+                            1762-1763: Now First Published from the Original Manuscript</span>.
+                        (1950).</item>
+                    <item><span localType="title" style="font-style:italic">Boswell in Holland
+                            1763-1764: Including his Correspondence with Belle de Zuylen
+                            (Zélide)</span> (1952).</item>
+                    <item> "The Case of Shelley". <span localType="title" style="font-style:italic"
+                            >Publications of the Modern Language Association of America</span>.
+                        (1952).</item>
+                    <item><span localType="title" style="font-style:italic">Boswell on the Grand
+                            Tour: Germany and Switzerland 1764</span>. (1953).</item>
+                    <item><span localType="title" style="font-style:italic">Boswell on the Grand
+                            Tour Italy, Corsica, and France, 1765-1766</span>. (1955).</item>
+                    <item><span localType="title" style="font-style:italic">Boswell: The Ominous
+                            Years, 1774-1776</span>. (1955).</item>
+                    <item><span localType="title" style="font-style:italic">Boswell in Search of a
+                            Wife, 1766-69</span>. (1956).</item>
+                    <item><span localType="title" style="font-style:italic">The Christian Teaching
+                            of Literature</span>. (1956).</item>
+                    <item><span localType="title" style="font-style:italic">Boswell for the Defence:
+                            1769-1744</span>. (1959).</item>
+                    <item>"Notes on the Importance of Private Legal Documents for the Writing of
+                        Biography and Literary History". <span localType="title"
+                            style="font-style:italic">Proceedings of the American Philosophical
+                            Society</span>. (1962).</item>
+                    <item><span localType="title" style="font-style:italic">James Boswell: The
+                            Earlier Years, 1740-1769</span>. (1966).</item>
+                    <item>"Placement Register". <span localType="title" style="font-style:italic"
+                            >The American Archivist </span>. (1966).</item>
+                    <item><span localType="title" style="font-style:italic">Boswell in Extremes:
+                            1776-1778</span>. (1970).</item>
+                    <item>"Wordsworth in the Present Day". <span localType="title"
+                            style="font-style:italic">Proceedings of the American Philosophical
+                            Society</span>. (1972).</item>
+                    <item><span localType="title" style="font-style:italic">Boswell, Laird of
+                            Auchinleck: 1778-1782</span>. (1977).</item>
+                    <item><span localType="title" style="font-style:italic">Boswell: The Applause of
+                            the Jury, 1782-1785</span>. (1980).</item>
+                    <item><span localType="title" style="font-style:italic">Frederick Pottle
+                            Remembers William Edwin Rudge</span>. (1981).</item>
+                    <item><span localType="title" style="font-style:italic">Pride and Negligence:
+                            The History of the Boswell Papers</span>. (1981).</item>
+                </list>
+            </biogHist>
+        </description>
+        <relations>
+            <cpfRelation cpfRelationType="family" xlink:actuate="onRequest" xlink:show="new"
+                xlink:type="simple" xlink:href="http://hdl.handle.net/10079/tqjq2q8">
+                <relationEntry>Pottle, Marion S. (Marion Starbird)</relationEntry>
+                <descriptiveNote>
+                    <p>Wife; collaborated on Boswell editions.</p>
+                </descriptiveNote>
+            </cpfRelation>
+            <cpfRelation cpfRelationType="associative" xlink:actuate="onRequest" xlink:show="new"
+                xlink:type="simple" xlink:href="http://nrs.harvard.edu/urn-3:FHCL.HOUGH:8822132">
+                <relationEntry>Adam, R. B. (Robert Borthwick), 1863-1940</relationEntry>
+                <descriptiveNote>
+                    <p>Corresponded.</p>
+                </descriptiveNote>
+            </cpfRelation>
+            <cpfRelation cpfRelationType="associative" xlink:actuate="onRequest" xlink:show="new"
+                xlink:type="simple" xlink:href="http://hdl.handle.net/10079/7h44jbj">
+                <relationEntry>Boswell family</relationEntry>
+                <descriptiveNote>
+                    <p>The Boswell family papers were the basis of much of Pottle's scholarship.</p>
+                </descriptiveNote>
+            </cpfRelation>
+            <cpfRelation cpfRelationType="associative" xlink:actuate="onRequest" xlink:show="new"
+                xlink:type="simple" xlink:href="http://hdl.handle.net/10079/rjdfndm">
+                <relationEntry>Boswell, James, 1740-1795</relationEntry>
+                <descriptiveNote>
+                    <p>Was the subject of much of Pottle's work and many of his writings; Boswell's
+                        papers were edited by Pottle.</p>
+                </descriptiveNote>
+            </cpfRelation>
+            <cpfRelation cpfRelationType="associative" xlink:actuate="onRequest" xlink:show="new"
+                xlink:type="simple" xlink:href="http://nrs.harvard.edu/urn-3:FHCL.Hough:8822117">
+                <relationEntry>Eccles, Mary Hyde</relationEntry>
+                <descriptiveNote>
+                    <p>Corresponded.</p>
+                </descriptiveNote>
+            </cpfRelation>
+            <cpfRelation cpfRelationType="associative" xlink:actuate="onRequest" xlink:show="new"
+                xlink:type="simple" xlink:href="http://hdl.handle.net/10079/6m9061z">
+                <relationEntry>Isham, Ralph Heyward, 1890-1955</relationEntry>
+                <descriptiveNote>
+                    <p>Hired Pottle to edit his collection of Boswell papers.</p>
+                </descriptiveNote>
+            </cpfRelation>
+            <cpfRelation cpfRelationType="associative" xlink:actuate="onRequest" xlink:show="new"
+                xlink:type="simple" xlink:href="http://hdl.handle.net/10079/ns1rnmd">
+                <relationEntry>Tinker, Chauncey Brewster, 1876-1963</relationEntry>
+                <descriptiveNote>
+                    <p>Pottle's academic advisor and colleague; encouraged Pottle to work on
+                        Boswell.</p>
+                </descriptiveNote>
+            </cpfRelation>
+            <resourceRelation resourceRelationType="creatorOf" xlink:actuate="onRequest"
+                xlink:show="new" xlink:type="simple"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL.Hough:hou01764">
+                <relationEntry>Adam, R. B. (Robert Borthwick), 1863-1940. Papers. (MS Hyde
+                    78)</relationEntry>
+            </resourceRelation>
+            <resourceRelation resourceRelationType="creatorOf" xlink:actuate="onRequest"
+                xlink:show="new" xlink:type="simple"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL.Hough:hou01797">
+                <relationEntry>Chapman, R. W. (Robert William), 1881-1960. Papers. (MS Hyde
+                    97)</relationEntry>
+            </resourceRelation>
+            <resourceRelation resourceRelationType="creatorOf" xlink:actuate="onRequest"
+                xlink:show="new" xlink:type="simple"
+                xlink:href="http://hdl.handle.net/10079/fa/beinecke.brooks">
+                <relationEntry>Cleanth Brooks papers</relationEntry>
+            </resourceRelation>
+            <resourceRelation resourceRelationType="creatorOf" xlink:actuate="onRequest"
+                xlink:show="new" xlink:type="simple"
+                xlink:href="http://hdl.handle.net/10079/fa/mssa.ms.0153">
+                <relationEntry>Jack Randall Crawford papers</relationEntry>
+            </resourceRelation>
+            <resourceRelation resourceRelationType="creatorOf" xlink:actuate="onRequest"
+                xlink:show="new" xlink:type="simple"
+                xlink:href="http://hdl.handle.net/10079/fa/mssa.ru.0891">
+                <relationEntry>Office of Development, Yale University, records</relationEntry>
+            </resourceRelation>
+            <resourceRelation resourceRelationType="creatorOf" xlink:actuate="onRequest"
+                xlink:show="new" xlink:type="simple"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL.Hough:hou01787">
+                <relationEntry>Eccles, Mary Hyde. Papers. (MS Hyde 98)</relationEntry>
+            </resourceRelation>
+            <resourceRelation resourceRelationType="creatorOf" xlink:actuate="onRequest"
+                xlink:show="new" xlink:type="simple"
+                xlink:href="http://hdl.handle.net/10079/fa/mssa.ms.1396">
+                <relationEntry>Joseph Stewart Fruton papers</relationEntry>
+            </resourceRelation>
+            <resourceRelation resourceRelationType="creatorOf" xlink:actuate="onRequest"
+                xlink:show="new" xlink:type="simple"
+                xlink:href="http://hdl.handle.net/10079/fa/beinecke.genmisc">
+                <relationEntry>General Collection manuscript miscellany</relationEntry>
+            </resourceRelation>
+            <resourceRelation resourceRelationType="creatorOf" xlink:actuate="onRequest"
+                xlink:show="new" xlink:type="simple"
+                xlink:href="http://hdl.handle.net/10079/fa/mssa.ms.0648">
+                <relationEntry>Albrecht Goetze papers</relationEntry>
+            </resourceRelation>
+            <resourceRelation resourceRelationType="creatorOf" xlink:actuate="onRequest"
+                xlink:show="new" xlink:type="simple"
+                xlink:href="http://hdl.handle.net/10079/fa/mssa.ms.1455">
+                <relationEntry>Ralph Heyward Isham papers</relationEntry>
+            </resourceRelation>
+            <resourceRelation resourceRelationType="creatorOf" xlink:actuate="onRequest"
+                xlink:show="new" xlink:type="simple"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL.Hough:hou01777">
+                <relationEntry>Hocking, William Ernest, 1873-1966. Correspondence. (MS Am
+                    2375)</relationEntry>
+            </resourceRelation>
+            <resourceRelation resourceRelationType="creatorOf" xlink:actuate="onRequest"
+                xlink:show="new" xlink:type="simple"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL.Hough:hou01917">
+                <relationEntry>Levin, Harry, 1912-1994. Papers. (MS Am 2461)</relationEntry>
+            </resourceRelation>
+            <resourceRelation resourceRelationType="creatorOf" xlink:actuate="onRequest"
+                xlink:show="new" xlink:type="simple"
+                xlink:href="http://hdl.handle.net/10079/fa/mssa.ru.0120">
+                <relationEntry>Librarian, Yale University records</relationEntry>
+            </resourceRelation>
+            <resourceRelation resourceRelationType="creatorOf" xlink:actuate="onRequest"
+                xlink:show="new" xlink:type="simple"
+                xlink:href="http://hdl.handle.net/10079/fa/mssa.ms.0352">
+                <relationEntry>Miscellaneous manuscripts collection</relationEntry>
+            </resourceRelation>
+            <resourceRelation resourceRelationType="creatorOf" xlink:actuate="onRequest"
+                xlink:show="new" xlink:type="simple"
+                xlink:href="http://hdl.handle.net/10079/fa/beinecke.jmocor">
+                <relationEntry>James Marshall Osborn correspondence</relationEntry>
+            </resourceRelation>
+            <resourceRelation resourceRelationType="creatorOf" xlink:actuate="onRequest"
+                xlink:show="new" xlink:type="simple"
+                xlink:href="http://hdl.handle.net/10079/fa/mssa.ms.1605">
+                <relationEntry>Frederick Albert Pottle papers</relationEntry>
+            </resourceRelation>
+            <resourceRelation resourceRelationType="creatorOf" xlink:actuate="onRequest"
+                xlink:show="new" xlink:type="simple"
+                xlink:href="http://hdl.handle.net/10079/fa/beinecke.reedjk">
+                <relationEntry>Joseph and Kit Reed Papers</relationEntry>
+            </resourceRelation>
+            <resourceRelation resourceRelationType="creatorOf" xlink:actuate="onRequest"
+                xlink:show="new" xlink:type="simple"
+                xlink:href="http://hdl.handle.net/10079/fa/mssa.ru.0049">
+                <relationEntry>Secretary's office, Yale University, records</relationEntry>
+            </resourceRelation>
+            <resourceRelation resourceRelationType="creatorOf" xlink:actuate="onRequest"
+                xlink:show="new" xlink:type="simple"
+                xlink:href="http://hdl.handle.net/10079/fa/beinecke.tink">
+                <relationEntry>Chauncey Brewster Tinker papers</relationEntry>
+            </resourceRelation>
+            <resourceRelation resourceRelationType="creatorOf" xlink:actuate="onRequest"
+                xlink:show="new" xlink:type="simple"
+                xlink:href="http://hdl.handle.net/10079/fa/mssa.ru.0896">
+                <relationEntry>Treasury Services, Yale University, records</relationEntry>
+            </resourceRelation>
+            <resourceRelation resourceRelationType="creatorOf" xlink:actuate="onRequest"
+                xlink:show="new" xlink:type="simple"
+                xlink:href="http://hdl.handle.net/10079/fa/beinecke.warren">
+                <relationEntry>Robert Penn Warren papers</relationEntry>
+            </resourceRelation>
+            <resourceRelation resourceRelationType="creatorOf" xlink:actuate="onRequest"
+                xlink:show="new" xlink:type="simple"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL.Hough:hou01309">
+                <relationEntry>Woodberry, George Edward, 1855-1930. Correspondence and compositions.
+                    (MS Am 1587)</relationEntry>
+            </resourceRelation>
+            <resourceRelation resourceRelationType="creatorOf" xlink:actuate="onRequest"
+                xlink:show="new" xlink:type="simple"
+                xlink:href="http://hdl.handle.net/10079/fa/mssa.ru.0803">
+                <relationEntry>Yale and New Haven audio and visual recordings</relationEntry>
+            </resourceRelation>
+            <resourceRelation resourceRelationType="creatorOf" xlink:actuate="onRequest"
+                xlink:show="new" xlink:type="simple"
+                xlink:href="http://hdl.handle.net/10079/fa/mssa.ru.0554">
+                <relationEntry>Yale University Press records</relationEntry>
+            </resourceRelation>
+            <resourceRelation resourceRelationType="creatorOf" xlink:actuate="onRequest"
+                xlink:show="new" xlink:type="simple"
+                xlink:href="http://hdl.handle.net/10079/fa/mssa.ru.0168">
+                <relationEntry>Yale University Press records concerning the publication of
+                    individual titles</relationEntry>
+            </resourceRelation>
+            <resourceRelation resourceRelationType="subjectOf" xlink:actuate="onRequest"
+                xlink:show="new" xlink:type="simple"
+                xlink:href="http://hdl.handle.net/10079/fa/mssa.ru.0237">
+                <relationEntry>Biographical information on Yale University affiliated
+                    individuals</relationEntry>
+            </resourceRelation>
+            <resourceRelation resourceRelationType="subjectOf" xlink:actuate="onRequest"
+                xlink:show="new" xlink:type="simple"
+                xlink:href="http://hdl.handle.net/10079/fa/mssa.ru.0686">
+                <relationEntry>Office of Public Affairs, Yale University, photographs of
+                    individuals</relationEntry>
+            </resourceRelation>
+            <resourceRelation resourceRelationType="other" xlink:actuate="onRequest"
+                xlink:show="new" xlink:type="simple"
+                xlink:href="http://hdl.handle.net/10079/fa/beinecke.boswell">
+                <relationEntry>Boswell Collection</relationEntry>
+                <descriptiveNote>
+                    <p>Published papers from the collection.</p>
+                </descriptiveNote>
+            </resourceRelation>
+        </relations>
+    </cpfDescription>
+</eac-cpf>
