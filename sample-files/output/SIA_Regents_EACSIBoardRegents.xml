@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/cpf.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<eac xmlns="https://archivists.org/ns/eac/v2">
+   <control maintenanceStatus="new">
+      <recordId>DSI-AI-218076-A</recordId>
+      <maintenanceHistory>
+         <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
+            <eventDateTime standardDateTime="2021-01-23T18:04:37.463-05:00"/>
+            <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
+            <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="created">
+            <eventDateTime standardDateTime="2011-04-25T10:02:32.652-04:00"/>
+            <agent agentType="machine">SImarc2cpf</agent>
+            <eventDescription>XSLT SImarc2cpf.xsl used to convert MARC (bibl with agency history) 21
+											slim XML into EAC-CPF</eventDescription>
+         </maintenanceEvent>
+      </maintenanceHistory>
+      <maintenanceAgency>
+         <agencyCode>US-DSI-AI</agencyCode>
+         <agencyName>Smithsonian Institution Archives</agencyName>
+      </maintenanceAgency>
+      <sources>
+         <source>
+            <reference>SI Agency history: MARC 001-218076</reference>
+         </source>
+         <source>
+            <reference>Board of Regents, 1846- , Minutes of Meetings (RU 1). Folder
+				List</reference>
+         </source>
+         <source>
+            <reference>Guide to the Smithsonian Archives</reference>
+         </source>
+         <source>
+            <reference>Goldman, Jerry and Northwestern University. "The OYEZ Project."
+				[http://oyez.nwu.edu/justices/justices.cgi?command=list chrono], 27 August 1999.</reference>
+         </source>
+         <source>
+            <reference>Board of Regents, Bylaws (Section 4.01).</reference>
+         </source>
+      </sources>
+      <conventionDeclaration id="d1e23">
+         <reference>unknown</reference>
+      </conventionDeclaration>
+      <conventionDeclaration id="cd-ne-2021-01-23T180437.463-0500-1">
+         <reference/>
+         <shortCode>unknown</shortCode>
+      </conventionDeclaration>
+      <languageDeclaration languageCode="eng" scriptCode="Latn"/>
+   </control>
+   <cpfDescription>
+      <identity>
+         <entityType value="corporateBody"/>
+         <nameEntry localType="http://www.loc.gov/MARC21/"
+                    status="authorized"
+                    conventionDeclarationReference="cd-ne-2021-01-23T180437.463-0500-1">
+            <part localType="http://www.loc.gov/MARC21/110/a">Smithsonian Institution.</part>
+            <part localType="http://www.loc.gov/MARC21/110/b">Board of Regents.</part>
+            <!--
+<authorizedForm>unknown</authorizedForm>
+-->
+         </nameEntry>
+      </identity>
+      <description>
+         <localDescriptions>
+            <localDescription localType="subject">
+               <term>Museum trustees</term>
+            </localDescription>
+            <localDescription localType="subject">
+               <term>Museums--Administration.</term>
+            </localDescription>
+         </localDescriptions>
+         <existDates>
+            <dateRange>
+               <fromDate>1846</fromDate>
+               <toDate> </toDate>
+            </dateRange>
+         </existDates>
+         <biogHist>
+            <p>The Board of Regents is the governing body of the Smithsonian Institution, created by the Act of August 10, 1846, which established the Institution and gave form to the trust received from its English benefactor, James Smithson. The Board's composition has varied over time. At present it consists of two ex officio members, the Vice-President of the United States and the Chief Justice of the United States (by custom, its Chancellor), three members of the House of Representatives and three members of the Senate, appointed by resolution from those two bodies, and nine citizen-Regents, no two of whom may be residents of the same state, and two of whom must be residents of the District of Columbia. These members are appointed, upon recommendation of the Board, by joint resolution of the Congress.</p>
+            <p>The Secretary of the Smithsonian Institution is responsible for shaping the Institution's policies and directing its operations; but final authority resides with the Board of Regents, which is empowered to hold title to land, to accept gifts and trusts, to sue and be sued, and to exercise all the other powers usual to bodies of this kind.</p>
+            <p>Ad hoc committees are created to conduct certain orders of business, including Secretarial searches. The Executive Committee of the Board is a standing committee, and has existed since 1846. Likewise, the Audit and Review Committee, initially formed as an ad hoc committee in 1977, was re-established in 1979 as a standing committee to oversee the Institution's accounting systems and internal controls.</p>
+            <p>Chancellors of the Board of Regents have included: George Mifflin Dallas, 1846-1849; Millard Fillmore, 1849-1851; Roger B. Taney, 1851-1864; Salmon P. Chase, 1864-1873; Morrison R. Waite, 1874-1888; Melville Weston Fuller, 1888-1910; Edward Douglass White, 1910-1921; William H. Taft, 1921-1930; Charles Evans Hughes, 1930-1941; Harlan Fiske Stone, 1941-1946; Fred M. Vinson, 1946-1953; Earl Warren, 1953-1969; Warren E. Burger, 1969-1986; and William H. Rehnquist, 1986- .</p>
+         </biogHist>
+      </description>
+      <relations>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Dallas, George Mifflin, 1792-1864 </part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-218076-P001</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Fillmore, Millard, 1800-1874 </part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-218076-P002</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Taney, Roger Brooke, 1777-1864 </part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-218076-P003</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Chase, Salmon P. (Salmon Portland), 1808-1873 </part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-218076-P004</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Waite, Morrison R. (Morrison Remick), 1816-1888 </part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-218076-P005</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>White, Edward Douglass, 1845-1921. </part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-218076-P006</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Taft, William H. (William Howard), 1857-1930 </part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-218076-P007</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Hughes, Charles Evans, 1862-1948 </part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-218076-P008</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Stone, Harlan Fiske, 1872-1946 </part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-218076-P009</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Vinson, Fred M., 1890-1953. </part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-218076-P010</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Warren, Earl, 1891-1974 </part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-218076-P011</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Burger, Warren E., 1907- </part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-218076-P012</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Rehnquist, William H., 1924- </part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-218076-P013</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Fuller, Melville Weston, 1833-1910.</part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-218076-P014</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>Smithsonian Institution Administration.</part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-218076-C001</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>Smithsonian Institution. Board of Regents. Executive
+				Committee.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218076-S001</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="resource"
+                          xlink:role="archivalRecords"
+                          valueURI="http://toBeCreated">
+               <part>Smithsonian Institution. Board of Regents. Minutes, 1846-2007.</part>
+            </targetEntity>
+            <targetRole valueURI="creatorOf"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="resource"
+                          xlink:role="archivalRecords"
+                          valueURI="http://toBeCreated">
+               <part>Smithsonian Institution. Board of Regents. Newsletters, 1966-2000</part>
+            </targetEntity>
+            <targetRole valueURI="creatorOf"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="resource"
+                          xlink:role="archivalRecords"
+                          valueURI="http://toBeCreated">
+               <part>Smithsonian Institution. Board of Regents. Secretarial Search Committee Candidate Files, 1983-1999.</part>
+            </targetEntity>
+            <targetRole valueURI="creatorOf"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="resource"
+                          xlink:role="archivalRecords"
+                          valueURI="http://toBeCreated">
+               <part>Smithsonian Institution. Board of Regents. Secretarial Search Committee Administrative Records,
+				1983-1999.</part>
+            </targetEntity>
+            <targetRole valueURI="creatorOf"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="resource"
+                          xlink:role="archivalRecords"
+                          valueURI="http://toBeCreated">
+               <part>Smithsonian Institution. Board of Regents. Administrative Records, 1960-2006.</part>
+            </targetEntity>
+            <targetRole valueURI="creatorOf"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="resource"
+                          xlink:role="archivalRecords"
+                          valueURI="http://toBeCreated">
+               <part>Smithsonian Institution. Board of Regents. Nominations and Appointments, 1961-1974.</part>
+            </targetEntity>
+            <targetRole valueURI="creatorOf"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="resource"
+                          xlink:role="archivalRecords"
+                          valueURI="http://toBeCreated">
+               <part>Smithsonian Institution. Board of Regents. Audit and Review
+				Committee. Administrative Records, 1979-1996.</part>
+            </targetEntity>
+            <targetRole valueURI="creatorOf"/>
+         </relation>
+      </relations>
+   </cpfDescription>
+</eac>

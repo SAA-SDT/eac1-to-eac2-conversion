@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/cpf.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<eac xmlns="https://archivists.org/ns/eac/v2">
+   <control maintenanceStatus="new">
+      <recordId>124534767</recordId>
+      <maintenanceHistory>
+         <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
+            <eventDateTime standardDateTime="2021-01-23T18:04:32.54-05:00"/>
+            <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
+            <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="revised">
+            <eventDateTime standardDateTime="2020-12-25"/>
+            <agent agentType="human">W4</agent>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="created">
+            <eventDateTime standardDateTime="2003-03-24"/>
+            <agent agentType="human">W4</agent>
+         </maintenanceEvent>
+      </maintenanceHistory>
+      <maintenanceAgency>
+         <agencyCode>DE-255</agencyCode>
+         <agencyName/>
+      </maintenanceAgency>
+      <sources>
+         <source>
+            <reference>AKL</reference>
+         </source>
+         <source>
+            <reference>LCAuth</reference>
+         </source>
+      </sources>
+      <otherRecordId localType="PPN">124534767</otherRecordId>
+      <otherRecordId localType="uriKPE">http://kalliope-verbund.info/gnd/124534767</otherRecordId>
+      <otherRecordId localType="URI">http://d-nb.info/gnd/124534767</otherRecordId>
+      <otherRecordId localType="DE-101">(DE-101)124534767</otherRecordId>
+      <otherRecordId localType="DE-588">(DE-588)124534767</otherRecordId>
+      <otherRecordId localType="PNDInvalidId">(DE-588a)124534767</otherRecordId>
+      <otherRecordId localType="SWDInvalidId">(DE-588c)4725307-1</otherRecordId>
+      <languageDeclaration languageCode="ger" scriptCode="Latn"/>
+   </control>
+   <cpfDescription>
+      <identity>
+         <entityType value="person"/>
+         <nameEntry>
+            <part>Bach, Johann Sebastian (1748-1778)</part>
+         </nameEntry>
+         <nameEntrySet>
+            <nameEntry>
+               <part>Bach, I. S. (1748-1778)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Bach, J. S. (1748-1778)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Bach, Johann Samuel (1748-1778)</part>
+            </nameEntry>
+            <nameEntry>
+               <part>Bach, Johann Sebastian, der Jüngere (1748-1778) [Vorlage]</part>
+            </nameEntry>
+         </nameEntrySet>
+      </identity>
+      <description>
+         <localDescriptions localType="GND">
+            <localDescription localType="Geschlechtsangabe">
+               <term>1</term>
+               <descriptiveNote>
+                  <p>männlich</p>
+               </descriptiveNote>
+            </localDescription>
+         </localDescriptions>
+         <occupations>
+            <occupation>
+               <term id="DE-588-4033423-5">Künstler</term>
+            </occupation>
+            <occupation>
+               <term id="DE-588-4200345-3">Zeichner</term>
+            </occupation>
+            <occupation>
+               <term id="DE-588-4037215-7">Maler</term>
+            </occupation>
+         </occupations>
+         <places>
+            <place vocabularySource="GND">
+               <placeName localType="DE-588-4005728-8">Berlin</placeName>
+               <placeRole>Geburtsort</placeRole>
+            </place>
+            <place vocabularySource="GND">
+               <placeName localType="DE-588-4050471-2">Rom</placeName>
+               <placeRole>Sterbeort</placeRole>
+            </place>
+         </places>
+         <existDates>
+            <dateRange>
+               <fromDate standardDate="1748-09-24">24.09.1748</fromDate>
+               <toDate standardDate="1778-09-11">11.09.1778</toDate>
+            </dateRange>
+         </existDates>
+         <biogHist>
+            <list>
+               <item>Deutscher Künstler, Zeichner, Maler</item>
+            </list>
+         </biogHist>
+      </description>
+      <relations>
+         <relation>
+            <targetEntity targetType="agent"
+                          valueURI="http://kalliope-verbund.info/gnd/11850553X">
+               <part localType="Beziehung familiaer" id="DE-588-11850553X">Bach, Johann
+               Sebastian (1685-1750) [Großvater]</part>
+            </targetEntity>
+         </relation>
+         <relation>
+            <targetEntity targetType="agent"
+                          valueURI="http://kalliope-verbund.info/gnd/118505505">
+               <part localType="Beziehung familiaer" id="DE-588-118505505">Bach, Carl
+               Philipp Emanuel (1714-1788) [Vater]</part>
+            </targetEntity>
+         </relation>
+         <relation>
+            <targetEntity targetType="agent"
+                          valueURI="http://kalliope-verbund.info/gnd/117764523">
+               <part localType="Beziehung familiaer" id="DE-588-117764523">Bach, Johanna
+               Maria (1724-1795) [Mutter]</part>
+            </targetEntity>
+         </relation>
+      </relations>
+   </cpfDescription>
+</eac>

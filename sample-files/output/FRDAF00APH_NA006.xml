@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/cpf.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<eac xmlns="https://archivists.org/ns/eac/v2">
+    <!-- Exemple de notice d'autorité pour une personne avec une relation avec la notice d'autorité décrivant la famille dont cette personne est membre -->
+   <control maintenanceStatus="new" publicationStatus="approved">
+      <recordId>FRDAF00APH_NA006</recordId>
+      <maintenanceHistory>
+         <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
+            <eventDateTime standardDateTime="2021-01-23T18:04:16.034-05:00"/>
+            <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
+            <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="updated">
+            <eventDateTime>2012-04-20</eventDateTime>
+            <agent agentType="human">Notice rédigée par Anila Angjeli (Bibliothèque nationale de France) et Claire
+                    Sibille - de Grimouard (Service interministériel des Archives de France)</agent>
+         </maintenanceEvent>
+      </maintenanceHistory>
+      <maintenanceAgency>
+         <agencyCode>FR-SIAF</agencyCode>
+         <agencyName>Service interministériel des Archives de France</agencyName>
+      </maintenanceAgency>
+      <conventionDeclaration id="d1e28">
+         <reference>Notice établie conformément aux normes ISAAR (CPF) du Conseil international
+                des Archives et AFNOR NF Z 44-061, 1er juin 1986 Catalogage : forme et structure de
+                vedettes noms de personne, des vedettes titres, des rubriques de classement et des
+                titres forgés</reference>
+      </conventionDeclaration>
+      <conventionDeclaration id="cd-ne-2021-01-23T180416.034-0500-1">
+         <reference/>
+         <shortCode>AFNOR_NF_Z_44-061</shortCode>
+      </conventionDeclaration>
+      <languageDeclaration languageCode="fre" scriptCode="Latn"/>
+   </control>
+   <cpfDescription>
+      <identity>
+         <entityType value="person"/>
+         <nameEntry status="authorized"
+                    conventionDeclarationReference="cd-ne-2021-01-23T180416.034-0500-1">
+            <part localType="nom">Gramont</part>
+            <part localType="prenom">Armand de</part>
+            <part localType="dates_biographiques">1879-1962</part>
+            <!-- Forme autorisée du nom structurée dans différents éléments <part> permettant de distinguer la nature de chaque composante du nom -->
+            <!--
+<authorizedForm>AFNOR_NF_Z_44-061</authorizedForm>
+-->
+         </nameEntry>
+      </identity>
+      <description>
+         <occupations>
+            <occupation>
+               <term>industriel</term>
+            </occupation>
+            <occupation>
+               <term>scientifique</term>
+            </occupation>
+         </occupations>
+         <existDates>
+            <dateRange>
+               <fromDate standardDate="1879-09-29"/>
+               <toDate standardDate="1962-08-02"/>
+            </dateRange>
+         </existDates>
+         <biogHist>
+                <!-- Biographie présentée ici sous forme d'une liste chronologique  -->
+            <chronList>
+               <chronItem>
+                  <date standardDate="1911">1911</date>
+                  <event>Docteur ès sciences</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1914">1914</date>
+                  <event>Mobilisé dans la section technique de l’aéronautique
+                            militaire</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1919">1919</date>
+                  <event>Création de l'institut d’optique théorique et appliquée ; en devient
+                            le président</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1920">1920</date>
+                  <event>Nommé secrétaire du Comité français de l’Union internationale de
+                            physique et de mécanique</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1931">1931</date>
+                  <event>Membre de l’Académie des sciences</event>
+               </chronItem>
+               <chronItem>
+                  <date>1956</date>
+                  <event>Président de l’Académie des sciences</event>
+               </chronItem>
+            </chronList>
+         </biogHist>
+      </description>
+      <relations>
+         <relation>
+            <targetEntity targetType="agent" valueURI="FRDAF00APH_NA005">
+               <part>Gramont (famille)</part>
+            </targetEntity>
+            <relationType>family</relationType>
+         </relation>
+      </relations>
+      <alternativeSet>
+            <!-- Lien pérenne vers la notice d'autorité pour la même famille dans le référentiel Personnes de la BnF -->
+         <setComponent href="http://catalogue.bnf.fr/ark:/12148/cb12574697k">
+            <componentEntry>Notice du référentiel Personnes et familles de la Bibliothèque
+                    national de France</componentEntry>
+         </setComponent>
+      </alternativeSet>
+   </cpfDescription>
+</eac>

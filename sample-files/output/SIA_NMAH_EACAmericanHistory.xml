@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/cpf.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<eac xmlns="https://archivists.org/ns/eac/v2">
+   <control maintenanceStatus="new">
+      <recordId>DSI-AI-218078-A</recordId>
+      <maintenanceHistory>
+         <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
+            <eventDateTime standardDateTime="2021-01-23T18:04:27.866-05:00"/>
+            <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
+            <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="created">
+            <eventDateTime standardDateTime="2011-04-25T10:02:53.092-04:00"/>
+            <agent agentType="machine">SImarc2cpf</agent>
+            <eventDescription>XSLT SImarc2cpf.xsl used to convert MARC (bibl with agency history) 21
+											slim XML into EAC-CPF</eventDescription>
+         </maintenanceEvent>
+      </maintenanceHistory>
+      <maintenanceAgency>
+         <agencyCode>US-DSI-AI</agencyCode>
+         <agencyName>Smithsonian Institution Archives</agencyName>
+      </maintenanceAgency>
+      <sources>
+         <source>
+            <reference>SI Agency history: MARC 001-218078</reference>
+         </source>
+         <source>
+            <reference>Guide to the Smithsonian Archives,</reference>
+         </source>
+         <source>
+            <reference>Smithsonian Directory</reference>
+         </source>
+      </sources>
+      <conventionDeclaration id="d1e23">
+         <reference>unknown</reference>
+      </conventionDeclaration>
+      <conventionDeclaration id="cd-ne-2021-01-23T180427.866-0500-1">
+         <reference/>
+         <shortCode>unknown</shortCode>
+      </conventionDeclaration>
+      <languageDeclaration languageCode="eng" scriptCode="Latn"/>
+   </control>
+   <cpfDescription>
+      <identity>
+         <entityType value="corporateBody"/>
+         <nameEntry localType="http://www.loc.gov/MARC21/"
+                    status="authorized"
+                    conventionDeclarationReference="cd-ne-2021-01-23T180427.866-0500-1">
+            <part localType="http://www.loc.gov/MARC21/110/a">National Museum of American History (U.S.)</part>
+            <!--
+<authorizedForm>unknown</authorizedForm>
+-->
+         </nameEntry>
+      </identity>
+      <description>
+         <localDescriptions>
+            <localDescription localType="subject">
+               <term>Science museums.</term>
+            </localDescription>
+            <localDescription localType="subject">
+               <term>Historical museums.</term>
+            </localDescription>
+         </localDescriptions>
+         <existDates>
+            <dateRange>
+               <fromDate>1957</fromDate>
+               <toDate> </toDate>
+            </dateRange>
+         </existDates>
+         <biogHist>
+            <p>The history of the National Museum of American History's (NMAH) collections dates from the very beginning of the Institution, when Secretary Joseph Henry began to amass a collection of scientific apparatus for historical and demonstration purposes. In 1849 the Institution made a major purchase of fine arts prints, which became the core of the graphic arts collections. In 1858, the United States Patent Office transferred to the Smithsonian the national collections, including specimens from the Wilkes Exploring Expedition, 1838-1842. In 1862, upon the demise of the National Institute, a local scientific and learned society, many of its collections came to the Smithsonian. And, most notably, after the Centennial Exposition of 1876, the Smithsonian received many objects from exhibitors at Philadelphia. Thus by the 1880s, rich collections from many different sources, some specific to natural history and geology, but many others relating to history and culture, had come to the Smithsonian.</p>
+            <p>The creation of the Museum of History and Technology (MHT) within the United States National Museum on July 1, 1957, gathered the historical collections under one museum. Frank A. Taylor was appointed Director of MHT on April 16, 1958, and was primarily responsible for the planning and supervision of the construction of the museum building, which opened in 1964. With the creation of MHT, the old Departments of History and Engineering and Industries of the USNM were reconfigured as Departments of Civil History, Armed Forces History, Science and Technology, and Arts and Manufactures. John Canfield Ewers, Assistant Director of MHT, succeeded Taylor as Director,1964-1965, followed in 1966 by Robert P. Multhauf, Chairman of the Department of Science and Technology and Curator of Physical Sciences. USNM ceased to exist as an administrative entity in 1967, and at that time MHT became a separate museum within the Institution.</p>
+            <p>In January 1969, Daniel J. Boorstin, a University of Chicago history professor, was appointed Director. That year MHT was renamed the National Museum of History and Technology (NMHT), and all curatorial divisions were realigned under the Departments of Cultural History, National and Military History, Science and Technology, Industries, and Applied Arts. Boorstin resigned as Director in 1973.</p>
+            <p>Brooke Hindle, a historian of early American science and technology, was appointed Director of NMHT in February 1974. Before completing his term in June 1978, Hindle reorganized the curatorial departments at NMHT. Cultural History continued as a department, while new Departments of National History, History of Science, and History of Technology were created. Otto Mayr, Chairman of the former Department of Science and Technology and Curator of Mechanical and Civil Engineering, succeeded Hindle as Acting Director of the Museum. Claudia Brush Kidwell succeeded Mayr as Acting Director, serving from September 1 to October 1,1979.</p>
+            <p>Roger G. Kennedy, a historian of American architecture, was appointed Director of NMHT in October 1979. In 1980 the Museum's name was changed to the National Museum of American History. A major reorganization of NMAH occurred shortly thereafter, in which the Departments of Social and National History and the History of Science and Technology were established. Also during this reorganization the National Numismatic Collection and the National Philatelic Collection -- each reporting to the Director -- were created from the former Divisions of Numismatics and Postal History. In 1981,the Department of Social and National History was renamed Social and Cultural History.</p>
+            <p>In 1990, the National Philatelic Collection became the National Postal Museum; it moved into the newly renovated Washington City Post Office in 1993. Kennedy resigned as Director on December 1, 1992. Spencer R. Crew, a historian and Chairman of the Department of Social and Cultural History and Deputy Director, 1991-1992, became Acting Director; and he was named Director of the Museum on January 24, 1994. Later that year a reorganization was carried out. The Department of the History of Science and Technology consisted of the Division of Agriculture and Natural Resources; the Division of Biological Sciences; the Division of Armed Forces History; the Division of Computers, Information and Society; the Division of Electricity and Modern Physics; the Division of Engineering and Industry; the Division of Medical Sciences; the Division of Physical Sciences; and the Division of Transportation.</p>
+            <p>The Department of Social and Cultural History consisted of the Division of Ceramics and Glass; the Division of Community Life; the Division of Costume; the Division of Domestic Life; the Division of Graphic Arts; the Division of Musical History; the Division of Photographic History; the Division of Political History; and the Division of Textiles. At a later time these relationships were changed by the institution of broader entities: the Division of Cultural History; Division of the History of Technology; Division of Information, Technology and Society; Division of Medicine and Society; and the Division of Social History.</p>
+         </biogHist>
+      </description>
+      <relations>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Mayr, Otto </part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-218078-P001</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Hindle, Brooke </part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-218078-P002</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Taylor, Frank A. (Frank Augustus), 1903- </part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-218078-P003</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Multhauf, Robert P. </part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-218078-P004</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Boorstin, Daniel J. (Daniel Joseph), 1914- </part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-218078-P005</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Kennedy, Roger G. </part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-218078-P006</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Crew, Spencer R., 1949- </part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-218078-P007</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Ewers, John Canfield </part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-218078-P008</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Kidwell, Claudia Brush</part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-218078-P009</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of History and Technology </part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-218078-C001</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>United States National Museum.</part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-218078-C002</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Office of the
+				Director.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S001</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Dept. of the History of
+				Science and Technology.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S002</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Division of Armed Forces
+				History.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S003</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Division of Electricity and
+				Modern Physics.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S004</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of History and Technology (U.S.). Division of Graphic
+				Arts and Photography.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S005</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Division of Medical
+				Sciences.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S006</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Division of Military
+				History.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S007</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Division of Photographic
+				History.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S008</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Division of Physical
+				Sciences.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S009</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Division of
+				Transportation</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S010</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of History and Technology (U.S.). Dept. of Cultural
+				History.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S011</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Division of Graphic
+				Arts.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S012</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of History and Technology (U.S.). Division of Cultural
+				History.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S013</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Division of Ceramics and
+				Glass.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S014</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Division of Domestic
+				Life.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S015</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of History and Technology (U.S.). Division of Historic
+				Archeology.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S016</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Division of Musical
+				History.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S017</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Division of Politics and
+				Reform.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S018</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Division of
+				Textiles.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S019</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). National Numismatic
+				Collection.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S020</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Division of Education and
+				Visitor Information.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S021</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Dwight D. Eisenhower
+				Institute for Historical Research.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S022</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>Smithsonian Institution. National Armed Forces Museum Advisory
+				Board</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S023</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of History and Technology (U.S.). Smithsonian Journal of
+				History Office.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S024</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of History and Technology (U.S.). Steering Committee for
+				the History of Science and Technology.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S025</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Office of Exhibits,
+				Audiovisual, and Services.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S026</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Division of Cultural
+				History.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S027</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Office of Special
+				Events.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S028</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Division of Engineering and
+				Industry.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S029</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of History and Technology (U.S.). Division of Costume and
+				Furnishings.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S030</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Division of Social
+				History</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S031</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). National Philatelic
+				Collection.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S032</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Dept. of Social and Cultural
+				History</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S033</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Division of Naval
+				History.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S034</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of History and Technology (U.S.). Dept. of National
+				History.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S035</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Division of Agriculture and
+				Natural Resources.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S036</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Program in African American
+				Culture.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S037</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Division of Community
+				Life.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S038</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Office of the Associate
+				Director for Administrative and Automation Services.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S039</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Archives
+				Center.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S040</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Office of the Deputy
+				Director.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S041</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of History and Technology (U.S.). Dept. of the History of
+				Science.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S042</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of History and Technology (U.S.). Dept. of the History of
+				Technology.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S043</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Office of Public
+				Affairs.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S044</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Office of Public
+				Services.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S045</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Office of Program Planning
+				and Design.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S046</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Division of Work and
+				Industry.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S047</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Office of the Assistant
+				Director for Academic Programs.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S048</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Office of the Associate
+				Director for Capital Programs.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S049</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>Lemelson Center</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S050</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.). Division of Information
+				Technology and Society.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-S051</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>United States National Museum.</part>
+            </targetEntity>
+            <targetRole valueURI="earlier"/>
+            <descriptiveNote>
+               <p>DSI-AI-218078-EL1</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="resource"
+                          xlink:role="archivalRecords"
+                          valueURI="http://toBeCreated">
+               <part>National Museum of American History (U.S.) Architectural Records, 1956-1974 and undated.</part>
+            </targetEntity>
+            <targetRole valueURI="creatorOf"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="resource"
+                          xlink:role="archivalRecords"
+                          valueURI="http://toBeCreated">
+               <part>National Museum of American History (U.S.) Exhibition Records, circa 1983-1994 and undated.</part>
+            </targetEntity>
+            <targetRole valueURI="creatorOf"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="resource"
+                          xlink:role="archivalRecords"
+                          valueURI="http://toBeCreated">
+               <part>National Museum of American History (U.S.) Website Records, 2004, 2010.</part>
+            </targetEntity>
+            <targetRole valueURI="creatorOf"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="resource"
+                          xlink:role="archivalRecords"
+                          valueURI="http://toBeCreated">
+               <part>National Museum of American History (U.S.) Photographic Collection, 1860-1960.</part>
+            </targetEntity>
+            <targetRole valueURI="creatorOf"/>
+         </relation>
+      </relations>
+   </cpfDescription>
+</eac>

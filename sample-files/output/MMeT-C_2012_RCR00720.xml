@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/cpf.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<eac xmlns="https://archivists.org/ns/eac/v2">
+   <control maintenanceStatus="new">
+      <recordId>RCR00720</recordId>
+      <maintenanceHistory>
+         <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
+            <eventDateTime standardDateTime="2021-01-23T18:03:59.985-05:00"/>
+            <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
+            <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="revised">
+            <eventDateTime standardDateTime="2012-01-27">2012-01-27</eventDateTime>
+            <agent agentType="human">Rubinstein, Aaron</agent>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="revised">
+            <eventDateTime standardDateTime="2011-09-09">2011-09-09</eventDateTime>
+            <agent agentType="human">Martzahl, Veronica</agent>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="created">
+            <eventDateTime standardDateTime="2011-02-28">2011-02-28</eventDateTime>
+            <agent agentType="human">Martzahl, Veronica</agent>
+         </maintenanceEvent>
+      </maintenanceHistory>
+      <maintenanceAgency>
+         <agencyCode>MMeT-C</agencyCode>
+         <agencyName>Tufts University Digital Collections and Archives</agencyName>
+      </maintenanceAgency>
+      <sources>
+         <source>
+            <reference>Trustees of Tufts College. Bulletin of Tufts College, 1939-40. Medford, MA:
+          Tufts College, 1940.</reference>
+         </source>
+         <source>
+            <reference>Trustees of Tufts College. Catalogue of Tufts College, 1893-94. Boston: H.G.
+          Collins, 1894.</reference>
+         </source>
+         <source>
+            <reference>Trustees of Tufts College. Catalogue of Tufts College 1926-1927. Medford, MA:
+          Tufts College, 1926.</reference>
+         </source>
+      </sources>
+      <conventionDeclaration id="d1e25">
+         <reference>Describing Archives: a Content Standard, Society of American Archivists.
+        2004</reference>
+         <shortCode>DACS</shortCode>
+         <descriptiveNote>
+            <p>Locally using rules from chapter 10 and 11.</p>
+         </descriptiveNote>
+      </conventionDeclaration>
+      <conventionDeclaration id="d1e38">
+         <reference>Anglo-American Cataloging Rules, Revised.</reference>
+         <shortCode>AACR2R</shortCode>
+         <descriptiveNote>
+            <p>Locally used for their definition of a corporate body.</p>
+         </descriptiveNote>
+      </conventionDeclaration>
+      <conventionDeclaration id="cd-ne-2021-01-23T180359.985-0500-1">
+         <reference/>
+         <shortCode>local</shortCode>
+      </conventionDeclaration>
+      <languageDeclaration languageCode="eng" scriptCode="Latn"/>
+   </control>
+   <cpfDescription>
+      <identity>
+         <entityType value="corporateBody"/>
+         <nameEntry status="authorized"
+                    conventionDeclarationReference="cd-ne-2021-01-23T180359.985-0500-1">
+            <part>Department of French</part>
+            <!--
+<authorizedForm>local</authorizedForm>
+-->
+         </nameEntry>
+      </identity>
+      <description>
+         <existDates>
+            <dateRange>
+               <fromDate>1893</fromDate>
+               <toDate>1939</toDate>
+            </dateRange>
+         </existDates>
+         <structureOrGenealogy>
+            <p>Fay, Charles Ernest (1846-1931)-Professor of Modern Languages (taught French, German,
+          and Italian) 1869-1928 [source: Tufts Online Encyclopedia] </p>
+         </structureOrGenealogy>
+         <biogHist>
+            <abstract>The Department of French was one of the original Departments of Instruction
+          created for the academic year 1893-1894. Its original mission was to prepare students to
+          understand and translate major works of French literature, rather than to teach students
+          to converse in French. An Italian course, and later a Spanish course, was offered to
+          students who had completed two years of French. In 1926, a separate Department of Italian
+          was created. In 1939, the Department of French and the Department of Italian combined to
+          form the Department of French and Other Romance Languages, which also offered courses in
+          Spanish and Portuguese.</abstract>
+            <p>The Department of French was one of the original departments created in 1893. Prior to
+          the academic year of 1893-1894, students followed courses of study (e.g., a Classical
+          Course or an Engineering Course). However, the 1893-1894 Catalogue of Tufts College lists
+          "Departments of Instruction" from which students may choose a major subject.</p>
+            <p>In French courses (as in German courses), emphasis was placed on translation "by means of
+          copious reading and careful grammatical drill." Students read classics of French
+          literature and learned historical material only to the extent that it shed light on the
+          context within which the literature was written. They were expected to understand spoken
+          French although not necessarily to speak it themselves (the 1893-1894 catalogue states
+          "Though no attempt is made to teach the student to speak the language, he is trained from
+          the outset to hear and to understand it when spoken, chiefly for the sake of the reflex
+          influence of such practice upon pronunciation").</p>
+            <p>In 1893-1894, an Italian language course was offered to students who had completed two
+          years of French. It too emphasized grammar and literature. In subsequent years, this
+          course was given every other year, alternating with a Spanish language course.</p>
+            <p>In 1926, Italian-language courses were moved from the Department of French to the newly
+          created Department of Italian. In 1939, the Department of French and the Department of
+          Italian were combined to form the Department of French and Other Romance Languages, which
+          also offered courses in Spanish and Portuguese. </p>
+         </biogHist>
+      </description>
+      <relations>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://dca.lib.tufts.edu/ontology/rcr#corporateBody">
+               <part id="RCR00002">Tufts College</part>
+            </targetEntity>
+            <dateRange>
+               <fromDate standardDate="1893">1893</fromDate>
+               <toDate standardDate="1939">1939</toDate>
+            </dateRange>
+            <relationType>hierarchical</relationType>
+            <targetRole valueURI="http://dca.lib.tufts.edu/ontology/rcr#isPartOf"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://dca.lib.tufts.edu/ontology/rcr#corporateBody">
+               <part id="RCR00722">Department of French and other Romance
+          Languages</part>
+            </targetEntity>
+            <dateRange>
+               <fromDate standardDate="1939">1939</fromDate>
+               <toDate standardDate="1972">1972</toDate>
+            </dateRange>
+            <relationType>temporal</relationType>
+            <targetRole valueURI="http://dca.lib.tufts.edu/ontology/rcr#isFollowedBy"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://dca.lib.tufts.edu/ontology/rcr#corporateBody">
+               <part id="RCR00174">Department of Romance Languages</part>
+            </targetEntity>
+            <dateRange>
+               <fromDate standardDate="1972">1972</fromDate>
+               <toDate>present</toDate>
+            </dateRange>
+            <relationType>temporal</relationType>
+            <targetRole valueURI="http://dca.lib.tufts.edu/ontology/rcr#isFollowedBy"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://dca.lib.tufts.edu/ontology/rcr#corporateBody">
+               <part id="RCR00721">Department of Italian</part>
+            </targetEntity>
+            <dateRange>
+               <fromDate standardDate="1926">1926</fromDate>
+               <toDate standardDate="1939">1939</toDate>
+            </dateRange>
+            <relationType>associative</relationType>
+            <targetRole valueURI="http://dca.lib.tufts.edu/ontology/rcr#isAssociatedWith"/>
+         </relation>
+      </relations>
+   </cpfDescription>
+</eac>

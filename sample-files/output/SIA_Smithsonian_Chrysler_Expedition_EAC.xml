@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/cpf.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<eac xmlns="https://archivists.org/ns/eac/v2">
+   <control maintenanceStatus="revised" publicationStatus="approved">
+      <recordId>EACE010</recordId>
+      <maintenanceHistory>
+         <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
+            <eventDateTime standardDateTime="2021-01-23T18:04:36.21-05:00"/>
+            <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
+            <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="created">
+            <eventDateTime standardDateTime="2012-07-12">2012-07-12</eventDateTime>
+            <agent agentType="human">Tammy Peters</agent>
+            <eventDescription>Record Created</eventDescription>
+         </maintenanceEvent>
+      </maintenanceHistory>
+      <maintenanceAgency>
+         <agencyCode>DSI-SIA</agencyCode>
+         <otherAgencyCode localType="">SIA</otherAgencyCode>
+         <agencyName>Smithsonian Institution Archives</agencyName>
+      </maintenanceAgency>
+      <sources>
+         <source>
+            <reference>Annual Report of the Smithsonian Institution, 1926, pages 5, 29-30, 106-107</reference>
+         </source>
+         <source>
+            <reference>Explorations and Field-Work of the Smithsonian Institution, 1926, pages 10-21</reference>
+         </source>
+         <source>
+            <reference>Annual Report of the Smithsonian Institution, 1927, pages 5, 7-9, 29, 39, 44-45, 92-94 (92-94 contains Accession Records relating to expedition)</reference>
+         </source>
+         <source>
+            <reference>Annual Report of the Smithsonian Institution, 1929, page 18</reference>
+         </source>
+      </sources>
+      <otherRecordId>FBR EACE010</otherRecordId>
+      <otherRecordId>Fieldbook Registry EACE010</otherRecordId>
+      <conventionDeclaration id="cd-ne-2021-01-23T180436.21-0500-1">
+         <reference/>
+         <shortCode>AACR2</shortCode>
+      </conventionDeclaration>
+      <languageDeclaration languageCode="eng" scriptCode="Latn"/>
+   </control>
+   <cpfDescription>
+      <identity>
+         <entityType value="corporateBody"/>
+         <nameEntry scriptOfElement="Latn"
+                    languageOfElement="eng"
+                    status="authorized"
+                    conventionDeclarationReference="cd-ne-2021-01-23T180436.21-0500-1">
+            <part>Smithsonian-Chrysler Expedition to East Africa</part>
+            <!--
+<authorizedForm>AACR2</authorizedForm>
+-->
+         </nameEntry>
+         <nameEntry>
+            <part>Smithsonian-Chrysler Expedition to Africa to Collect Living Animals</part>
+         </nameEntry>
+         <nameEntry>
+            <part>Smithsonian-Chrysler Zoological Expedition</part>
+         </nameEntry>
+         <identityId>auto gen number</identityId>
+      </identity>
+      <description>
+         <localDescriptions>
+            <localDescription localType="subject">
+               <term>Wild animal collecting</term>
+            </localDescription>
+            <localDescription localType="subject">
+               <term>Zoos</term>
+            </localDescription>
+            <localDescription localType="subject">
+               <term>Zoology</term>
+            </localDescription>
+         </localDescriptions>
+         <places>
+            <place>
+               <placeName>Tanzania</placeName>
+               <placeRole>Collecting Area</placeRole>
+            </place>
+         </places>
+         <existDates>
+            <dateRange>
+               <fromDate standardDate="1926-03-20">March 20, 1926</fromDate>
+               <toDate standardDate="1926-10">October 1926</toDate>
+            </dateRange>
+         </existDates>
+         <biogHist>
+            <p>The goal of the Smithsonian-Chrysler Expedition to East Africa was to collect large and significant African animals for the National Zoological Park (NZP). It was the first expedition of its kind for the NZP. With the financial backing of Walter P. Chrysler, the Expedition set out on March 20, 1926, arriving at Dar-es-Salaam, Tanganyika (now Tanzania), on May 5 of that year, and continuing until October 1926. The governor of the Tanganyika Territory, Sir Donald Cameron, granted the expedition an extremely generous collecting license, which allowed for the expedition to be such a success, returning with a total of 1,203 animals transferred to the Zoo including: 158 mammals, 584 birds, 56 snakes, 12 lizards, 393 tortoises, and 1 frog. It was hoped that the expedition would be able to capture a rhino for the NZP; however, despite many close calls they did not obtain a rhino. The giraffe that the expedition captured died while being transported. The government of Sudan then gave the expedition two giraffes to replace the dead giraffe. Skins of mammals and birds were also brought back for the United States National Museum (USNM). Many specimens, like the giraffe, were quite new to the Park. The male and female impala obtained were the only ones in any zoo in the world at that time, and other animals included gnu, impala, leopards, hyenas, and blue monkeys.</p>
+            <p>Participating organizations included the United States National Museum, Museum of Comparative Zoology at Harvard University; Museum of Zoology, University of Michigan; and the London Zoological Society. The United States Marine Corps provided the expedition with cots, blankets and other equipment, and the Freedmen's Hospital of Washington, DC, furnished medicines for the expedition. The Chrysler factory in London presented the expedition with a motorcar. The expedition was headed by William M. Mann with Arthur Loveridge of the Harvard University. In 1929, a gorilla, N'Gi, was purchased with the funds remaining from this expedition, with Chrysler approving the purchase.</p>
+         </biogHist>
+      </description>
+      <relations>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Chrysler, Walter P. (Walter Percy), 1875-1940</part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>Sponsor</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Cameron, Donald</part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>Governor of Tanganyika Territory</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Mann, William M., 1886-1960</part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>Expedition Director</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Loveridge, Arthur, b. 1891</part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>Expedition Co-Director</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Haweis, Stephen</part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>Artist, Author and Amateur Naturalist</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Carnochan, Frederic Grosvenor, 1890-1952</part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Charlton, Charles</part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>Field Man and Motion Picture Photographer</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Hine, Lyman</part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>American Sportsman</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Runton, George</part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>Professional Hunter, Guide and Interpreter</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Le Messurier, George</part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>Driver</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Goss, Charles</part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>Guide and Interpreter</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Goss, Charles</part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>Guide and Interpreter</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Zoological Park (U.S.)</part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>Harvard University Museum of Comparative Zoology</part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>United States National Museum</part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>University of Michigan Museum of Zoology</part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>Zoological Society of London </part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>United States Marine Corps </part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>Smithsonian Institution</part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>Freedmen's Hospital (Washington, D.C.)</part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>Chrysler Corporation</part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+         </relation>
+      </relations>
+   </cpfDescription>
+</eac>

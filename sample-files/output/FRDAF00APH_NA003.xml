@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/cpf.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<eac xmlns="https://archivists.org/ns/eac/v2">
+    <!-- Exemple de notice d'autorité pour une personne, avec des relations avec une collectivité et des fonds conservées dans plusieurs services d'archives -->
+   <control maintenanceStatus="revised" publicationStatus="approved">
+      <recordId>FRDAF00APH_NA003</recordId>
+      <maintenanceHistory>
+         <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
+            <eventDateTime standardDateTime="2021-01-23T18:04:26.63-05:00"/>
+            <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
+            <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="updated">
+            <eventDateTime>2011-05-12</eventDateTime>
+            <agent agentType="human">Notice rédigée par Alexandra Machado, vacataire à la Direction des Archives
+                    de France, révisée par Claire Sibille - de Grimouard, conservateur au Service
+                    interministériel des Archives de France et par Florence Clavaud, conservateur à l'Ecole nationale des chartes</agent>
+         </maintenanceEvent>
+      </maintenanceHistory>
+      <maintenanceAgency>
+         <agencyCode>FR-SIAF</agencyCode>
+         <agencyName>Service interministériel des Archives de France</agencyName>
+      </maintenanceAgency>
+      <sources>
+         <source>
+            <reference id="d1e51"/>
+            <objectXMLWrap>
+               <tei:bibl xmlns:tei="http://www.tei-c.org/ns/1.0"
+                         xmlns="urn:isbn:1-931666-33-4"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                         xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <tei:title>
+                     <tei:emph rend="italic">Paris d'hier et d'aujourd'hui</tei:emph>
+                  </tei:title>
+                  <tei:respStmt>
+                     <tei:resp>photographes</tei:resp>
+                     <tei:name>Roger Henrard</tei:name>
+                     <tei:name>Yann Arthus-Bertrand</tei:name>
+                  </tei:respStmt>
+               </tei:bibl>
+            </objectXMLWrap>
+         </source>
+         <source>
+            <reference id="d1e75"/>
+            <objectXMLWrap><!-- On a rapatrié ici des éléments provenant d'espaces de noms externes appropriés pour faire référence à des ressources bibliographiques -->
+               <tei:bibl xmlns:tei="http://www.tei-c.org/ns/1.0"
+                         xmlns="urn:isbn:1-931666-33-4"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                         xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <tei:title>
+                     <tei:emph rend="italic">Le tour de Paris : les promenades aériennes de
+                                Roger Henrard</tei:emph>
+                  </tei:title>
+                  <tei:author>Jean-Louis Cohen</tei:author>
+                  <tei:imprint>
+                     <tei:date>2006</tei:date>
+                  </tei:imprint>
+               </tei:bibl>
+            </objectXMLWrap>
+         </source>
+         <source>
+            <reference id="d1e99"/>
+            <objectXMLWrap><!-- On a rapatrié ici des éléments provenant d'espaces de noms externes appropriés pour faire référence à des ressources bibliographiques -->
+               <tei:bibl xmlns:tei="http://www.tei-c.org/ns/1.0"
+                         xmlns="urn:isbn:1-931666-33-4"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                         xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <tei:author>Henrard (Roger)</tei:author>
+                  <tei:title>
+                     <tei:emph rend="italic">Un enragé du ciel</tei:emph>
+                  </tei:title>
+                  <tei:imprint>
+                     <tei:publisher>Julliard</tei:publisher>
+                     <tei:date>1953</tei:date>
+                  </tei:imprint>
+               </tei:bibl>
+            </objectXMLWrap>
+         </source>
+      </sources>
+      <conventionDeclaration id="d1e28">
+         <reference>Notice établie conformément aux normes ISAAR (CPF) du Conseil international
+                des Archives et AFNOR NF Z 44-061, 1er juin 1986 Catalogage : forme et structure de
+                vedettes noms de personne, des vedettes titres, des rubriques de classement et des
+                titres forgés</reference>
+         <!-- On a choisi dans cette notice de regrouper dans un seul élément <citation> toutes les références aux normes utilisées pour élaborer la notice -->
+      </conventionDeclaration>
+      <conventionDeclaration id="cd-ne-2021-01-23T180426.63-0500-1">
+         <reference/>
+         <shortCode>AFNOR_NF_Z_44-061</shortCode>
+      </conventionDeclaration>
+      <languageDeclaration languageCode="fre" scriptCode="Latn"/>
+   </control>
+   <cpfDescription>
+      <identity>
+         <entityType value="person"/>
+         <nameEntry status="authorized"
+                    conventionDeclarationReference="cd-ne-2021-01-23T180426.63-0500-1">
+            <part localType="nom">Henrard</part>
+            <part localType="prenom">Roger</part>
+            <part localType="dates_biographiques">1900-1975</part>
+            <!-- Forme autorisée du nom structurée dans différents éléments <part> permettant de distinguer la nature de chaque composante du nom -->
+            <!--
+<authorizedForm>AFNOR_NF_Z_44-061</authorizedForm>
+-->
+         </nameEntry>
+      </identity>
+      <description>
+         <occupations>
+            <occupation>
+               <term>aviateur</term>
+            </occupation>
+            <occupation>
+               <term>photographe</term>
+            </occupation>
+         </occupations>
+         <existDates>
+            <dateRange>
+               <fromDate standardDate="1900-02-10">10 février 1900</fromDate>
+               <toDate standardDate="1975-06-26">26 juin 1975</toDate>
+            </dateRange>
+         </existDates>
+         <biogHist>
+            <p>Roger Henrard (10 février 1900-26 juin 1975), a été pilote de tourisme après la
+                    Seconde Guerre mondiale. Il est devenu le directeur des établissements Jules
+                    Richard situés à Paris (21 rue Carducci, 75019 Paris) qui fabriquaient des
+                    appareils enregistreurs pour la météo et des appareils photographiques
+                    stéréoscopiques (dont le Verascope).</p>
+            <p>La société d'exploitation de la photographie aérienne Roger Henrard lui a succédé
+                    (date inconnue ?) ; ses bureaux étaient situés à Saint-Maur (19 avenue
+                    Jean-Jaurès, 94100 Saint-Maur) et ses laboratoires à Le Ban-Saint-Martin (27
+                    avenue de la Liberté, 57000 Le Ban-Saint-Martin). Elle commercialisait les
+                    photographies aériennes réalisées par Roger Henrard à l'aide d'un un “Altiphote”
+                    Richard-Labrély installé à bord de son avion.</p>
+            <p>Après la mort du pilote, la société, par l'intermédiaire de sa gérante, Mme
+                    Genetel, a revendu une partie des clichés (négatifs et épreuves) à de nombreux
+                    services d'archives de communes et de départements que Roger Henrard avait
+                    survolés.</p>
+         </biogHist>
+      </description>
+      <relations>
+         <relation>
+            <targetEntity targetType="agent">
+               <part>Société d'exploitation de la Photographie aérienne Roger
+                    Henrard</part>
+            </targetEntity>
+            <relationType>associative</relationType>
+         </relation>
+         <!-- Ci-dessous relations avec des composants <c> au sein d'instances EAD -->
+         <relation>
+            <targetEntity targetType="resource" valueURI="FRDAFAPH_AD001.xml#ph443">
+               <part>Photographies aériennes Henrard</part>
+            </targetEntity>
+            <relationType>creatorOf</relationType>
+            <objectXMLWrap>
+               <ead:repository xmlns:ead="urn:isbn:1-931666-00-8"
+                               xmlns="urn:isbn:1-931666-33-4"
+                               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                               xmlns:xlink="http://www.w3.org/1999/xlink">Archives départementales de
+                        l'Ain</ead:repository>
+            </objectXMLWrap>
+         </relation>
+         <relation>
+            <targetEntity targetType="resource" valueURI="FRDAFAPH_AD002.xml#ph476">
+               <part>Fonds Henrard</part>
+            </targetEntity>
+            <relationType>creatorOf</relationType>
+            <objectXMLWrap>
+               <ead:repository xmlns:ead="urn:isbn:1-931666-00-8"
+                               xmlns="urn:isbn:1-931666-33-4"
+                               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                               xmlns:xlink="http://www.w3.org/1999/xlink">Archives départementales de
+                        l'Aisne</ead:repository>
+            </objectXMLWrap>
+         </relation>
+         <relation>
+            <targetEntity targetType="resource" valueURI="FRDAFAPH_AD003.xml#ph84">
+               <part>Collection Henrard</part>
+            </targetEntity>
+            <relationType>creatorOf</relationType>
+            <objectXMLWrap>
+               <ead:repository xmlns:ead="urn:isbn:1-931666-00-8"
+                               xmlns="urn:isbn:1-931666-33-4"
+                               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                               xmlns:xlink="http://www.w3.org/1999/xlink">Archives départementales de
+                        l'Allier</ead:repository>
+            </objectXMLWrap>
+         </relation>
+         <relation>
+            <targetEntity targetType="resource" valueURI="FRDAFAPH_AD007.xml#ph498">
+               <part>Photographies aériennes Henrard</part>
+            </targetEntity>
+            <relationType>creatorOf</relationType>
+            <objectXMLWrap>
+               <ead:repository xmlns:ead="urn:isbn:1-931666-00-8"
+                               xmlns="urn:isbn:1-931666-33-4"
+                               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                               xmlns:xlink="http://www.w3.org/1999/xlink">Archives départementales de
+                        l'Ardèche</ead:repository>
+            </objectXMLWrap>
+         </relation>
+         <relation>
+            <targetEntity targetType="resource" valueURI="FRDAFAPH_AD015.xml#ph3483">
+               <part>Collection Henrard</part>
+            </targetEntity>
+            <relationType>creatorOf</relationType>
+            <objectXMLWrap>
+               <ead:repository xmlns:ead="urn:isbn:1-931666-00-8"
+                               xmlns="urn:isbn:1-931666-33-4"
+                               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                               xmlns:xlink="http://www.w3.org/1999/xlink">Archives départementales du
+                        Cantal</ead:repository>
+            </objectXMLWrap>
+         </relation>
+         <relation>
+            <targetEntity targetType="resource" valueURI="FRDAFAPH_AD018.xml#ph665">
+               <part>Fonds Henrard</part>
+            </targetEntity>
+            <relationType>creatorOf</relationType>
+            <objectXMLWrap>
+               <ead:repository xmlns:ead="urn:isbn:1-931666-00-8"
+                               xmlns="urn:isbn:1-931666-33-4"
+                               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                               xmlns:xlink="http://www.w3.org/1999/xlink">Archives départementales du
+                        Cher</ead:repository>
+            </objectXMLWrap>
+         </relation>
+         <relation>
+            <targetEntity targetType="resource" valueURI="FRDAFAPH_AD024.xml#ph1672">
+               <part>Collection Henrard</part>
+            </targetEntity>
+            <relationType>creatorOf</relationType>
+            <objectXMLWrap>
+               <ead:repository xmlns:ead="urn:isbn:1-931666-00-8"
+                               xmlns="urn:isbn:1-931666-33-4"
+                               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                               xmlns:xlink="http://www.w3.org/1999/xlink">Archives départementales de
+                        Dordogne</ead:repository>
+            </objectXMLWrap>
+         </relation>
+         <relation>
+            <targetEntity targetType="resource" valueURI="FRDAFAPH_AD037.xml#ph766">
+               <part>Fonds Henrard</part>
+            </targetEntity>
+            <relationType>creatorOf</relationType>
+            <objectXMLWrap>
+               <ead:repository xmlns:ead="urn:isbn:1-931666-00-8"
+                               xmlns="urn:isbn:1-931666-33-4"
+                               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                               xmlns:xlink="http://www.w3.org/1999/xlink">Archives départementales de
+                        l'Indre-et-Loire</ead:repository>
+            </objectXMLWrap>
+         </relation>
+         <relation>
+            <targetEntity targetType="resource" valueURI="FRDAFAPH_AD042.xml#ph824">
+               <part>Fonds Henrard</part>
+            </targetEntity>
+            <relationType>creatorOf</relationType>
+            <objectXMLWrap>
+               <ead:repository xmlns:ead="urn:isbn:1-931666-00-8"
+                               xmlns="urn:isbn:1-931666-33-4"
+                               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                               xmlns:xlink="http://www.w3.org/1999/xlink">Archives départementales de
+                        la Loire</ead:repository>
+            </objectXMLWrap>
+         </relation>
+         <relation>
+            <targetEntity targetType="resource" valueURI="FRDAFAPH_AD044.xml#ph846">
+               <part>Fonds Henrard</part>
+            </targetEntity>
+            <relationType>creatorOf</relationType>
+            <objectXMLWrap>
+               <ead:repository xmlns:ead="urn:isbn:1-931666-00-8"
+                               xmlns="urn:isbn:1-931666-33-4"
+                               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                               xmlns:xlink="http://www.w3.org/1999/xlink">Archives départementales de
+                        Loire-Atlantique</ead:repository>
+            </objectXMLWrap>
+         </relation>
+         <relation>
+            <targetEntity targetType="resource" valueURI="FRDAFAPH_AD048.xml#ph904">
+               <part>Fonds Roger Henrard</part>
+            </targetEntity>
+            <relationType>creatorOf</relationType>
+            <objectXMLWrap>
+               <ead:repository xmlns:ead="urn:isbn:1-931666-00-8"
+                               xmlns="urn:isbn:1-931666-33-4"
+                               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                               xmlns:xlink="http://www.w3.org/1999/xlink">Archives départementales de
+                        la Lozère</ead:repository>
+            </objectXMLWrap>
+         </relation>
+         <relation>
+            <targetEntity targetType="resource" valueURI="FRDAFAPH_AD050.xml#ph2113">
+               <part>Fonds Henrard</part>
+            </targetEntity>
+            <relationType>creatorOf</relationType>
+            <objectXMLWrap>
+               <ead:repository xmlns:ead="urn:isbn:1-931666-00-8"
+                               xmlns="urn:isbn:1-931666-33-4"
+                               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                               xmlns:xlink="http://www.w3.org/1999/xlink">Archives départementales de
+                        la Manche</ead:repository>
+            </objectXMLWrap>
+         </relation>
+         <relation>
+            <targetEntity targetType="resource" valueURI="FRDAFAPH_AD054.xml#ph966">
+               <part>Vues aériennes Henrard</part>
+            </targetEntity>
+            <relationType>creatorOf</relationType>
+            <objectXMLWrap>
+               <ead:repository xmlns:ead="urn:isbn:1-931666-00-8"
+                               xmlns="urn:isbn:1-931666-33-4"
+                               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                               xmlns:xlink="http://www.w3.org/1999/xlink">Archives départementales de
+                        Meurthe-et-Moselle</ead:repository>
+            </objectXMLWrap>
+         </relation>
+         <relation>
+            <targetEntity targetType="resource" valueURI="FRDAFAPH_AD062.xml#ph93">
+               <part>Photographies aériennes Roger Henrard</part>
+            </targetEntity>
+            <relationType>creatorOf</relationType>
+            <objectXMLWrap>
+               <ead:repository xmlns:ead="urn:isbn:1-931666-00-8"
+                               xmlns="urn:isbn:1-931666-33-4"
+                               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                               xmlns:xlink="http://www.w3.org/1999/xlink">Archives départementales du
+                        Pas-de-Calais</ead:repository>
+            </objectXMLWrap>
+         </relation>
+         <relation>
+            <targetEntity targetType="resource" valueURI="FRDAFAPH_AD063.xml#ph4485">
+               <part>Collection Henrard</part>
+            </targetEntity>
+            <relationType>creatorOf</relationType>
+            <objectXMLWrap>
+               <ead:repository xmlns:ead="urn:isbn:1-931666-00-8"
+                               xmlns="urn:isbn:1-931666-33-4"
+                               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                               xmlns:xlink="http://www.w3.org/1999/xlink">Archives départementales du
+                        Puy-de-Dôme</ead:repository>
+            </objectXMLWrap>
+         </relation>
+         <relation>
+            <targetEntity targetType="resource" valueURI="FRDAFAPH_AD069.xml#ph4444">
+               <part>Collection Roger Henrard</part>
+            </targetEntity>
+            <relationType>creatorOf</relationType>
+            <objectXMLWrap>
+               <ead:repository xmlns:ead="urn:isbn:1-931666-00-8"
+                               xmlns="urn:isbn:1-931666-33-4"
+                               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                               xmlns:xlink="http://www.w3.org/1999/xlink">Archives départementales du
+                        Rhône</ead:repository>
+            </objectXMLWrap>
+         </relation>
+         <relation>
+            <targetEntity targetType="resource" valueURI="FRDAFAPH_AD071.xml#ph1160">
+               <part>Fonds Henrard</part>
+            </targetEntity>
+            <relationType>creatorOf</relationType>
+            <objectXMLWrap>
+               <ead:repository xmlns:ead="urn:isbn:1-931666-00-8"
+                               xmlns="urn:isbn:1-931666-33-4"
+                               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                               xmlns:xlink="http://www.w3.org/1999/xlink">Archives départementales de
+                        Saône-et-Loire</ead:repository>
+            </objectXMLWrap>
+         </relation>
+         <relation>
+            <targetEntity targetType="resource" valueURI="FRDAFAPH_AD072.xml#ph68">
+               <part>Fonds Henrard</part>
+            </targetEntity>
+            <relationType>creatorOf</relationType>
+            <objectXMLWrap>
+               <ead:repository xmlns:ead="urn:isbn:1-931666-00-8"
+                               xmlns="urn:isbn:1-931666-33-4"
+                               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                               xmlns:xlink="http://www.w3.org/1999/xlink">Archives départementales de
+                        la Sarthe</ead:repository>
+            </objectXMLWrap>
+         </relation>
+         <relation>
+            <targetEntity targetType="resource" valueURI="FRDAFAPH_AD076.xml#ph1403">
+               <part>Photographies aériennes Roger Henrard</part>
+            </targetEntity>
+            <relationType>creatorOf</relationType>
+            <objectXMLWrap>
+               <ead:repository xmlns:ead="urn:isbn:1-931666-00-8"
+                               xmlns="urn:isbn:1-931666-33-4"
+                               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                               xmlns:xlink="http://www.w3.org/1999/xlink">Archives départementales de
+                        Seine-Maritime</ead:repository>
+            </objectXMLWrap>
+         </relation>
+         <relation>
+            <targetEntity targetType="resource" valueURI="FRDAFAPH_AD077.xml#ph1175">
+               <part>Collection Roger Henrard</part>
+            </targetEntity>
+            <relationType>creatorOf</relationType>
+            <objectXMLWrap>
+               <ead:repository xmlns:ead="urn:isbn:1-931666-00-8"
+                               xmlns="urn:isbn:1-931666-33-4"
+                               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                               xmlns:xlink="http://www.w3.org/1999/xlink">Archives départementales de
+                        Seine-et-Marne</ead:repository>
+            </objectXMLWrap>
+         </relation>
+         <relation>
+            <targetEntity targetType="resource" valueURI="FRDAFAPH_AD078.xml#ph4439">
+               <part>Photographies aériennes du département des Yvelines</part>
+            </targetEntity>
+            <relationType>creatorOf</relationType>
+            <objectXMLWrap>
+               <ead:repository xmlns:ead="urn:isbn:1-931666-00-8"
+                               xmlns="urn:isbn:1-931666-33-4"
+                               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                               xmlns:xlink="http://www.w3.org/1999/xlink">Archives départementales des
+                        Yvelines</ead:repository>
+            </objectXMLWrap>
+         </relation>
+         <relation>
+            <targetEntity targetType="resource" valueURI="FRDAFAPH_AD079.xml#ph1337">
+               <part>Fonds Roger Henrard</part>
+            </targetEntity>
+            <relationType>creatorOf</relationType>
+            <objectXMLWrap>
+               <ead:repository xmlns:ead="urn:isbn:1-931666-00-8"
+                               xmlns="urn:isbn:1-931666-33-4"
+                               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                               xmlns:xlink="http://www.w3.org/1999/xlink">Archives départementales des
+                        Deux-Sèvres</ead:repository>
+            </objectXMLWrap>
+         </relation>
+         <relation>
+            <targetEntity targetType="resource" valueURI="FRDAFAPH_AD084.xml#ph1266">
+               <part>Collection de photographies aériennes Henrard</part>
+            </targetEntity>
+            <relationType>creatorOf</relationType>
+            <objectXMLWrap>
+               <ead:repository xmlns:ead="urn:isbn:1-931666-00-8"
+                               xmlns="urn:isbn:1-931666-33-4"
+                               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                               xmlns:xlink="http://www.w3.org/1999/xlink">Archives départementales de
+                        Vaucluse</ead:repository>
+            </objectXMLWrap>
+         </relation>
+         <relation>
+            <targetEntity targetType="resource" valueURI="FRDAFAPH_AD092.xml#ph1356">
+               <part>Collection Henrard</part>
+            </targetEntity>
+            <relationType>creatorOf</relationType>
+            <objectXMLWrap>
+               <ead:repository xmlns:ead="urn:isbn:1-931666-00-8"
+                               xmlns="urn:isbn:1-931666-33-4"
+                               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                               xmlns:xlink="http://www.w3.org/1999/xlink">Archives départementales des
+                        Hauts-de-Seine</ead:repository>
+            </objectXMLWrap>
+         </relation>
+         <relation>
+            <targetEntity targetType="resource" valueURI="FRDAFAPH_AD095.xml#ph1719">
+               <part>Villes et villages du Val-d'Oise : photographies aériennes prises par
+                    M. Roger Henrard</part>
+            </targetEntity>
+            <relationType>creatorOf</relationType>
+            <objectXMLWrap>
+               <ead:repository xmlns:ead="urn:isbn:1-931666-00-8"
+                               xmlns="urn:isbn:1-931666-33-4"
+                               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                               xmlns:xlink="http://www.w3.org/1999/xlink">Archives départementales du
+                        Val d'Oise</ead:repository>
+            </objectXMLWrap>
+         </relation>
+         <relation>
+            <targetEntity targetType="resource" valueURI="FRDAFAPH_AD013.xml#ph2160">
+               <part>Photographies aériennes</part>
+            </targetEntity>
+            <relationType>creatorOf</relationType>
+            <objectXMLWrap>
+               <ead:repository xmlns:ead="urn:isbn:1-931666-00-8"
+                               xmlns="urn:isbn:1-931666-33-4"
+                               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                               xmlns:xlink="http://www.w3.org/1999/xlink">Archives municipales
+                        d'Arles</ead:repository>
+            </objectXMLWrap>
+         </relation>
+         <relation>
+            <targetEntity targetType="resource" valueURI="FRDAFAPH_AD021.xml#ph4581">
+               <part>Fonds de photographies aériennes des archives de la ville de
+                    Dijon</part>
+            </targetEntity>
+            <relationType>creatorOf</relationType>
+            <objectXMLWrap>
+               <ead:repository xmlns:ead="urn:isbn:1-931666-00-8"
+                               xmlns="urn:isbn:1-931666-33-4"
+                               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                               xmlns:xlink="http://www.w3.org/1999/xlink">Archives municipales de
+                        Dijon</ead:repository>
+            </objectXMLWrap>
+         </relation>
+         <relation>
+            <targetEntity targetType="resource" valueURI="FRDAFAPH_AD049.xml#ph255">
+               <part>Fonds Henrard</part>
+            </targetEntity>
+            <relationType>creatorOf</relationType>
+            <objectXMLWrap>
+               <ead:repository xmlns:ead="urn:isbn:1-931666-00-8"
+                               xmlns="urn:isbn:1-931666-33-4"
+                               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                               xmlns:xlink="http://www.w3.org/1999/xlink">Archives municipales de
+                        Saumur</ead:repository>
+            </objectXMLWrap>
+         </relation>
+      </relations>
+   </cpfDescription>
+</eac>

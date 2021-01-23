@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/cpf.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<eac xmlns="https://archivists.org/ns/eac/v2">
+   <control maintenanceStatus="new">
+      <recordId>beinecke.4qrfjj7</recordId>
+      <maintenanceHistory>
+         <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
+            <eventDateTime standardDateTime="2021-01-23T18:04:03.677-05:00"/>
+            <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
+            <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="created">
+            <eventDateTime standardDateTime="2012-05-31">2012 May 31</eventDateTime>
+            <agent agentType="human">M.K.K. Yearl</agent>
+         </maintenanceEvent>
+      </maintenanceHistory>
+      <maintenanceAgency>
+         <agencyCode>US-CtY-BR</agencyCode>
+         <agencyName>Beinecke Rare Book and Manuscript Library, Yale University</agencyName>
+      </maintenanceAgency>
+      <sources>
+         <source href="http://lccn.loc.gov/n83122662">
+            <reference>Library of Congress Control Number: n 83122662</reference>
+         </source>
+         <source href="http://www.worldcat.org/oclc/470347633">
+            <reference>Holmes, Richard. 1993. Dr Johnson &amp; Mr Savage. London: Hodder &amp;
+                    Stoughton.</reference>
+         </source>
+         <source href="http://www.worldcat.org/oclc/144455">
+            <reference>Johnson, Samuel, and Clarence Rupert Tracy. 1971. Life of Savage.
+                    Oxford: Clarendon Press.</reference>
+         </source>
+         <source href="http://www.oxforddnb.com/view/article/24724">
+            <reference>Oxford Dictionary of National Biography</reference>
+         </source>
+      </sources>
+      <otherRecordId localType="url">http://hdl.handle.net/10079/4qrfjj7</otherRecordId>
+      <conventionDeclaration id="d1e29">
+         <reference>Anglo-American Cagaloging Rules, Second Edition</reference>
+         <shortCode>AACR2</shortCode>
+      </conventionDeclaration>
+      <conventionDeclaration id="d1e36">
+         <reference>Art &amp; Architecture Thesaurus</reference>
+         <shortCode>aat</shortCode>
+      </conventionDeclaration>
+      <conventionDeclaration id="d1e43">
+         <reference>Describing Archives: A Content Standard</reference>
+         <shortCode>dacs</shortCode>
+         <descriptiveNote>
+            <p>Records were created following DACS conventions.</p>
+         </descriptiveNote>
+      </conventionDeclaration>
+      <conventionDeclaration id="d1e55">
+         <reference>Library of Congress Name Authority File</reference>
+         <shortCode>lcnaf</shortCode>
+      </conventionDeclaration>
+      <conventionDeclaration id="d1e62">
+         <reference>Library of Congress Subject Headings</reference>
+         <shortCode>lcsh</shortCode>
+      </conventionDeclaration>
+      <languageDeclaration languageCode="eng" scriptCode="Latn"/>
+   </control>
+   <cpfDescription>
+      <identity>
+         <entityType value="person"/>
+         <nameEntry scriptOfElement="Latn"
+                    languageOfElement="eng"
+                    status="authorized"
+                    conventionDeclarationReference="d1e55">
+            <part localType="100a">Savage, Richard, </part>
+            <part localType="100d">d. 1743 </part>
+            <!--
+<authorizedForm>lcnaf</authorizedForm>
+-->
+         </nameEntry>
+         <nameEntry scriptOfElement="Latn"
+                    languageOfElement="eng"
+                    status="alternative"
+                    conventionDeclarationReference="d1e29">
+            <part localType="100a">Hackney, Iscariot </part>
+            <!--
+<alternativeForm>AACR2</alternativeForm>
+-->
+         </nameEntry>
+         <nameEntry scriptOfElement="Latn"
+                    languageOfElement="eng"
+                    localType="directOrder">
+            <part>Richard Savage </part>
+         </nameEntry>
+      </identity>
+      <description>
+         <languagesUsed>
+            <languageUsed>
+               <language languageCode="eng">English</language>
+               <writingSystem scriptCode="Latn">Latin</writingSystem>
+            </languageUsed>
+         </languagesUsed>
+         <localDescriptions>
+            <localDescription localType="sex">
+               <term>male</term>
+            </localDescription>
+         </localDescriptions>
+         <occupations id="occupationid">
+            <occupation vocabularySource="aat">
+               <term>playwrights</term>
+            </occupation>
+            <occupation vocabularySource="aat">
+               <term>poets</term>
+            </occupation>
+            <occupation vocabularySource="aat">
+               <term>authors</term>
+            </occupation>
+         </occupations>
+         <places>
+            <place vocabularySource="lcsh">
+               <placeName>London (England)</placeName>
+               <placeRole>residence</placeRole>
+               <dateRange>
+                  <fromDate notAfter="1697">1697</fromDate>
+                  <toDate standardDate="1739">1739</toDate>
+               </dateRange>
+            </place>
+            <place vocabularySource="lcsh">
+               <placeName>Swansea (Wales)</placeName>
+               <placeRole>residence</placeRole>
+               <dateRange>
+                  <fromDate standardDate="1739-12">1739 December</fromDate>
+                  <toDate standardDate="1742">1742</toDate>
+               </dateRange>
+               <descriptiveNote>
+                  <p>Left London in July, stopped in Bristol, arrived in Swansea in
+                            December.</p>
+               </descriptiveNote>
+            </place>
+            <place vocabularySource="lcsh">
+               <placeName>Bristol (England)</placeName>
+               <placeRole>residence</placeRole>
+               <dateRange>
+                  <fromDate standardDate="1742-09">1742 September</fromDate>
+                  <toDate standardDate="1743-08-01">1743 August 1</toDate>
+               </dateRange>
+            </place>
+         </places>
+         <existDates>
+            <dateRange>
+               <fromDate notAfter="1697-01">1697 January</fromDate>
+               <toDate standardDate="1743-08-01">1743 August 1</toDate>
+            </dateRange>
+         </existDates>
+         <biogHist>
+            <abstract>Richard Savage's life and writings were dominated by his claim to be an
+                    illegitimate child of nobility. He was never recognized by his supposed birth
+                    mother, the Countess of Macclesfield, Anne Gerard (later Mrs. Brett). There is
+                    little dispute that she bore an illegitimate son in private rooms in Gray’s Inn
+                    Lane, London. This child was baptized under the name Richard Smith on 16 January
+                    1697, where he was presented as the child of John and Mary Smith. Regardless of
+                    whether Savage was indeed this boy, he cultivated the image of a rejected son
+                    and won the support of Samuel Johnson and other influential men of his time. He
+                    was well regarded for his poetry and prose; Johnson's account of his life story
+                    contributed to his fame.</abstract>
+            <chronList>
+               <chronItem>
+                  <date notAfter="1697-01-16">1697 January 16</date>
+                  <event>Said to have been born to Lady Macclesfield.</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1697-01-18">1697 January 18</date>
+                  <event>Lady Macclesfield's son baptized by Isaac Burbidge at St. Andrew's,
+                            Holborn, London.</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1715-09">1715 September</date>
+                  <event>Arrested for possessing a pamphlet pertaining to the Jacobite rising;
+                            presented himself as son of Earl Rivers.</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1717">1717</date>
+                  <event>Government agent Robert Girling declared five seditious pamphlets to
+                            be the work of Savage.</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1723">1723</date>
+                  <event>Played the Duke of York in Theophilus Cibber's production of
+                            Shakespeare's "King Henry VI."</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1727-11-20">1727 November 20</date>
+                  <event>Stabbed James Sinclair.</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1727-11-22">1727 November 22</date>
+                  <event> Arrested for murder, with William Merchant and James
+                            Gregory.</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1727-12-07">1727 December 7</date>
+                  <event>Savage and Gregory found guilty of murder; Merchant found guilty of
+                            manslaughter.</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1727-12-11">1727 December 11</date>
+                  <event>Sir Francis Page sentenced Savage and Gregory to hang for
+                            murder.</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1727-12-19">1727 December 19</date>
+                  <event>Lord Tyrconnel, Mrs. Brett's nephew, was granted an audience with the
+                            king and queen; petitioned on behalf of Savage and Gregory.</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1728-01-06">1728 January 6</date>
+                  <event>Tyrconnel obtained a free pardon for Savage and Gregory.</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1728-01-20">1728 January 20</date>
+                  <event>Savage and Gregory freed on bail.</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1728-02-28">1728 February 28</date>
+                  <event>Savage and Gregory formally freed.</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1732-03-01">1732 February 28</date>
+                  <event>Announced himself volunteer laureate; Queen Charlotte granted Savage
+                            a £50 annuity on the condition that he commemorate her bithday each
+                            year.</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1735">1735</date>
+                  <event>Parted company with his patron, Lord Tyrconnel.</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1738-09">1738 September</date>
+                  <event>Struck off of the pension list following the death of the
+                            queen.</event>
+               </chronItem>
+               <chronItem>
+                  <date notBefore="1738">1738</date>
+                  <event>Samuel Johnson became a companion to Savage.</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1739">1739</date>
+                  <event>Alexander Pope raised funds for Savage to retire in Swansea; left in
+                            July, stopped in Bristol, arrived in December.</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1742-09">1742 September</date>
+                  <event>Left Swansea for London; stopped in Bristol.</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1743-01">1743 January</date>
+                  <event>Arrested in Bristol, owing £8 to Mrs. Read; put in Bristol Newgate
+                            prison.</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1743-08-01">1743 August 1</date>
+                  <event>Died at Bristol Newgate prison.</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1744">1744</date>
+                  <event>Samuel Johnson publishes his anonymous "Account of the Life of Mr.
+                            Richard Savage, Son of the Earl Rivers."</event>
+               </chronItem>
+            </chronList>
+            <p>The story of Richard Savage's life is a colorful one. The early years of his life
+                    are uncertain, as is his true identity. He was said to be the illegitimate son
+                    of Anne Gerard, Countess of Macclesfield, and Richard Savage, Earl Rivers.
+                    Samuel Johnson was captivated by both the story and the man and gave him an
+                    enduring legacy by writing <span localType="title" style="font-style:italic">An
+                        account of the life of Mr. Richard Savage</span> (1744). While Johnson wrote
+                    that Savage was born in January 1698, the true son of Earl Rivers and the
+                    Countess of Macclesfield was born the previous year. That child was born in
+                    private rooms at Fox Court, Grays Inn Lane, Holborn, with Lady Macclesfield
+                    wearing a mask throughout to avoid recognition. This birth was registered at St.
+                    Andrew's Holborn, on 16 January 1697, and the boy christened Richard Smith;
+                    Rivers is thought to have signed as his godfather giving the name of Captain
+                    John Smith.</p>
+            <p>When he was young, the illegitimate child moved among households in London: he
+                    was nursed by Mary Peglear in Hampstead, then cared for by Ann Portlock in
+                    Maiden Lane, Covent Garden. Savage himself claims to have been given to a poor
+                    nurse, but then sheltered by a godmother, Mrs. Lloyd, who arranged to have him
+                    sent to school. While Lady Macclesfield (later Mrs. Brett) insisted that both of
+                    her illegitimate children had died in early childhood, Savage's claims do seem
+                    to have been supported by her nephew, Lord Tyrconnel, and Rivers's daughter,
+                    Bessy Savage, Countess of Rochford.</p>
+            <p>What we do know is that the man known as Richard Savage presented himself as Earl
+                    Rivers's son when he was charged with possessing seditious material in the wake
+                    of the Jacobite uprising in 1715. From that point, he was increasingly vocal
+                    about his origins and won the support of many within London's literary and
+                    theatrical circles. Accounts of his fantastic life were published by Giles Jacob
+                    (1719), Eliza Haywood (1724), and Aaron Hill (1724). Charles Beckingham was the
+                    reputed author of a 1727 work that detailed Savage's brush with the gallows:
+                        <span localType="title" style="font-style:italic">The life of Mr. Richard
+                        Savage, : who was condemn'd wih Mr. James Gregory, the last sessions at Old
+                        Baily, for the murder of Mr. James Sinclair, at Robinson's coffee-house at
+                        Charing-Cross</span>. Meanwhile, Savage indulged in autobiography in his
+                        <span localType="title" style="font-style:italic"> Miscellaneous Poems and
+                        Translations</span> (1726) and his successful confessional work, <span localType="title" style="font-style:italic">The Bastard</span> (1728). Among
+                    the more influential works to perpetuate Savage's story was Samuel Johnson's
+                    anonymously published work of 1744, <span localType="title" style="font-style:italic">An account of the life of Mr. Richard
+                        Savage</span>. Savage’s final work was a poem that was published
+                    posthumously. <span localType="title" style="font-style:italic">London and
+                        Bristol Delineated</span> attacked the community he had found in
+                    Bristol.</p>
+            <p>Although Savage may be known best for his colorful if unsubstantiated background,
+                    he is also known to have written political pamphlets as well as stinging
+                    personal satire. Prior to the Jacobite uprising of 1715, he wrote two pamphlets:
+                        <span localType="title" style="font-style:italic">An Ironical Panegyrick on
+                        his Pretended Majesty G---</span> and <span localType="title" style="font-style:italic">The Pretender</span>. Later, he published <span localType="title" style="font-style:italic">The Convocation, or, A Battle of
+                        the Pamphlets</span>. , followed by the satirical <span localType="title" style="font-style:italic">Authors of the Town</span> (1725). In 1727, he
+                    returned to politics in <span localType="title" style="font-style:italic">A
+                        Poem, Sacred to the Glorious Memory of ... King George</span>, which
+                    represents a failed bid for patronage. In 1732, he wrote <span localType="title" style="font-style:italic">Religion and Liberty: an Epistle to ... Sir Robert
+                        Walpole</span>, followed by the anti-clerical <span localType="title" style="font-style:italic">The Progress of the Divine</span> in 1735, which
+                    may have led to his being charged with obscenity. Again hoping for patronage, he
+                    published <span localType="title" style="font-style:italic">On the Birth-Day of
+                        the Prince of Wales</span> (1736), <span localType="title" style="font-style:italic">A Poet's Dependence on a Statesman</span> (1736),
+                    and, finally, <span localType="title" style="font-style:italic">Of Public Spirit
+                        in Regard to Public Works</span> (1737).</p>
+            <p>In addition to his work as a provocateur, Savage was respected within literary
+                    and theatrical circles. He was asked to adapt for the stage Mrs. Lucy Rodd
+                    Price's translation of Calderón's <span localType="title" style="font-style:italic">La dama duende</span>, though he did not see the
+                    production through. He did, however, revise and produce <span localType="title" style="font-style:italic">Woman is a Riddle</span> in December 1716. In
+                    1718, he produced <span localType="title" style="font-style:italic">Love in a
+                        Veil</span>, which may have been another of Mrs. Price's translations of
+                    Calderón. In 1723 he wrote, produced, and appeared in the tragedy <span localType="title" style="font-style:italic">Sir Thomas Overbury</span>. At
+                    the time he was living at the home of Lord Tyrconnel, he wrote what he
+                    considered to be his best work: <span localType="title" style="font-style:italic">The Wanderer: A Vision</span> (1729) as well as
+                        <span localType="title" style="font-style:italic">The Triumph of Health and
+                        Mirth</span> (1730), which he dedicated to the recovery of Lady Tyrconnel.
+                    Also in that period, he was said to have provided information for Alexander
+                    Pope's <span localType="title" style="font-style:italic">Dunciad</span> (1728)
+                    and <span localType="title" style="font-style:italic">The Dunciad
+                        Variorum</span> (1729). In 1729 he used the pseudonym Iscariot Hackney when
+                    satirizing his literary contemporaries in <span localType="title" style="font-style:italic">An Author to be Lett</span>.</p>
+            <p>Savage never married, though he is reputed to be the father of Eliza Hayward's
+                    first child and was proposed as a husband for Richard Steele's illegitimate
+                    daughter. Savage's end is in keeping with his precarious existence. Alexander
+                    Pope had established a fund so that Savage could retire in Swansea. He remained
+                    there for less than two years; when he stopped in Bristol on his way back to
+                    London, he was imprisoned for a debt of £8. After suffering pain in his back and
+                    side, he died in Bristol Newgate prison on 1 August 1743. He was buried in the
+                    churchyard of St. Peter's, Bristol, England, at the expense of his jailor, Abel
+                    Dagge.</p>
+         </biogHist>
+         <biogHist>
+            <p>Summary of Savage's published works:</p>
+            <chronList>
+               <chronItem>
+                  <date notAfter="1715">1715</date>
+                  <event>"An Ironical Panegyrick on his Pretended Majesty G----."</event>
+               </chronItem>
+               <chronItem>
+                  <date notAfter="1715">1715</date>
+                  <event>"The Pretender."</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1717">1717</date>
+                  <event>"The Convocation, or, A Battle of the Pamphlets."</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1718">1718</date>
+                  <event>"Love in a Veil," taken from Calderón's "Peor está que estaba." Mrs.
+                            Lucy Rodd Price of Gray's Inn may have been the translator.</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1723">1723</date>
+                  <event>"Sir Thomas Overbury."</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1725">1725</date>
+                  <event>Anonymous publication of "Authors of the Town."</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1726">1726</date>
+                  <event>"Miscellaneous Poems and Translations;" attacked purported birth
+                            mother, Mrs. Brett, in the preface.</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1727">1727</date>
+                  <event>"A Poem, Sacred to the Glorious Memory of ... King George."</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1728-04-18">1728 April 18</date>
+                  <event>"The Bastard," dedicated to Mrs. Brett.</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1729">1729</date>
+                  <event>"The Wanderer."</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1729">1729</date>
+                  <event>"An Author to be Lett," published under the pseudonym Iscariot
+                            Hackney.</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1730">1730</date>
+                  <event>"The Triumph of Health and Mirth," dedicated to the recovery of Lady
+                            Tyrconnel.</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1732-08">1732 August</date>
+                  <event>"Religion and Liberty : an Epistle to...Sir Robert Walpole."</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1735">1735</date>
+                  <event>"The Progress of a Divine."</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1736">1736</date>
+                  <event>"On the Birth-Day of the Prince of Wales."</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1736">1736</date>
+                  <event>"A Poet's Dependence on a Statesman."</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1737">1737</date>
+                  <event>"Of Public Spirit in Regard to Public Works."</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1737">1737</date>
+                  <event>Expanded version, "On the Birth-Day of the Price of Wales."</event>
+               </chronItem>
+               <chronItem>
+                  <dateRange>
+                     <fromDate notBefore="1741">1741</fromDate>
+                     <toDate notAfter="1742">1742</toDate>
+                  </dateRange>
+                  <event>Valentine's Day tribute to Mrs. Bridget Jones of Llanelli.</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1744">1744</date>
+                  <event>"London and Bristol Delineated," published posthumously.</event>
+               </chronItem>
+            </chronList>
+         </biogHist>
+      </description>
+      <relations>
+         <relation>
+            <targetEntity targetType="agent"
+                          valueURI="http://nrs.harvard.edu/urn-3:FHCL.HOUGH:8822111">
+               <part>Carter, Elizabeth, 1717-1806</part>
+            </targetEntity>
+            <relationType>associative</relationType>
+            <descriptiveNote>
+               <p>Savage's confidant: he told her that Mrs. Lloyd had raised him.</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity targetType="agent"
+                          valueURI="http://nrs.harvard.edu/urn-3:FHCL.HOUGH:8822112">
+               <part>Cave, Edward, 1691-1754</part>
+            </targetEntity>
+            <relationType>associative</relationType>
+            <descriptiveNote>
+               <p>Encouraged Samuel Johnson to write a biography of Savage.</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity targetType="agent"
+                          valueURI="http://nrs.harvard.edu/urn-3:FHCL.HOUGH:8822136">
+               <part>Johnson, Samuel, 1709-1784</part>
+            </targetEntity>
+            <relationType>associative</relationType>
+            <descriptiveNote>
+               <p>Friends; Johnson joined Savage in late night walks around London.</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity targetType="agent" valueURI="http://hdl.handle.net/10079/k0p2nt3">
+               <part>Pope, Alexander, 1688-1744</part>
+            </targetEntity>
+            <relationType>associative</relationType>
+            <descriptiveNote>
+               <p>Collected money to help Savage retire in Swansea.</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity targetType="resource"
+                          valueURI="http://nrs.harvard.edu/urn-3:FHCL.Hough:hou01442">
+               <part>Autograph File, S.</part>
+            </targetEntity>
+            <relationType>creatorOf</relationType>
+            <descriptiveNote>
+               <p>Savage, Richard, d. 1743. A.L. (original signature cut out, signed R. Savage
+                        in another hand) to Elizabeth Carter; [n.p.] 10 May 1739. 1s.(3p.).</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity targetType="resource"
+                          valueURI="http://nrs.harvard.edu/urn-3:FHCL.Hough:hou01790">
+               <part>Boswell, James, 1740-1795. The life of Samuel Johnson, LL.D. :
+                    including a journal of a tour to the Hebrides,
+                    extra-illustrated.</part>
+            </targetEntity>
+            <relationType>creatorOf</relationType>
+            <descriptiveNote>
+               <p>Savage, Richard, d. 1743. Autograph note, signed, [no place] to [Robert]
+                        Dodsley, 1736 Mar. 11. 1 sheet. Requests delivery of a complimentary copy to
+                        Mr. Birch.</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity targetType="resource"
+                          valueURI="http://hdl.handle.net/10079/bibid/10107034">
+               <part>Receipt : to Edward Cave for the Account of the Life of Mr. Richard
+                    Savage, 1743 December 14.</part>
+            </targetEntity>
+            <relationType>subjectOf</relationType>
+         </relation>
+      </relations>
+   </cpfDescription>
+</eac>

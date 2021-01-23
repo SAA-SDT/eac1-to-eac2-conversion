@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/cpf.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<eac xmlns="https://archivists.org/ns/eac/v2">
+   <control maintenanceStatus="new">
+      <recordId>beinecke.8gthtjq</recordId>
+      <maintenanceHistory>
+         <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
+            <eventDateTime standardDateTime="2021-01-23T18:04:33.754-05:00"/>
+            <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
+            <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="created">
+            <eventDateTime standardDateTime="2012-05-29">2012 May 29</eventDateTime>
+            <agent agentType="human">M.K.K. Yearl</agent>
+         </maintenanceEvent>
+      </maintenanceHistory>
+      <maintenanceAgency>
+         <agencyCode>US-CtY-BR</agencyCode>
+         <agencyName>Beinecke Rare Book and Manuscript Library, Yale University</agencyName>
+      </maintenanceAgency>
+      <sources>
+         <source href="http://lccn.loc.gov/no2007060128">
+            <reference>Library of Congress Control Number: no 2007060128</reference>
+         </source>
+         <source href="http://www.worldcat.org/oclc/1215784">
+            <reference>Curtis, Lewis Perry, and Herman W. Liebert. 1963. Esto perpetua: the
+                    Club of Dr. Johnson and his friends, 1764-1784. [Hamden, Conn.]: Archon
+                    Books.</reference>
+         </source>
+         <source href="http://www.worldcat.org/oclc/221238283">
+            <reference>Literary Club, London. 1914. Annals of The Club, 1764-1914. London:
+                    Printed for the Club.</reference>
+         </source>
+         <source href="http://www.oxforddnb.com/view/theme/49211">
+            <reference>Oxford Dictionary of National Biography</reference>
+         </source>
+         <source href="http://www.worldcat.org/oclc/426470908">
+            <reference>Wiltshire, John. 2009. The making of Dr. Johnson: icon of modern
+                    culture. Crowham Manor, U.K.: Helm Information.</reference>
+         </source>
+      </sources>
+      <otherRecordId localType="url">http://hdl.handle.net/10079/8gthtjq</otherRecordId>
+      <conventionDeclaration id="d1e29">
+         <reference>Art &amp; Architecture Thesaurus</reference>
+         <shortCode>aat</shortCode>
+      </conventionDeclaration>
+      <conventionDeclaration id="d1e36">
+         <reference>Describing Archives: A Content Standard</reference>
+         <shortCode>dacs</shortCode>
+         <descriptiveNote>
+            <p>Records were created following DACS conventions.</p>
+         </descriptiveNote>
+      </conventionDeclaration>
+      <conventionDeclaration id="d1e48">
+         <reference>Library of Congress Name Authority File</reference>
+         <shortCode>lcnaf</shortCode>
+      </conventionDeclaration>
+      <conventionDeclaration id="d1e55">
+         <reference>Library of Congress Subject Headings</reference>
+         <shortCode>lcsh</shortCode>
+      </conventionDeclaration>
+      <languageDeclaration languageCode="eng" scriptCode="Latn"/>
+   </control>
+   <cpfDescription>
+      <identity>
+         <entityType value="corporateBody"/>
+         <nameEntry scriptOfElement="Latn"
+                    languageOfElement="eng"
+                    status="authorized"
+                    conventionDeclarationReference="d1e48">
+            <part localType="110a">Club (London, England) </part>
+            <!--
+<authorizedForm>lcnaf</authorizedForm>
+-->
+         </nameEntry>
+      </identity>
+      <description>
+         <functions>
+            <function vocabularySource="aat">
+               <term>book clubs</term>
+            </function>
+            <function vocabularySource="aat">
+               <term>clubs (associations)</term>
+            </function>
+         </functions>
+         <languagesUsed>
+            <languageUsed>
+               <language languageCode="eng">English</language>
+               <writingSystem scriptCode="Latn">Latin</writingSystem>
+            </languageUsed>
+         </languagesUsed>
+         <places>
+            <place>
+               <placeName>Turk's Head Tavern, Gerrard Street, Soho (London,
+                        England)</placeName>
+               <placeRole>meeting place</placeRole>
+               <dateRange>
+                  <fromDate standardDate="1764-02">1764 February</fromDate>
+                  <toDate standardDate="1783-11">1783 November</toDate>
+               </dateRange>
+            </place>
+            <place>
+               <placeName>Prince's, Sackville Street, London (England)</placeName>
+               <placeRole>meeting place</placeRole>
+               <dateRange>
+                  <fromDate standardDate="1783-11">1783 November</fromDate>
+               </dateRange>
+            </place>
+         </places>
+         <existDates>
+            <dateRange>
+               <fromDate standardDate="1764-02">1764 February</fromDate>
+            </dateRange>
+         </existDates>
+         <biogHist>
+            <abstract>Sir Joshua Reynolds (1723-1792) founded the Club in 1764 as a way of
+                    providing companionship to Samuel Johnson (1709-1784) while letting others
+                    benefit from his wit and wisdom. The original core consisted of Johnson,
+                    Reynolds, and seven of their friends, but membership was later expanded to
+                    twelve, and later to more than double that number. For nearly twenty years, the
+                    Club met at Turk's Head tavern on Gerrard Street, Soho, which was run by Charles
+                    Swinden and later his widow; when Swinden's widow died, the Club met at Prince's
+                    on Sackville Street.</abstract>
+            <chronList>
+               <chronItem>
+                  <date standardDate="1764-02">1764 February</date>
+                  <event>Founded by Sir Joshua Reynolds (1723-1792).</event>
+               </chronItem>
+               <chronItem>
+                  <date notBefore="1764">1764</date>
+                  <event>Samuel Dyer became the Club's first elected member.</event>
+               </chronItem>
+               <chronItem>
+                  <date notAfter="1768-02">1768 February</date>
+                  <event>Resignation of Sir John Hawkins (1719-1789).</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1768-02-15">1768 February 15</date>
+                  <event>Membership increased to twelve members with the election of Robert
+                            Chambers (1737-1803), Thomas Percy (1729-1811), and George Colman
+                            (1732-1794).</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1784">1784</date>
+                  <event>For the first time, men of affairs outnumbered literary men.</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1783-11">1783 November</date>
+                  <event>Following the death of the landlord and then his widow, who kept
+                            Turk's Head tavern, the Club moved to Prince's on Sackville
+                            Street.</event>
+               </chronItem>
+               <chronItem>
+                  <date standardDate="1784-12-13">1784 December 13</date>
+                  <event>Samuel Johnson's death; the Club continued.</event>
+               </chronItem>
+            </chronList>
+            <p>Joshua Reynolds initiated the Club in February 1764 as a way for Samuel Johnson
+                    and his friends to share food, companionship, and wit. They met once a week for
+                    supper at Turk's Head tavern in Gerrard Street, Soho, London. In addition to
+                    Johnson and Reynolds, the original members included: Topham Beauclerk, Edmund
+                    Burke, Anthony Chamier, Oliver Goldsmith, John Hawkins, Bennet Langton, and
+                    Christopher Nugent. Upon his return from Germany later in the year, Samuel Dyer
+                    became the Club's first elected member.</p>
+            <p>In February 1768, four years after the Club began, Robert Chambers, Thomas Percy,
+                    and George Colman were elected to membership. Their election was prompted by the
+                    forced resignation of John Hawkins; this set a precedent whereby new elections
+                    of membership were held every year or two. The elections offset members' deaths
+                    but led the total number to increase beyond what Reynolds and Johnson had
+                    originally envisioned. By the time of Johnson's death, the Club entertained
+                    thirty-five members.</p>
+            <p>Despite the Club's expansion, Johnson was intent on maintaining a balance of men
+                    knowledgeable about a variety of subjects and professions. Near the end of
+                    Johnson's life, the Club began to host prominent figures in society who did not
+                    have a literary or scholarly connection. When the Club continued after Johnson's
+                    death, it came to be dominated by those who enjoyed political power, and so it
+                    would remain into the twentieth century.</p>
+         </biogHist>
+      </description>
+      <relations>
+         <relation>
+            <targetEntity targetType="agent" valueURI="http://hdl.handle.net/10079/12jm6fh">
+               <part>Banks, Joseph, 1743-1820</part>
+            </targetEntity>
+            <relationType>associative</relationType>
+            <descriptiveNote>
+               <p>Elected between January 1777 and December 1778.</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity targetType="agent" valueURI="http://hdl.handle.net/10079/h1893ch">
+               <part>Beauclerk, Topham, 1739-1780</part>
+            </targetEntity>
+            <relationType>associative</relationType>
+            <descriptiveNote>
+               <p>An original member.</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity targetType="agent" valueURI="http://hdl.handle.net/10079/rjdfndm">
+               <part>Boswell, James, 1740-1795</part>
+            </targetEntity>
+            <relationType>associative</relationType>
+            <descriptiveNote>
+               <p>Elected between March 1773 and December 1775; thought to have blackballed
+                        Edward Gibbon on one occasion, delaying the latter's election.</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity targetType="agent" valueURI="http://hdl.handle.net/10079/msbccd2">
+               <part>Burke, Edmund, 1729-1797</part>
+            </targetEntity>
+            <relationType>associative</relationType>
+            <descriptiveNote>
+               <p>An original member.</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity targetType="agent"
+                          valueURI="http://nrs.harvard.edu/urn-3:FHCL.HOUGH:8822109">
+               <part>Burney, Charles, 1726-1814</part>
+            </targetEntity>
+            <relationType>associative</relationType>
+            <descriptiveNote>
+               <p>Elected between November 1780 and February 1784.</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity targetType="agent" valueURI="http://hdl.handle.net/10079/3tx967n">
+               <part>Chamier, Anthony, 1725–1780</part>
+            </targetEntity>
+            <relationType>associative</relationType>
+            <descriptiveNote>
+               <p>An original member.</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity targetType="agent" valueURI="http://hdl.handle.net/10079/12jm6fd">
+               <part>Dyer, Samuel (bap. 1721, d. 1772</part>
+            </targetEntity>
+            <relationType>associative</relationType>
+            <descriptiveNote>
+               <p>First elected member; was previously a member of the Ivy Lane Club.</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity targetType="agent"
+                          valueURI="http://nrs.harvard.edu/urn-3:FHCL.HOUGH:8822119">
+               <part>Garrick, David, 1717-1779</part>
+            </targetEntity>
+            <relationType>associative</relationType>
+            <descriptiveNote>
+               <p>Elected between March 1773 and December 1775.</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity targetType="agent"
+                          valueURI="http://nrs.harvard.edu/urn-3:FHCL.HOUGH:8822139">
+               <part>Gibbon, Edward, 1737-1794</part>
+            </targetEntity>
+            <relationType>associative</relationType>
+            <descriptiveNote>
+               <p>Elected in 1774, having been blackballed in a previous election.</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity targetType="agent" valueURI="http://hdl.handle.net/10079/ksn035q">
+               <part>Goldsmith, Oliver, 1730?-1774</part>
+            </targetEntity>
+            <relationType>associative</relationType>
+            <descriptiveNote>
+               <p>An original member.</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity targetType="agent" valueURI="http://hdl.handle.net/10079/g1jwt57">
+               <part>Hawkins, John, Sir, 1719-1789</part>
+            </targetEntity>
+            <relationType>associative</relationType>
+            <descriptiveNote>
+               <p>An original member; resigned in 1768 after being ostracized for verbally
+                        abusing Burke. Was previously a member of the Ivy Lane Club.</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity targetType="agent"
+                          valueURI="http://nrs.harvard.edu/urn-3:FHCL.HOUGH:8822136">
+               <part>Johnson, Samuel, 1709-1784</part>
+            </targetEntity>
+            <relationType>associative</relationType>
+            <descriptiveNote>
+               <p>The centerpiece of the Club: Reynolds founded it to provide Johnson with
+                        company, and so that others could delight in his wit.</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity targetType="agent" valueURI="http://hdl.handle.net/10079/2v6wx1h">
+               <part>Langton, Bennet, 1737-1801</part>
+            </targetEntity>
+            <relationType>associative</relationType>
+            <descriptiveNote>
+               <p>An original member.</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity targetType="agent" valueURI="http://hdl.handle.net/10079/d7wm3k7">
+               <part>Malone, Edmond, 1741-1812</part>
+            </targetEntity>
+            <relationType>associative</relationType>
+            <descriptiveNote>
+               <p>Elected between November 1780 and February 1784.</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity targetType="agent" valueURI="http://hdl.handle.net/10079/k0p2nt3">
+               <part>Reynolds, Joshua, Sir, 1723-1792</part>
+            </targetEntity>
+            <relationType>associative</relationType>
+            <descriptiveNote>
+               <p>Founded the Club for the benefit of Samuel Johnson and seven of their mutual
+                        friends.</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity targetType="agent" valueURI="http://hdl.handle.net/10079/9ghx3s1">
+               <part>Sheridan, Richard Brinsley, 1751-1816</part>
+            </targetEntity>
+            <relationType>associative</relationType>
+            <descriptiveNote>
+               <p>Elected between January 1777 and December 1778.</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity targetType="agent" valueURI="http://hdl.handle.net/10079/d7wm3kb">
+               <part>Warton, Thomas, 1728-1790</part>
+            </targetEntity>
+            <relationType>associative</relationType>
+            <descriptiveNote>
+               <p>Elected between November 1780 and February 1784.</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity targetType="resource"
+                          valueURI="http://hdl.handle.net/10079/fa/beinecke.emalone">
+               <part>James Marshall Osborn research files on Edmond Malone</part>
+            </targetEntity>
+            <relationType>subjectOf</relationType>
+         </relation>
+         <relation>
+            <targetEntity targetType="resource"
+                          valueURI="http://hdl.handle.net/10079/fa/beinecke.boswell">
+               <part>Boswell Collection</part>
+            </targetEntity>
+            <relationType>subjectOf</relationType>
+         </relation>
+         <relation>
+            <targetEntity targetType="resource"
+                          valueURI="http://nrs.harvard.edu/urn-3:FHCL.Hough:hou01782">
+               <part>Boswell, James, 1740-1795. Boswell's Life of Johnson : including
+                    Boswell's Journal of a tour to the Hebrides and Johnson's Diary of a journey
+                    into North Wales, edited by George Birkbeck Hill, extra-illustrated. (MS Hyde
+                    76)</part>
+            </targetEntity>
+            <relationType>subjectOf</relationType>
+         </relation>
+         <relation>
+            <targetEntity targetType="resource"
+                          valueURI="http://nrs.harvard.edu/urn-3:FHCL.Hough:hou01769">
+               <part>Burney, Charles, 1726-1814. Correspondence. (MS Hyde
+                    88)</part>
+            </targetEntity>
+            <relationType>subjectOf</relationType>
+         </relation>
+         <relation>
+            <targetEntity targetType="resource"
+                          valueURI="http://hdl.handle.net/10079/fa/beinecke.osbfile">
+               <part>Osborn Manuscript Files</part>
+            </targetEntity>
+            <relationType>subjectOf</relationType>
+            <descriptiveNote>
+               <p>Includes note from Reynolds to Thomas Percy (1729-1811) requesting his
+                        presence at the Club to "ballot for Dr. Warton."</p>
+            </descriptiveNote>
+         </relation>
+      </relations>
+   </cpfDescription>
+</eac>

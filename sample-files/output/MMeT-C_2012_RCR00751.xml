@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/cpf.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<eac xmlns="https://archivists.org/ns/eac/v2">
+   <control maintenanceStatus="new">
+      <recordId>RCR00751</recordId>
+      <maintenanceHistory>
+         <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
+            <eventDateTime standardDateTime="2021-01-23T18:04:06.166-05:00"/>
+            <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
+            <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="revised">
+            <eventDateTime standardDateTime="2012-01-27">2012-01-27</eventDateTime>
+            <agent agentType="human">Rubinstein, Aaron</agent>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="revised">
+            <eventDateTime standardDateTime="2011-09-30">2011-09-30</eventDateTime>
+            <agent agentType="human">Rubinstein, Aaron</agent>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="created">
+            <eventDateTime standardDateTime="2011-06-01">2011-06-01</eventDateTime>
+            <agent agentType="human">Brigham, MacKenzie</agent>
+         </maintenanceEvent>
+      </maintenanceHistory>
+      <maintenanceAgency>
+         <agencyCode>MMeT-C</agencyCode>
+         <agencyName>Tufts University Digital Collections and Archives</agencyName>
+      </maintenanceAgency>
+      <sources>
+         <source>
+            <reference>The Forest Hills Educational Trust, "Historic Forest Hills Cemetary: The Soul
+          of Milton Hill," Forest Hills Cemetery. Boston, MA. October 30, 2009.
+          http://foresthillstrust.blogspot.com/2009/10/soul-of-milton-hill.html (accessed June 8,
+          2011).</reference>
+         </source>
+      </sources>
+      <conventionDeclaration id="d1e25">
+         <reference>Describing Archives: a Content Standard, Society of American Archivists.
+        2004</reference>
+         <shortCode>DACS</shortCode>
+         <descriptiveNote>
+            <p>Locally using rules from chapter 10 and 11.</p>
+         </descriptiveNote>
+      </conventionDeclaration>
+      <conventionDeclaration id="d1e38">
+         <reference>Anglo-American Cataloging Rules, Revised.</reference>
+         <shortCode>AACR2R</shortCode>
+         <descriptiveNote>
+            <p>Locally used for their definition of a corporate body.</p>
+         </descriptiveNote>
+      </conventionDeclaration>
+      <conventionDeclaration id="cd-ne-2021-01-23T180406.166-0500-1">
+         <reference/>
+         <shortCode>local</shortCode>
+      </conventionDeclaration>
+      <languageDeclaration languageCode="eng" scriptCode="Latn"/>
+   </control>
+   <cpfDescription>
+      <identity>
+         <entityType value="person"/>
+         <nameEntry status="authorized"
+                    conventionDeclarationReference="cd-ne-2021-01-23T180406.166-0500-1">
+            <part>Lufkin, Richard H.</part>
+            <!--
+<authorizedForm>local</authorizedForm>
+-->
+         </nameEntry>
+      </identity>
+      <description>
+         <existDates>
+            <dateRange>
+               <fromDate>1851</fromDate>
+               <toDate>1922</toDate>
+            </dateRange>
+         </existDates>
+         <biogHist>
+            <abstract>
+          Richard H. Lufkin was a shoe machine engineer who has a grantmaking foundation named in
+            his honor. His family's philanthropy helped build the Lufkin Engineering Library at
+            Tufts University's School of Engineering.
+        </abstract>
+            <p>Richard H. Lufkin (1851-1922) was an engineer who patented the vamp folding machine, for
+          shoe manufacturers. Lufkin was recognized for this achievement by the Massachusetts
+          Charitable Mechanics Association. Lufkin's sister Elizabeth later started the Elizabeth A.
+          and Richard H. Lufkin Memorial Foundation, as a trust for six engineering schools in the
+          Boston area, including Tufts University. Tufts named its engineering library after the
+          Lufkins after philanthropic donations to Tufts School of Engineering. The Lufkin
+          Engineering Library was later folded into Wessell Library in fall 1996.</p>
+         </biogHist>
+      </description>
+      <relations>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://dca.lib.tufts.edu/ontology/rcr#corporateBody">
+               <part id="RCR00750">Lufkin Engineering Library</part>
+            </targetEntity>
+            <dateRange>
+               <fromDate standardDate="1928">1928</fromDate>
+               <toDate standardDate="1996">1996</toDate>
+            </dateRange>
+            <relationType>associative</relationType>
+            <targetRole valueURI="http://dca.lib.tufts.edu/ontology/rcr#isAssociatedWith"/>
+         </relation>
+      </relations>
+   </cpfDescription>
+</eac>

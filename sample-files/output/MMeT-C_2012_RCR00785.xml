@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/cpf.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<eac xmlns="https://archivists.org/ns/eac/v2">
+   <control maintenanceStatus="new">
+      <recordId>RCR00785</recordId>
+      <maintenanceHistory>
+         <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
+            <eventDateTime standardDateTime="2021-01-23T18:04:02.454-05:00"/>
+            <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
+            <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="created">
+            <eventDateTime standardDateTime="2012-03-19">2012-03-19</eventDateTime>
+            <agent agentType="human">Martzahl, Veronica</agent>
+         </maintenanceEvent>
+      </maintenanceHistory>
+      <maintenanceAgency>
+         <agencyCode>MMeT-C</agencyCode>
+         <agencyName>Tufts University Digital Collections and Archives</agencyName>
+      </maintenanceAgency>
+      <sources>
+         <source>
+            <reference>PublicEye.org; [accessed March 19, 2012.]</reference>
+         </source>
+      </sources>
+      <conventionDeclaration id="d1e25">
+         <reference>Describing Archives: a Content Standard, Society of American Archivists.
+        2004</reference>
+         <shortCode>DACS</shortCode>
+         <descriptiveNote>
+            <p>Locally using rules from chapter 10 and 11.</p>
+         </descriptiveNote>
+      </conventionDeclaration>
+      <conventionDeclaration id="d1e38">
+         <reference>Anglo-American Cataloging Rules, Revised.</reference>
+         <shortCode>AACR2R</shortCode>
+         <descriptiveNote>
+            <p>Locally used for their definition of a corporate body.</p>
+         </descriptiveNote>
+      </conventionDeclaration>
+      <conventionDeclaration id="cd-ne-2021-01-23T180402.454-0500-1">
+         <reference/>
+         <shortCode>local</shortCode>
+      </conventionDeclaration>
+      <languageDeclaration languageCode="eng" scriptCode="Latn"/>
+   </control>
+   <cpfDescription>
+      <identity>
+         <entityType value="corporateBody"/>
+         <nameEntry status="authorized"
+                    conventionDeclarationReference="cd-ne-2021-01-23T180402.454-0500-1">
+            <part>Political Research Associates</part>
+            <!--
+<authorizedForm>local</authorizedForm>
+-->
+         </nameEntry>
+      </identity>
+      <description>
+         <existDates>
+            <dateRange>
+               <fromDate>1981</fromDate>
+               <toDate>present</toDate>
+            </dateRange>
+         </existDates>
+         <biogHist>
+            <abstract>Political Research Associates was founded in 1981 by Jean Hardisty and Chip
+          Berlet. Originally known as Midwest Research and based in Chicago, the group moved to
+          Boston in 1987 and changed its name to Political Research Associates. </abstract>
+            <p>In 1981, Political Research Associates began exposing the broad spectrum of Rightwing
+          violence through the in-depth analysis of founding director Jean Hardisty and Chip Berlet.
+          Originally known as Midwest Research and based in Chicago, it quickly became known for its
+          work on behalf of racial justice. In 1987, Citizens Alert recognized the think tank with
+          its "Rev. Willie Baker Award” for “outstanding efforts” working for racial justice in
+          Chicago by helping anti-racist activists understand how White supremacist and antisemitic
+          groups mobilized support in neighborhoods. By 1987, the organization had moved to Boston,
+          changed its name to Political Research Associates, and expanded the range of the US Right
+          that it analyzed. In 1991, PRA launched a collaboration with South End Press with the
+          publication of two books by Russ Bellant: The Coors Connection: How Coors Family
+          Philanthropy Undermines Democratic Pluralism, and Old Nazis, the New Right, and the
+          Republican Party. The next year, it began publication of its magazine The Public Eye to
+          present the latest research on the US Right for use by advocates and journalists, while
+          continuing to issue special reports. In its long history, PRA has provided, readable
+          research on Posse Comitatus, the militia movement, neo-Nazis, the Christian Right,
+          conservative think tanks, anti-immigrant movements, and government repression. </p>
+         </biogHist>
+      </description>
+      <relations>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://dca.lib.tufts.edu/ontology/rcr#corporateBody">
+               <part id="RCR00001">Tufts University</part>
+            </targetEntity>
+            <dateRange>
+               <fromDate standardDate="2010">2010</fromDate>
+               <toDate>present</toDate>
+            </dateRange>
+            <relationType>associative</relationType>
+            <targetRole valueURI="http://dca.lib.tufts.edu/ontology/rcr#isAssociatedWith"/>
+         </relation>
+         <relation id="MS014">
+            <targetEntity targetType="resource">
+               <part>Political Research Associates</part>
+            </targetEntity>
+            <relationType>creatorOf</relationType>
+            <objectXMLWrap>
+               <ead xmlns="urn:isbn:1-93166-22-9"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <archdesc level="collection">
+                     <did>
+                        <unittitle>Political Research Associates</unittitle>
+                        <unitid>MS014</unitid>
+                     </did>
+                  </archdesc>
+               </ead>
+            </objectXMLWrap>
+         </relation>
+      </relations>
+   </cpfDescription>
+</eac>

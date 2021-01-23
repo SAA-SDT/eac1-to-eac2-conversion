@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/cpf.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<eac xmlns="https://archivists.org/ns/eac/v2">
+  <!-- Exemple de notice d'autorité pour une collectivité (direction ministérielle) avec des relations avec des services déconcentrés de l'Etat -->
+   <control maintenanceStatus="new" publicationStatus="approved">
+      <recordId>FRAF_P_00006</recordId>
+      <maintenanceHistory>
+         <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
+            <eventDateTime standardDateTime="2021-01-23T18:04:19.723-05:00"/>
+            <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
+            <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="revised">
+            <eventDateTime standardDateTime="2012-01-23T03:18:32">23 janvier 2012 03:18:32
+          PST</eventDateTime>
+            <agent agentType="human"/>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="created">
+            <eventDateTime standardDateTime="2012-01-13T04:47:56">13 janvier 2012 04:47:56
+          PST</eventDateTime>
+            <agent agentType="human">Notice élaborée par Adeline Denoeud (France. Ministère de l'écologie, de l'énergie du
+          développement durable, des transports et de la mer. Mission des Archives).</agent>
+         </maintenanceEvent>
+      </maintenanceHistory>
+      <maintenanceAgency>
+         <agencyCode>FR-SIAF</agencyCode>
+         <agencyName>Service interministériel des Archives de France - Mission des Archives du
+        ministère de l'écologie, de l'énergie du développement durable, des transports et de la
+        mer</agencyName>
+      </maintenanceAgency>
+      <sources>
+         <source href="http://www.formation-maritime.fr">
+            <reference>Site de la direction des affaires maritimes</reference>
+         </source>
+      </sources>
+      <conventionDeclaration id="d1e30">
+         <reference>Norme internationale sur les notices d'autorité archivistiques relatives aux
+        collectivités, aux personnes et aux familles ou ISAAR(CPF) du Conseil international des
+        archives, 2e édition, 1996. </reference>
+         <shortCode>ISAAR(CPF)</shortCode>
+      </conventionDeclaration>
+      <conventionDeclaration id="d1e37">
+         <reference>Norme AFNOR NF Z 44-060, octobre 1983, Catalogue d’auteurs et d’anonymes : forme et
+        structure des vedettes des collectivités auteurs.</reference>
+         <shortCode>NF Z 44-060</shortCode>
+      </conventionDeclaration>
+      <conventionDeclaration id="d1e44">
+         <reference>Norme ISO 8601:2004 Éléments de données et formats d’échange -- Échange
+        d’information -- Représentation de la date et de l’heure.</reference>
+         <shortCode>ISO 8601</shortCode>
+      </conventionDeclaration>
+      <conventionDeclaration id="cd-ne-2021-01-23T180419.723-0500-1">
+         <reference/>
+         <shortCode>AFNOR_NF_Z_44-060</shortCode>
+      </conventionDeclaration>
+      <languageDeclaration languageCode="fre" scriptCode="Latn"/>
+      <localTypeDeclaration id="d1e51">
+         <reference/>
+         <shortCode/>
+      </localTypeDeclaration>
+      <localControl localType="detailLevel">
+         <term>Complet</term>
+      </localControl>
+   </control>
+   <cpfDescription>
+      <identity>
+         <entityType value="corporateBody"/>
+         <nameEntry status="authorized"
+                    conventionDeclarationReference="cd-ne-2021-01-23T180419.723-0500-1">
+            <part>France. Direction des affaires maritimes</part>
+            <!-- Forme autorisée du nom conforme à la norme AFNOR NF Z 44-060 -->
+            <!--
+<authorizedForm>AFNOR_NF_Z_44-060</authorizedForm>
+-->
+         </nameEntry>
+         <nameEntry status="alternative"
+                    conventionDeclarationReference="cd-ne-2021-01-23T180419.723-0500-1">
+            <part>DAM</part>
+            <!-- Forme alternative du nom -->
+            <!--
+<alternativeForm>AFNOR_NF_Z_44-060</alternativeForm>
+-->
+         </nameEntry>
+         <identityId/>
+      </identity>
+      <description>
+         <functions>
+            <function><!-- Ici, les fonctions exercées par la direction des affaires maritimes sont décrites sous une forme textuelle au moyen de l'élément <function>. En revanche, les relations avec des fonctions dont la description est gérée par des notices d'autorité distinctes peuvent être établies au moyen de l'élément <functionRelation> -->
+               <term id="d1e144"/>
+               <descriptiveNote>
+                  <p>La direction des affaires maritimes (DAM) est le service de l’État, en charge de la
+            plupart des politiques maritimes, dont relèvent les marins professionnels français (à
+            l'exception des marins de la marine nationale) pour leur formation et l'exercice de leur
+            métier. </p>
+                  <p>La DAM est rattachée au ministère de l’Écologie, du Développement durable, des
+            Transports et du Logement, au sein de la direction générale des infrastructures, des
+            transports et de la mer (DGITM).</p>
+                  <p>Les missions principales de la DAM sont : l'élaboration et la mise en œuvre de la
+            politique de sécurité maritime, y compris la prévention de la pollution par les navires
+            et la sûreté des navires ; la définition des orientations de la formation maritime et la
+            conduite de la politique de l’emploi des gens de mer ; la définition de la politique
+            relative à la réglementation du travail, aux conditions de travail et à la protection
+            sociale des marins (régime spécial de sécurité sociale, régime spécifique de prévoyance
+            et protection sanitaire et sociale spécifique) ; la tutelle, pour le compte du ministre
+            chargé de la mer, de l’Établissement national des invalides de la marine (ENIM), des
+            lycées professionnels maritimes et de l'école nationale supérieure maritime (ENSM), le
+            contrôle des établissements privés maritimes et des organismes de prévoyance
+            sociale.</p>
+               </descriptiveNote>
+            </function>
+         </functions>
+         <legalStatuses>
+            <legalStatus>
+               <term>administration centrale</term>
+            </legalStatus>
+         </legalStatuses>
+         <mandates>
+            <mandate>
+               <term id="d1e160"/>
+               <descriptiveNote xmlns:ns0="https://archivists.org/ns/eac/migration"
+                                ns0:citation="migrated-citation">
+                  <p ns0:migrationType="migrated-citation">
+                     <reference>Arrêté du 13 juillet 2010 modifiant l’arrêté du 9 juillet 2008 portant
+            organisation de l’administration centrale du ministère de l’écologie, de l’énergie, du
+            développement durable et de l’aménagement du territoire. NOR : DEVK1016970A</reference>
+                  </p>
+               </descriptiveNote>
+            </mandate>
+            <mandate>
+               <term id="d1e165"/>
+               <descriptiveNote xmlns:ns0="https://archivists.org/ns/eac/migration"
+                                ns0:citation="migrated-citation">
+                  <p ns0:migrationType="migrated-citation">
+                     <reference>Arrêté du 9 juillet 2008 portant organisation de l'administration centrale du
+            ministère de l'écologie, de l'énergie, du développement durable et de l'aménagement du
+            territoire. NOR: DEVK0815773</reference>
+                  </p>
+               </descriptiveNote>
+            </mandate>
+         </mandates>
+         <existDates>
+            <dateRange>
+               <fromDate standardDate="2008"/>
+               <toDate standardDate="2099"/>
+            </dateRange>
+         </existDates>
+         <biogHist>
+            <p>La direction des affaires maritimes est l'héritière du ministère de la Marine marchande,
+          créé en 1929 à l'initiative de M. Georges-Leygues avec pour mission de superviser
+          l'ensemble des politiques publiques appliquées spécifiquement à ce secteur d'activité tant
+          sur le plan du statut personnel des entreprises et des salariés (mise en place de statuts
+          réglementés) que du régime social appliqué aux différentes composantes de la protection. A
+          compter de 1982 (institution d'un Secrétariat général à la Mer) et surtout à partir de
+          1999, à la faveur de la promulgation de la loi d'orientation agricole n° 99-574, ce
+          ministère a été incorporé au ministère chargé de l'Agriculture pour ce qui touche au suivi
+          de la politique commune de la pêche et pour le reste des activités de ce secteur, au
+          ministère chargé de l’équipement et des transports, devenu ministère chargé du
+          développement durable en 2007.</p>
+         </biogHist>
+      </description>
+      <relations>
+         <relation><!-- Relation hiérarchique-parent : la direction des affaires maritimes est l'organisme dont relèvent les directions interrégionales de la mer -->
+            <targetEntity targetType="agent" valueURI="FRAF_P_00007">
+               <part>France. Direction interrégionale de la mer (ressort)</part>
+            </targetEntity>
+            <dateRange>
+               <fromDate standardDate="2010">2010</fromDate>
+               <toDate standardDate="2099">2099</toDate>
+            </dateRange>
+            <relationType>hierarchical-parent</relationType>
+         </relation>
+         <relation><!-- Relation hiérarchique-parent : la direction des affaires maritimes est l'organisme dont relèvent les délégations à la mer et au littoral -->
+            <targetEntity targetType="agent" valueURI="FRAF_P_00009">
+               <part>Département. Délégation à la mer et au littoral</part>
+            </targetEntity>
+            <dateRange>
+               <fromDate standardDate="2010">2010</fromDate>
+               <toDate standardDate="2099">2099</toDate>
+            </dateRange>
+            <relationType>hierarchical-parent</relationType>
+         </relation>
+      </relations>
+   </cpfDescription>
+</eac>

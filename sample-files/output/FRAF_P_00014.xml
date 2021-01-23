@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/cpf.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<eac xmlns="https://archivists.org/ns/eac/v2">
+  <!-- Exemple de notice d'autorité pour une collectivité avec des liens vers des notices du référentiel des noms géographiques de la BnF et vers des textes accessibles sur le site de Légifrance -->
+   <control maintenanceStatus="new" publicationStatus="approved">
+      <recordId>FRAF_P_00014</recordId>
+      <maintenanceHistory>
+         <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
+            <eventDateTime standardDateTime="2021-01-23T18:04:25.346-05:00"/>
+            <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
+            <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="revised">
+            <eventDateTime standardDateTime="2012-01-13T08:16:05">13 janvier 2012 08:16:05
+          PST</eventDateTime>
+            <agent agentType="human"/>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="created">
+            <eventDateTime standardDateTime="2012-01-13T08:11:05">13 janvier 2012 08:11:05
+          PST</eventDateTime>
+            <agent agentType="human">Notice élaborée par Marie Chouleur, conservateur du patrimoine stagiaire (France.
+          Ministère de l'écologie, de l'énergie du développement durable, des transports et de la
+          mer. Mission des Archives).</agent>
+         </maintenanceEvent>
+      </maintenanceHistory>
+      <maintenanceAgency>
+         <agencyCode>FR-SIAF</agencyCode>
+         <agencyName>Service interministériel des Archives de France - Mission des Archives du
+        ministère de l'écologie, de l'énergie du développement durable, des transports et de la
+        mer</agencyName>
+      </maintenanceAgency>
+      <sources>
+         <source href="http://www.cetmef.developpement-durable.gouv.fr/">
+            <reference>Site Internet du Centre d'études techniques maritimes et
+          fluviales</reference>
+         </source>
+      </sources>
+      <conventionDeclaration id="d1e30">
+         <reference>Norme internationale sur les notices d'autorité archivistiques relatives aux
+        collectivités, aux personnes et aux familles ou ISAAR(CPF) du Conseil international des
+        archives, 2e édition, 1996. </reference>
+         <shortCode>ISAAR(CPF)</shortCode>
+      </conventionDeclaration>
+      <conventionDeclaration id="d1e37">
+         <reference>Norme AFNOR NF Z 44-060, octobre 1983, Catalogue d’auteurs et d’anonymes : forme et
+        structure des vedettes des collectivités auteurs.</reference>
+         <shortCode>NF Z 44-060</shortCode>
+      </conventionDeclaration>
+      <conventionDeclaration id="d1e44">
+         <reference>Norme AFNOR NF Z 44-081, AFNOR NF Z 44-081, 1993, Documentation – Catalogage des
+        documents cartographiques – Forme et structure des vedettes noms géographiques</reference>
+         <shortCode>NF Z44-081</shortCode>
+      </conventionDeclaration>
+      <conventionDeclaration id="d1e51">
+         <reference>Norme ISO 8601:2004 Éléments de données et formats d’échange -- Échange
+        d’information -- Représentation de la date et de l’heure.</reference>
+         <shortCode>ISO 8601</shortCode>
+      </conventionDeclaration>
+      <conventionDeclaration id="d1e58">
+         <reference href="http://catalogue.bnf.fr/">Référentiel des noms géographiques BnF</reference>
+         <descriptiveNote>
+            <p>Ce référentiel s'appuie sur la norme AFNOR NF Z 44-081 (Documentation – Catalogage des
+          documents cartographiques – Forme et structure des vedettes noms géographiques, 1993).
+        </p>
+         </descriptiveNote>
+      </conventionDeclaration>
+      <conventionDeclaration id="cd-ne-2021-01-23T180425.346-0500-1">
+         <reference/>
+         <shortCode>AFNOR_NF_Z_44-060</shortCode>
+      </conventionDeclaration>
+      <languageDeclaration languageCode="fre" scriptCode="Latn"/>
+      <localControl localType="detailLevel">
+         <term>Complet</term>
+      </localControl>
+   </control>
+   <cpfDescription>
+      <identity>
+         <entityType value="corporateBody"/>
+         <nameEntry status="authorized"
+                    conventionDeclarationReference="cd-ne-2021-01-23T180425.346-0500-1">
+            <part>Centre d'études techniques maritimes et fluviales</part>
+            <!--
+<authorizedForm>AFNOR_NF_Z_44-060</authorizedForm>
+-->
+         </nameEntry>
+         <nameEntry status="alternative"
+                    conventionDeclarationReference="cd-ne-2021-01-23T180425.346-0500-1">
+            <part>CETMF</part>
+            <!--
+<alternativeForm>AFNOR_NF_Z_44-060</alternativeForm>
+-->
+         </nameEntry>
+         <identityId/>
+      </identity>
+      <description>
+         <functions>
+            <function>
+               <term id="d1e146"/>
+               <descriptiveNote>
+                  <p>Le centre d'études maritimes et fluviales (CETMEF) est un service technique central à
+            compétence nationale, rattaché directement au ministre de l'écologie, du développement
+            durable, des transports et du logement.</p>
+                  <p>En vertu de son décret de création, le centre d'études maritimes et fluviales a pour
+            mission d'élaborer et de diffuser les techniques, de conduire des études et recherches,
+            d'exécuter des prestations d'ingénierie et des expertises dans les domaines des
+            aménagements et des ouvrages maritimes et fluviaux, des phénomènes hydrauliques
+            maritimes et fluviaux, des aides et des dispositifs de sécurité intéressant la
+            navigation maritime et fluviale, des transmissions, de la télématique et des techniques
+            satellitaires, pour l'ensemble des services du ministère chargé de l'équipement.</p>
+                  <p>Dans ses domaines de compétence, il anime et oriente l'action du réseau des centres
+            d'études techniques de l'équipement et participe au développement des échanges
+            d'expériences et à la promotion des techniques françaises à l'étranger.</p>
+                  <p>Il peut exécuter des prestations d'ingénierie et des expertises pour les collectivités
+            territoriales et leurs groupements ainsi que pour les entreprises et organismes de
+            statut public ou privé qui lui en font la demande.</p>
+               </descriptiveNote>
+            </function>
+         </functions>
+         <legalStatuses>
+            <legalStatus>
+               <term>service technique central à compétence nationale</term>
+            </legalStatus>
+         </legalStatuses>
+         <mandates>
+            <mandate>
+               <term id="d1e205"/>
+               <descriptiveNote xmlns:ns0="https://archivists.org/ns/eac/migration"
+                                ns0:citation="migrated-citation">
+                  <p ns0:migrationType="migrated-citation">
+                     <reference href="http://legifrance.gouv.fr/./affichTexte.do?cidTexte=JORFTEXT000000208839">Décret n°98-980 du 2 novembre 1998 portant création du centre d'études techniques
+            maritimes et fluviales NOR : EQUP9800078D</reference>
+                  </p>
+               </descriptiveNote>
+            </mandate>
+            <mandate>
+               <term id="d1e211"/>
+               <descriptiveNote xmlns:ns0="https://archivists.org/ns/eac/migration"
+                                ns0:citation="migrated-citation">
+                  <p ns0:migrationType="migrated-citation">
+                     <reference href="http://legifrance.gouv.fr/./affichTexte.do?cidTexte=LEGITEXT000005627193">Arrêté du 10 décembre 1998 portant organisation du centre d'études techniques maritimes
+            et fluviales NOR: EQUP9801409A</reference>
+                  </p>
+               </descriptiveNote>
+            </mandate>
+         </mandates>
+         <places>
+            <place localType="siege"
+                   vocabularySource="http://catalogue.bnf.fr/ark:/12148/cb15267398h">
+               <placeName>Compiègne
+            (Oise, France)</placeName>
+            </place>
+            <place localType="agence"
+                   vocabularySource="http://catalogue.bnf.fr/ark:/12148/cb15247283s">
+               <placeName>Aix-en-Provence (Bouches-du-Rhône, France)</placeName>
+            </place>
+            <place localType="agence"
+                   vocabularySource="http://catalogue.bnf.fr/ark:/12148/cb152803251">
+               <placeName>Bonneuil-sur-Marne (Val-de-Marne, France)</placeName>
+            </place>
+            <place localType="agence"
+                   vocabularySource="http://catalogue.bnf.fr/ark:/12148/cb15254374k">
+               <placeName>Brest
+            (Finistère, France)</placeName>
+            </place>
+            <place localType="agence"
+                   vocabularySource="http://catalogue.bnf.fr/ark:/12148/cb15260278x">
+               <placeName>Nantes
+            (Loire-Atlantique, France)</placeName>
+            </place>
+         </places>
+         <existDates>
+            <dateRange>
+               <fromDate standardDate="1800"/>
+               <toDate standardDate="2099"/>
+            </dateRange>
+         </existDates>
+         <biogHist>
+            <p>Le centre d'études techniques maritimes et fluviales est issu de la fusion, devenue
+          effective le 1er janvier 1999, du service technique central des ports maritimes et des
+          voies navigables (STCPMVN) et du service technique de la navigation maritime et des
+          transmissions de l'équipement (STNMTE), créés respectivement par arrêtés des 20 mars 1969
+          et 20 août 1990.</p>
+            <p>La création du service technique central des ports maritimes et des voies navigables fit
+          suite à l'ouverture, en 1965, du canal du Nord, conçu par le service de navigation
+          Belgique Paris-Est (SNBPE). Installé à Compiègne, il conserva des relations privilégiées
+          avec le service de navigation Belgique Paris-Est jusqu'en 1978, date de la suppression de
+          ce dernier. Il s'agissait, dans un contexte de croissance rapide du trafic maritime et
+          fluvial, d'aménager et d'exploiter les voies fluviales et infrastructures portuaires. Le
+          service technique central des ports maritimes et des voies navigables ne tarda pas à se
+          doter, en vue de la modernisation des infrastructures, d'une division fonctionnelle dédiée
+          à la recherche et au développement. Le site de Brest ouvrit en 1992.</p>
+            <p>Le service technique de la navigation maritime et des transmissions de l'équipement est
+          lui-même héritier de l'organisation instituée au sein du service des phares et balises par
+          arrêté du 25 avril 1945. Ce dernier se composait en effet de services centraux, dont
+          faisait partie, au même titre que la commission des phares et balises, le service
+          technique des phares et balises (STPB), nouvellement créé, qui avait pour objet la
+          conception des dispositifs de signalisation maritime, et de services extérieurs qui
+          avaient la responsabilité de l'exécution, et en particulier de l'entretien et du
+          fonctionnement des établissements de signalisation maritime. Le service technique des
+          phares et balises s'installa à Bonneuil-sur-Marne dès 1948. Les agences de Nantes et
+          d'Aix-en-Provence, nées en 1968 et 1974, confortèrent sa présence sur les deux grandes
+          façades maritimes.</p>
+         </biogHist>
+      </description>
+   </cpfDescription>
+</eac>

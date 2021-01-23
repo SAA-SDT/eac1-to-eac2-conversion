@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/cpf.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<eac xmlns="https://archivists.org/ns/eac/v2">
+   <control maintenanceStatus="new">
+      <recordId>DSI-AI-217957-A</recordId>
+      <maintenanceHistory>
+         <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
+            <eventDateTime standardDateTime="2021-01-23T18:04:12.35-05:00"/>
+            <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
+            <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="created">
+            <eventDateTime standardDateTime="2011-04-25T10:02:38.189-04:00"/>
+            <agent agentType="machine">SImarc2cpf</agent>
+            <eventDescription>XSLT SImarc2cpf.xsl used to convert MARC (bibl with agency history) 21
+											slim XML into EAC-CPF</eventDescription>
+         </maintenanceEvent>
+      </maintenanceHistory>
+      <maintenanceAgency>
+         <agencyCode>US-DSI-AI</agencyCode>
+         <agencyName>Smithsonian Institution Archives</agencyName>
+      </maintenanceAgency>
+      <sources>
+         <source>
+            <reference>SI Agency history: MARC 001-217957</reference>
+         </source>
+         <source>
+            <reference>Guide to the Smithsonian Archives</reference>
+         </source>
+         <source>
+            <reference>Annual Report of the Smithsonian Institution</reference>
+         </source>
+         <source>
+            <reference>Annual Report of the United States National Museum</reference>
+         </source>
+         <source>
+            <reference>Smithsonian Institution Archives Research File (RU 94)</reference>
+         </source>
+      </sources>
+      <conventionDeclaration id="d1e23">
+         <reference>unknown</reference>
+      </conventionDeclaration>
+      <conventionDeclaration id="cd-ne-2021-01-23T180412.35-0500-1">
+         <reference/>
+         <shortCode>unknown</shortCode>
+      </conventionDeclaration>
+      <languageDeclaration languageCode="eng" scriptCode="Latn"/>
+   </control>
+   <cpfDescription>
+      <identity>
+         <entityType value="corporateBody"/>
+         <nameEntry localType="http://www.loc.gov/MARC21/"
+                    status="authorized"
+                    conventionDeclarationReference="cd-ne-2021-01-23T180412.35-0500-1">
+            <part localType="http://www.loc.gov/MARC21/110/a">United States National Museum.</part>
+            <!--
+<authorizedForm>unknown</authorizedForm>
+-->
+         </nameEntry>
+      </identity>
+      <description>
+         <localDescriptions>
+            <localDescription localType="subject">
+               <term>Museums--Administration.</term>
+            </localDescription>
+         </localDescriptions>
+         <existDates>
+            <dateRange>
+               <fromDate>1850</fromDate>
+               <toDate>1967</toDate>
+            </dateRange>
+         </existDates>
+         <biogHist>
+            <p>The Act of Congress of August 10, 1846, establishing the Smithsonian Institution, empowered the Board of Regents to receive, either through donations or exchanges, new specimens for the museum of the Institution. In addition, the Secretary was authorized to discharge the duties of the "keeper of the museum." Beginning in 1841, the museum collections of the United States government had been stored in the Patent Office. Originally they were under the custodianship of the National Institution for the Promotion of Science (renamed the National Institute in 1842), which had designs on the Smithson bequest and hopes of establishing a national museum. Later, as the National Institute fell from favor with Congress, the collections were placed under the charge of the Commissioner of Patents.</p>
+            <p>By the late 1840s, the Smithsonian began collecting natural history specimens and started building up a museum collection of specimens for study. When Spencer F. Baird was appointed Assistant Secretary in 1850, he brought his own sizable natural history collection to Washington and donated it to the Institution. Throughout the 1850s the Smithsonian museum continued to grow, partly as a result of private donations and partly as a result of specimens collected by government exploring expeditions and deposited in the Institution.</p>
+            <p>In the mid-1850s, the Commissioner of Patents began agitating for the removal of the national collections from the Patent Office. In 1857, Joseph Henry agreed to take the collections on the condition that the federal government pay for the construction of cases to house them, for their removal to the Institution, and for their care. Congress agreed, and in that year appropriated $15,000 for the construction of cases and $2,000 for the removal of the collections. On June 2, 1857 an appropriation of $4,000 "for the preservation of the collection of the exploring and surveying expeditions of the Government," had been made as a contingent expense in the budget of the Secretary of the Interior. The $4,000 continued as an appropriation in Interior after 1857, with the money expended by the Smithsonian. The collections were installed in the Great Hall of the Smithsonian Building in July 1858.</p>
+            <p>In 1870, the government appropriated $10,000 for the care of the Smithsonian collections.... an appropriation made to the Institution. In Henry's announcement of the appropriation the term National Museum was used for the first time in an annual report of the Smithsonian. Materials received from the 1876 Centennial Exposition increased the collections substantially, and in 1879 Congress appropriated $250,000 for a fireproof building for the use of the National Museum.</p>
+            <p>The 1870s marked the beginning of the formal organization of the United States National Museum (USNM). G. Brown Goode, who was appointed Assistant Curator in 1873, began hiring staff and appointing Honorary Curators (generally scientists attached to other government agencies who served without remuneration) to care for the national collections. In 1881, Goode (now promoted to Assistant Director) issued Circular No. 1 of the National Museum which set forth a comprehensive scheme of organization for the museum and established curatorial departments responsible for the collections.</p>
+            <p>In 1897, a major reorganization occurred in the USNM. At that time, three new departments--Anthropology, Biology, and Geology--were created to oversee the work of the museum. Former USNM departments became divisions of the new departments. This scheme of organization remained fairly constant for the next 60 years. In 1919, the Department of Arts and Industries (after 1938, the Department of Engineering and Industries) was established and assumed responsibility for collections related to mechanical technology, mineral technology, textiles, medical sciences, graphic arts, and photography. The Department of Biology was separated into Departments of Zoology and Botany in 1947, and in 1948, an independent Department of History was established.</p>
+            <p>In 1957, two administrative subdivisions were created under the direction of the USNM: the Museum of Natural History (the former USNM Departments of Anthropology, Botany, Geology, and Zoology) and the Museum of History and Technology (the former USNM Departments of Engineering and Industries and History). By 1967, the USNM as an administrative entity ceased to exist, and the Museum of Natural History and the Museum of History and Technology became separate administrative units.</p>
+            <p>Spencer F. Baird was appointed Assistant Secretary of the Smithsonian Institution in 1850, with primary responsibility for the direction of the National Museum. The title "Assistant Secretary" was not reserved for the administrator of the museum; and throughout the history of the Institution there have been officials known as Assistant Secretaries who had other duties. During the 1940s the title, Assistant Secretary was permanently attached to other duties, and the responsibility for the museum fell to an official known as Director, United States National Museum.</p>
+            <p>Incumbents included Spencer F. Baird, 1850-1881; G. Brown Goode, 1881-1896, including the years 1881-1887 when he served as Assistant Director of the Museum without the title of Assistant Secretary; Charles D. Walcott, Acting Assistant Secretary, 1897-1898; Richard Rathbun, 1897-1918; William de Chastignier Ravenel, 1918-1925, with the title Administrative Assistant to the Secretary, in charge of the USNM; Alexander Wetmore, 1925-1948; Remington Kellogg, Director, USNM, 1948-1962; and Frank A. Taylor, Director, USNM, 1962-1967.</p>
+            <p>In 1931, the position of Associate Director, USNM, was established to assume many of the administrative and budgetary responsibilities of the Museum. John Enos Graf was appointed to the post. When Graf was promoted to Assistant Secretary of the Smithsonian Institution in 1945, the position of Associate Director, USNM, was not continued.</p>
+         </biogHist>
+      </description>
+      <relations>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Goode, G. Brown (George Brown), 1851-1896 </part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-217957-P001</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Walcott, Charles D. (Charles Doolittle), 1850-1927 </part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-217957-P002</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Rathbun, Richard, 1852-1918 </part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-217957-P003</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Ravenel, William de Chastignier. </part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-217957-P004</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Wetmore, Alexander, 1886-1978 </part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-217957-P005</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Kellogg, Remington, 1893- </part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-217957-P006</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Taylor, Frank A. (Frank Augustus), 1903- </part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-217957-P007</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Henry, Joseph, 1797-1878 </part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-217957-P008</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Graf, John Enos. </part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-217957-P009</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/Person">
+               <part>Baird, Spencer Fullerton, 1823-1887</part>
+            </targetEntity>
+            <targetRole valueURI="associatedWith"/>
+            <descriptiveNote>
+               <p>recordId: DSI-AI-217957-P010</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>United States National Museum. Office of the Registrar.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-217957-S001</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of Natural History (U.S.). Dept. of
+				Botany</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-217957-S002</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>United States National Museum. Division of Plants</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-217957-S003</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>United States National Museum. Administrative Assistant.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-217957-S004</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>United States National Museum. Taxidermist.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-217957-S005</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>United States National Museum. Division of Comparative
+				Anatomy</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-217957-S006</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>United States National Museum. Dept. of Biology</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-217957-S007</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>United States National Museum. Division of Marine
+				Invertebrates</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-217957-S008</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>United States National Museum. Division of Correspondence and
+				Documents.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-217957-S009</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>United States National Museum. Division of Engineering</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-217957-S010</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>United States National Museum. Dept. of Engineering and
+				Industries.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-217957-S011</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>Smithsonian Institution. Office of the Assistant Secretary. Half-century
+				Book Project.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-217957-S012</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>United States National Museum. Exposition Records.</part>
+            </targetEntity>
+            <targetRole valueURI="parentBodyOf"/>
+            <descriptiveNote>
+               <p>DSI-AI-217957-S013</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of Natural History (U.S.).</part>
+            </targetEntity>
+            <targetRole valueURI="later"/>
+            <descriptiveNote>
+               <p>DSI-AI-217957-EL1</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="agent"
+                          xlink:role="http://RDVocab.info/uri/schema/FRBRentitiesRDA/CorporateBody">
+               <part>National Museum of American History (U.S.)</part>
+            </targetEntity>
+            <targetRole valueURI="later"/>
+            <descriptiveNote>
+               <p>DSI-AI-217957-EL2</p>
+            </descriptiveNote>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="resource"
+                          xlink:role="archivalRecords"
+                          valueURI="http://toBeCreated">
+               <part>United States National Museum. Annual Reports, 1960-1962.</part>
+            </targetEntity>
+            <targetRole valueURI="creatorOf"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="resource"
+                          xlink:role="archivalRecords"
+                          valueURI="http://toBeCreated">
+               <part>United States National Museum. Administrative Records, 1898-1962.</part>
+            </targetEntity>
+            <targetRole valueURI="creatorOf"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="resource"
+                          xlink:role="archivalRecords"
+                          valueURI="http://toBeCreated">
+               <part>United States National Museum. Press Releases, 1954-1963.</part>
+            </targetEntity>
+            <targetRole valueURI="creatorOf"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="resource"
+                          xlink:role="archivalRecords"
+                          valueURI="http://toBeCreated">
+               <part>United States National Museum. Permanent Administrative File, 1877-1975.</part>
+            </targetEntity>
+            <targetRole valueURI="creatorOf"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="resource"
+                          xlink:role="archivalRecords"
+                          valueURI="http://toBeCreated">
+               <part>United States National Museum. Preparators' Reports, 1881-1919.</part>
+            </targetEntity>
+            <targetRole valueURI="creatorOf"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="resource"
+                          xlink:role="archivalRecords"
+                          valueURI="http://toBeCreated">
+               <part>United States National Museum. Curators' Annual Reports, 1881-1964.</part>
+            </targetEntity>
+            <targetRole valueURI="creatorOf"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="resource"
+                          xlink:role="archivalRecords"
+                          valueURI="http://toBeCreated">
+               <part>United States National Museum. Travel Reports, 1956-1962.</part>
+            </targetEntity>
+            <targetRole valueURI="creatorOf"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="resource"
+                          xlink:role="archivalRecords"
+                          valueURI="http://toBeCreated">
+               <part>United States National Museum. Construction Records, 1905-1909.</part>
+            </targetEntity>
+            <targetRole valueURI="creatorOf"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="resource"
+                          xlink:role="archivalRecords"
+                          valueURI="http://toBeCreated">
+               <part>United States National Museum. Specimen Catalog Books, 1943.</part>
+            </targetEntity>
+            <targetRole valueURI="creatorOf"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="resource"
+                          xlink:role="archivalRecords"
+                          valueURI="http://toBeCreated">
+               <part>United States National Museum. Collected Registers, 1871-1946.</part>
+            </targetEntity>
+            <targetRole valueURI="creatorOf"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="resource"
+                          xlink:role="archivalRecords"
+                          valueURI="http://toBeCreated">
+               <part>Smithsonian Institution. Assistant Secretary in charge of the United
+				States National Museum. Correspondence and Memoranda, 1850-1948.</part>
+            </targetEntity>
+            <targetRole valueURI="creatorOf"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="resource"
+                          xlink:role="archivalRecords"
+                          valueURI="http://toBeCreated">
+               <part>Smithsonian Institution. Assistant Secretary in charge of the United
+				States National Museum. Specimen Records, 1885-1907.</part>
+            </targetEntity>
+            <targetRole valueURI="creatorOf"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="resource"
+                          xlink:role="archivalRecords"
+                          valueURI="http://toBeCreated">
+               <part>Smithsonian Institution. Assistant Secretary in charge of the United
+				States National Museum. Reports on European Museums, 1904-1907.</part>
+            </targetEntity>
+            <targetRole valueURI="creatorOf"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="resource"
+                          xlink:role="archivalRecords"
+                          valueURI="http://toBeCreated">
+               <part>Smithsonian Institution. Assistant Secretary in charge of the United
+				States National Museum. Museum History Records, 1897-1918.</part>
+            </targetEntity>
+            <targetRole valueURI="creatorOf"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="resource"
+                          xlink:role="archivalRecords"
+                          valueURI="http://toBeCreated">
+               <part>Smithsonian Institution. Assistant Secretary in charge of the United
+				States National Museum. National Museum Building Construction Records, 1890-1923.</part>
+            </targetEntity>
+            <targetRole valueURI="creatorOf"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="resource"
+                          xlink:role="archivalRecords"
+                          valueURI="http://toBeCreated">
+               <part>United States National Museum. Office of the Director. Budget Records, 1949-1959.</part>
+            </targetEntity>
+            <targetRole valueURI="creatorOf"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="resource"
+                          xlink:role="archivalRecords"
+                          valueURI="http://toBeCreated">
+               <part>United States National Museum. Office of the Director. Research Reports, 1948-1962.</part>
+            </targetEntity>
+            <targetRole valueURI="creatorOf"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="resource"
+                          xlink:role="archivalRecords"
+                          valueURI="http://toBeCreated">
+               <part>United States National Museum. Office of the Director. Funds and Bequests, 1926-1957.</part>
+            </targetEntity>
+            <targetRole valueURI="creatorOf"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="resource"
+                          xlink:role="archivalRecords"
+                          valueURI="http://toBeCreated">
+               <part>United States National Museum. Office of the Director. Administrative Records, 1925-1963.</part>
+            </targetEntity>
+            <targetRole valueURI="creatorOf"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="resource"
+                          xlink:role="archivalRecords"
+                          valueURI="http://toBeCreated">
+               <part>United States National Museum. Office of the Director. Correspondence, 1937-1968.</part>
+            </targetEntity>
+            <targetRole valueURI="creatorOf"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="resource"
+                          xlink:role="archivalRecords"
+                          valueURI="http://toBeCreated">
+               <part>United States National Museum. Office of the Director. Subject Files, 1940-1968.</part>
+            </targetEntity>
+            <targetRole valueURI="creatorOf"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="resource"
+                          xlink:role="archivalRecords"
+                          valueURI="http://toBeCreated">
+               <part>National Museum Building Commission National Museum Building Commission Records, 1879-1882.</part>
+            </targetEntity>
+            <targetRole valueURI="creatorOf"/>
+         </relation>
+         <relation>
+            <targetEntity xmlns:xlink="http://www.w3.org/1999/xlink"
+                          targetType="resource"
+                          xlink:role="archivalRecords"
+                          valueURI="http://toBeCreated">
+               <part>United States National Museum. Superintendent of Construction for the
+				United States National Museum Building. National Museum Building Construction Records, 1903-1911.</part>
+            </targetEntity>
+            <targetRole valueURI="creatorOf"/>
+         </relation>
+      </relations>
+   </cpfDescription>
+</eac>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/cpf.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<eac xmlns="https://archivists.org/ns/eac/v2">
+    <!-- Exemple de notice d'autorité pour une collectivité de type seigneurie avec des relations avec les différentes familles titulaires de la seigneurie et le fonds d'archives de cette seigneurie -->
+   <control maintenanceStatus="new">
+      <recordId>FRAF_P_BORA_0000000001</recordId>
+      <maintenanceHistory>
+         <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
+            <eventDateTime standardDateTime="2021-01-23T18:04:04.978-05:00"/>
+            <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
+            <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="created">
+            <eventDateTime/>
+            <agent agentType="human"/>
+         </maintenanceEvent>
+      </maintenanceHistory>
+      <maintenanceAgency>
+         <agencyName/>
+      </maintenanceAgency>
+      <conventionDeclaration id="cd-ne-2021-01-23T180404.978-0500-1">
+         <reference/>
+         <shortCode>AFNOR_NF_Z_44-060</shortCode>
+      </conventionDeclaration>
+   </control>
+   <cpfDescription>
+      <identity>
+         <entityType value="corporateBody"/>
+         <nameEntry status="authorized"
+                    conventionDeclarationReference="cd-ne-2021-01-23T180404.978-0500-1">
+            <part>Le Tremblay-sur-Mauldre</part>
+            <part localType="departement">Yvelines</part>
+            <part localType="type_collectivite">seigneurie</part>
+            <!-- Forme autorisée du nom structurée dans différents éléments <part> permettant de distinguer la nature de chaque composante du nom -->
+            <!--
+<authorizedForm>AFNOR_NF_Z_44-060</authorizedForm>
+-->
+         </nameEntry>
+         <nameEntry status="alternative"
+                    conventionDeclarationReference="cd-ne-2021-01-23T180404.978-0500-1">
+            <part>Seigneurie du Tremblay-sur-Mauldre</part>
+            <!--
+<alternativeForm>AFNOR_NF_Z_44-060</alternativeForm>
+-->
+         </nameEntry>
+      </identity>
+      <description>
+         <biogHist>
+            <p>Jean Mignon et ses descendants furent les véritables fondateurs de la seigneurie
+                    du Tremblay. La terre échut à la famille Culdoë, puis à celle des Le Clerc en
+                    1467. C'est à partir de cette date que les Le Clerc prirent le nom de Le Clerc
+                    du Tremblay. Ces derniers s'allièrent aux d'Angennes et recurent les archives de
+                    la famille alliiée Malo. La famille d'Angennes s'éteint avec Françoise Hélène
+                    d'Angennes. Le domaine passa à Olivier de Vérac puis à la famille Rougé enfin à
+                    Mme de Vogüe qui vendit la propriété en 1948 à la municipalité de
+                    Neuilly-sur-Seine.</p>
+         </biogHist>
+      </description>
+      <relations>
+         <relation>
+            <targetEntity targetType="agent">
+               <part>Mignon (famille)</part>
+            </targetEntity>
+            <relationType>associative</relationType>
+         </relation>
+         <relation>
+            <targetEntity targetType="agent">
+               <part>Culdoë (famille)</part>
+            </targetEntity>
+            <relationType>associative</relationType>
+         </relation>
+         <relation>
+            <targetEntity targetType="agent">
+               <part>Angennes (famille d')</part>
+            </targetEntity>
+            <relationType>associative</relationType>
+         </relation>
+         <relation>
+            <targetEntity targetType="agent">
+               <part>Le Clerc du Tremblay (famille)</part>
+            </targetEntity>
+            <relationType>associative</relationType>
+         </relation>
+         <relation>
+            <targetEntity targetType="agent">
+               <part>Malo (famille)</part>
+            </targetEntity>
+            <relationType>associative</relationType>
+         </relation>
+         <relation><!-- Relation avec le fonds d'archives de la seigneurie du Tremblay-sur-Mauldre ; lien avec l'instance EAD correspondante -->
+            <targetEntity targetType="resource" valueURI="FRAD07800AP_000000002">
+               <part>Archives de la seigneurie du Tremblay-sur-Mauldre</part>
+            </targetEntity>
+            <relationType>creatorOf</relationType>
+         </relation>
+      </relations>
+   </cpfDescription>
+</eac>
