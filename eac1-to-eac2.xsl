@@ -488,7 +488,7 @@
         </xsl:element>
     </xsl:template>
     
-    <xsl:template match="eac:part[not(normalize-space())] | eac:relationEntry[not(normalize-space())]">
+    <xsl:template match="eac:part[not(normalize-space())]">
         <xsl:element name="{local-name()}" namespace="{$eac-xmlns}">
             <xsl:apply-templates select="@* | comment() | processing-instruction()"/>
             <xsl:message select="$default-empty-message" terminate="no"/>

@@ -6,7 +6,7 @@
       <recordId>FRAF_P_00014</recordId>
       <maintenanceHistory>
          <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
-            <eventDateTime standardDateTime="2021-01-23T18:04:25.346-05:00"/>
+            <eventDateTime standardDateTime="2021-01-23T18:21:45.524-05:00"/>
             <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
             <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
          </maintenanceEvent>
@@ -64,7 +64,7 @@
         </p>
          </descriptiveNote>
       </conventionDeclaration>
-      <conventionDeclaration id="cd-ne-2021-01-23T180425.346-0500-1">
+      <conventionDeclaration id="cd-ne-2021-01-23T182145.524-0500-1">
          <reference/>
          <shortCode>AFNOR_NF_Z_44-060</shortCode>
       </conventionDeclaration>
@@ -77,14 +77,14 @@
       <identity>
          <entityType value="corporateBody"/>
          <nameEntry status="authorized"
-                    conventionDeclarationReference="cd-ne-2021-01-23T180425.346-0500-1">
+                    conventionDeclarationReference="cd-ne-2021-01-23T182145.524-0500-1">
             <part>Centre d'études techniques maritimes et fluviales</part>
             <!--
 <authorizedForm>AFNOR_NF_Z_44-060</authorizedForm>
 -->
          </nameEntry>
          <nameEntry status="alternative"
-                    conventionDeclarationReference="cd-ne-2021-01-23T180425.346-0500-1">
+                    conventionDeclarationReference="cd-ne-2021-01-23T182145.524-0500-1">
             <part>CETMF</part>
             <!--
 <alternativeForm>AFNOR_NF_Z_44-060</alternativeForm>
