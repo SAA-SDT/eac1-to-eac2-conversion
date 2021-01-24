@@ -584,7 +584,7 @@
     </xsl:template>
     
     
-    <xsl:template match="eac:function | eac:languageUsed | eac:legalStatus | eac:localDescription | eac:mandate | eac:occupation | eac:place">
+    <xsl:template match="eac:*[local-name() = $description-singular-and-plural/term/@singular]" priority="2">
         <xsl:element name="{local-name()}" namespace="{$eac-xmlns}">
             <xsl:apply-templates select="@* | eac:*/@vocabularySource | comment() | processing-instruction()"/>
             <xsl:choose>
@@ -615,7 +615,7 @@
         </xsl:element>
     </xsl:template>
     
-    <xsl:template match="eac:functions | eac:languageUsedUsed | eac:legalStatuses | eac:localDescriptions | eac:mandates | eac:occupations | eac:places">
+    <xsl:template match="eac:*[local-name() = $description-singular-and-plural/term/@plural]" priority="2">
         <xsl:apply-templates select="comment() | processing-instruction()"/>
         <!-- empty plural elements will otherwise be silently dropped -->
         <xsl:if test="@*">
