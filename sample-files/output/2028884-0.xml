@@ -5,7 +5,7 @@
       <recordId>2028884-0</recordId>
       <maintenanceHistory>
          <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
-            <eventDateTime standardDateTime="2021-01-23T18:21:30.558-05:00"/>
+            <eventDateTime standardDateTime="2021-01-23T20:43:59.712-05:00"/>
             <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
             <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
          </maintenanceEvent>

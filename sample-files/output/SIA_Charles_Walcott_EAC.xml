@@ -5,7 +5,7 @@
       <recordId>RU007004</recordId>
       <maintenanceHistory>
          <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
-            <eventDateTime standardDateTime="2021-01-23T18:21:16.8-05:00"/>
+            <eventDateTime standardDateTime="2021-01-23T20:43:45.869-05:00"/>
             <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
             <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
          </maintenanceEvent>
@@ -26,7 +26,7 @@
          </source>
       </sources>
       <otherRecordId>SIA RU007004</otherRecordId>
-      <conventionDeclaration id="cd-ne-2021-01-23T182116.8-0500-1">
+      <conventionDeclaration id="cd-ne-2021-01-23T204345.869-0500-1">
          <reference/>
          <shortCode>LCNAF</shortCode>
       </conventionDeclaration>
@@ -38,7 +38,7 @@
          <nameEntry scriptOfElement="Latn"
                     languageOfElement="eng"
                     status="authorized"
-                    conventionDeclarationReference="cd-ne-2021-01-23T182116.8-0500-1">
+                    conventionDeclarationReference="cd-ne-2021-01-23T204345.869-0500-1">
             <part>Walcott, Charles D. (Charles Doolittle), 1850-1927</part>
             <!--
 <authorizedForm>LCNAF</authorizedForm>

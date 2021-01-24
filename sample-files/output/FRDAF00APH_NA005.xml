@@ -6,7 +6,7 @@
       <recordId>FRDAF00APH_NA005</recordId>
       <maintenanceHistory>
          <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
-            <eventDateTime standardDateTime="2021-01-23T18:21:43.084-05:00"/>
+            <eventDateTime standardDateTime="2021-01-23T20:44:12.738-05:00"/>
             <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
             <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
          </maintenanceEvent>
@@ -26,7 +26,7 @@
                 vedettes noms de personne, des vedettes titres, des rubriques de classement et des
                 titres forgés</reference>
       </conventionDeclaration>
-      <conventionDeclaration id="cd-ne-2021-01-23T182143.084-0500-1">
+      <conventionDeclaration id="cd-ne-2021-01-23T204412.738-0500-1">
          <reference/>
          <shortCode>AFNOR_NF_Z_44-061</shortCode>
       </conventionDeclaration>
@@ -36,7 +36,7 @@
       <identity>
          <entityType value="family"/>
          <nameEntry status="authorized"
-                    conventionDeclarationReference="cd-ne-2021-01-23T182143.084-0500-1">
+                    conventionDeclarationReference="cd-ne-2021-01-23T204412.738-0500-1">
             <part>Gramont (famille)</part>
             <!--
 <authorizedForm>AFNOR_NF_Z_44-061</authorizedForm>

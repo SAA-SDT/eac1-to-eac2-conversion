@@ -5,7 +5,7 @@
       <recordId>RCR00750</recordId>
       <maintenanceHistory>
          <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
-            <eventDateTime standardDateTime="2021-01-23T18:21:28.049-05:00"/>
+            <eventDateTime standardDateTime="2021-01-23T20:43:57.229-05:00"/>
             <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
             <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
          </maintenanceEvent>
@@ -63,7 +63,7 @@
             <p>Locally used for their definition of a corporate body.</p>
          </descriptiveNote>
       </conventionDeclaration>
-      <conventionDeclaration id="cd-ne-2021-01-23T182128.049-0500-1">
+      <conventionDeclaration id="cd-ne-2021-01-23T204357.229-0500-1">
          <reference/>
          <shortCode>local</shortCode>
       </conventionDeclaration>
@@ -73,7 +73,7 @@
       <identity>
          <entityType value="corporateBody"/>
          <nameEntry status="authorized"
-                    conventionDeclarationReference="cd-ne-2021-01-23T182128.049-0500-1">
+                    conventionDeclarationReference="cd-ne-2021-01-23T204357.229-0500-1">
             <part>Lufkin Engineering Library</part>
             <!--
 <authorizedForm>local</authorizedForm>

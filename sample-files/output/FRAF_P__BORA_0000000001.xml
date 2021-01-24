@@ -6,7 +6,7 @@
       <recordId>FRAF_P_BORA_0000000001</recordId>
       <maintenanceHistory>
          <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
-            <eventDateTime standardDateTime="2021-01-23T18:21:25.554-05:00"/>
+            <eventDateTime standardDateTime="2021-01-23T20:43:54.802-05:00"/>
             <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
             <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
          </maintenanceEvent>
@@ -18,7 +18,7 @@
       <maintenanceAgency>
          <agencyName/>
       </maintenanceAgency>
-      <conventionDeclaration id="cd-ne-2021-01-23T182125.554-0500-1">
+      <conventionDeclaration id="cd-ne-2021-01-23T204354.802-0500-1">
          <reference/>
          <shortCode>AFNOR_NF_Z_44-060</shortCode>
       </conventionDeclaration>
@@ -27,7 +27,7 @@
       <identity>
          <entityType value="corporateBody"/>
          <nameEntry status="authorized"
-                    conventionDeclarationReference="cd-ne-2021-01-23T182125.554-0500-1">
+                    conventionDeclarationReference="cd-ne-2021-01-23T204354.802-0500-1">
             <part>Le Tremblay-sur-Mauldre</part>
             <part localType="departement">Yvelines</part>
             <part localType="type_collectivite">seigneurie</part>
@@ -37,7 +37,7 @@
 -->
          </nameEntry>
          <nameEntry status="alternative"
-                    conventionDeclarationReference="cd-ne-2021-01-23T182125.554-0500-1">
+                    conventionDeclarationReference="cd-ne-2021-01-23T204354.802-0500-1">
             <part>Seigneurie du Tremblay-sur-Mauldre</part>
             <!--
 <alternativeForm>AFNOR_NF_Z_44-060</alternativeForm>
