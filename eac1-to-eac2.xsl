@@ -282,6 +282,13 @@
         </xsl:element>
     </xsl:template>
     
+    <xsl:template match="eac:maintenanceAgency">
+        <xsl:element name="{local-name()}" namespace="{$eac-xmlns}">
+            <xsl:apply-templates select="@* | comment() | processing-instruction()"/>
+            <xsl:apply-templates select="eac:agencyCode, eac:agencyName, eac:otherAgencyCode, eac:descriptiveNote"/>
+        </xsl:element>
+    </xsl:template>
+    
     <xsl:template match="eac:maintenanceHistory[$include-migration-maintenanceEvent]">
         <xsl:element name="{local-name()}" namespace="{$eac-xmlns}">
             <xsl:apply-templates select="@* | comment() |processing-instruction()"/>
