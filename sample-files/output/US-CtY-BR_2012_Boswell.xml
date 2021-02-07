@@ -3,21 +3,21 @@
 <eac xmlns="https://archivists.org/ns/eac/v2">
    <control maintenanceStatus="new">
       <recordId>beinecke.7h44jbj</recordId>
-      <maintenanceHistory>
-         <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
-            <eventDateTime standardDateTime="2021-01-23T20:44:00.98-05:00"/>
-            <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
-            <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
-         </maintenanceEvent>
-         <maintenanceEvent maintenanceEventType="created">
-            <eventDateTime standardDateTime="2012-06-28">2012 June 28</eventDateTime>
-            <agent agentType="human">M.K.K. Yearl</agent>
-         </maintenanceEvent>
-      </maintenanceHistory>
       <maintenanceAgency>
          <agencyCode>US-CtY-BR</agencyCode>
          <agencyName>Beinecke Rare Book and Manuscript Library, Yale University</agencyName>
       </maintenanceAgency>
+      <maintenanceHistory>
+         <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
+            <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
+            <eventDateTime standardDateTime="2021-02-07T12:18:51.068-05:00"/>
+            <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="created">
+            <agent agentType="human">M.K.K. Yearl</agent>
+            <eventDateTime standardDateTime="2012-06-28">2012 June 28</eventDateTime>
+         </maintenanceEvent>
+      </maintenanceHistory>
       <sources>
          <source href="http://lccn.loc.gov/sh85015956">
             <reference>Library of Congress Control Number: sh 85015956</reference>

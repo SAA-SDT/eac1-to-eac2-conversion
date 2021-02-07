@@ -4,30 +4,30 @@
   <!-- Exemple de notice d'autorité pour une collectivité (direction ministérielle) avec des relations avec des services déconcentrés de l'Etat -->
    <control maintenanceStatus="new" publicationStatus="approved">
       <recordId>FRAF_P_00006</recordId>
-      <maintenanceHistory>
-         <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
-            <eventDateTime standardDateTime="2021-01-23T20:44:10.179-05:00"/>
-            <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
-            <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
-         </maintenanceEvent>
-         <maintenanceEvent maintenanceEventType="revised">
-            <eventDateTime standardDateTime="2012-01-23T03:18:32">23 janvier 2012 03:18:32
-          PST</eventDateTime>
-            <agent agentType="human"/>
-         </maintenanceEvent>
-         <maintenanceEvent maintenanceEventType="created">
-            <eventDateTime standardDateTime="2012-01-13T04:47:56">13 janvier 2012 04:47:56
-          PST</eventDateTime>
-            <agent agentType="human">Notice élaborée par Adeline Denoeud (France. Ministère de l'écologie, de l'énergie du
-          développement durable, des transports et de la mer. Mission des Archives).</agent>
-         </maintenanceEvent>
-      </maintenanceHistory>
       <maintenanceAgency>
          <agencyCode>FR-SIAF</agencyCode>
          <agencyName>Service interministériel des Archives de France - Mission des Archives du
         ministère de l'écologie, de l'énergie du développement durable, des transports et de la
         mer</agencyName>
       </maintenanceAgency>
+      <maintenanceHistory>
+         <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
+            <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
+            <eventDateTime standardDateTime="2021-02-07T12:19:04.004-05:00"/>
+            <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="revised">
+            <agent agentType="human"/>
+            <eventDateTime standardDateTime="2012-01-23T03:18:32">23 janvier 2012 03:18:32
+          PST</eventDateTime>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="created">
+            <agent agentType="human">Notice élaborée par Adeline Denoeud (France. Ministère de l'écologie, de l'énergie du
+          développement durable, des transports et de la mer. Mission des Archives).</agent>
+            <eventDateTime standardDateTime="2012-01-13T04:47:56">13 janvier 2012 04:47:56
+          PST</eventDateTime>
+         </maintenanceEvent>
+      </maintenanceHistory>
       <sources>
          <source href="http://www.formation-maritime.fr">
             <reference>Site de la direction des affaires maritimes</reference>
@@ -49,7 +49,7 @@
         d’information -- Représentation de la date et de l’heure.</reference>
          <shortCode>ISO 8601</shortCode>
       </conventionDeclaration>
-      <conventionDeclaration id="cd-ne-2021-01-23T204410.179-0500-1">
+      <conventionDeclaration id="cd-ne-2021-02-07T121904.004-0500-1">
          <reference/>
          <shortCode>AFNOR_NF_Z_44-060</shortCode>
       </conventionDeclaration>
@@ -66,7 +66,7 @@
       <identity>
          <entityType value="corporateBody"/>
          <nameEntry status="authorized"
-                    conventionDeclarationReference="cd-ne-2021-01-23T204410.179-0500-1">
+                    conventionDeclarationReference="cd-ne-2021-02-07T121904.004-0500-1">
             <part>France. Direction des affaires maritimes</part>
             <!-- Forme autorisée du nom conforme à la norme AFNOR NF Z 44-060 -->
             <!--
@@ -74,7 +74,7 @@
 -->
          </nameEntry>
          <nameEntry status="alternative"
-                    conventionDeclarationReference="cd-ne-2021-01-23T204410.179-0500-1">
+                    conventionDeclarationReference="cd-ne-2021-02-07T121904.004-0500-1">
             <part>DAM</part>
             <!-- Forme alternative du nom -->
             <!--

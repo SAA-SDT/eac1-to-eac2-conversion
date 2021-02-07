@@ -4,23 +4,23 @@
     <!-- Exemple de notice d'autorité pour une personne, avec des relations avec une collectivité et des fonds conservées dans plusieurs services d'archives -->
    <control maintenanceStatus="revised" publicationStatus="approved">
       <recordId>FRDAF00APH_NA003</recordId>
-      <maintenanceHistory>
-         <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
-            <eventDateTime standardDateTime="2021-01-23T20:44:16.757-05:00"/>
-            <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
-            <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
-         </maintenanceEvent>
-         <maintenanceEvent maintenanceEventType="updated">
-            <eventDateTime>2011-05-12</eventDateTime>
-            <agent agentType="human">Notice rédigée par Alexandra Machado, vacataire à la Direction des Archives
-                    de France, révisée par Claire Sibille - de Grimouard, conservateur au Service
-                    interministériel des Archives de France et par Florence Clavaud, conservateur à l'Ecole nationale des chartes</agent>
-         </maintenanceEvent>
-      </maintenanceHistory>
       <maintenanceAgency>
          <agencyCode>FR-SIAF</agencyCode>
          <agencyName>Service interministériel des Archives de France</agencyName>
       </maintenanceAgency>
+      <maintenanceHistory>
+         <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
+            <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
+            <eventDateTime standardDateTime="2021-02-07T12:19:13.179-05:00"/>
+            <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="updated">
+            <agent agentType="human">Notice rédigée par Alexandra Machado, vacataire à la Direction des Archives
+                    de France, révisée par Claire Sibille - de Grimouard, conservateur au Service
+                    interministériel des Archives de France et par Florence Clavaud, conservateur à l'Ecole nationale des chartes</agent>
+            <eventDateTime>2011-05-12</eventDateTime>
+         </maintenanceEvent>
+      </maintenanceHistory>
       <sources>
          <source>
             <reference id="d1e51"/>
@@ -87,7 +87,7 @@
                 titres forgés</reference>
          <!-- On a choisi dans cette notice de regrouper dans un seul élément <citation> toutes les références aux normes utilisées pour élaborer la notice -->
       </conventionDeclaration>
-      <conventionDeclaration id="cd-ne-2021-01-23T204416.757-0500-1">
+      <conventionDeclaration id="cd-ne-2021-02-07T121913.179-0500-1">
          <reference/>
          <shortCode>AFNOR_NF_Z_44-061</shortCode>
       </conventionDeclaration>
@@ -97,7 +97,7 @@
       <identity>
          <entityType value="person"/>
          <nameEntry status="authorized"
-                    conventionDeclarationReference="cd-ne-2021-01-23T204416.757-0500-1">
+                    conventionDeclarationReference="cd-ne-2021-02-07T121913.179-0500-1">
             <part localType="nom">Henrard</part>
             <part localType="prenom">Roger</part>
             <part localType="dates_biographiques">1900-1975</part>

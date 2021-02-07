@@ -3,30 +3,30 @@
 <eac xmlns="https://archivists.org/ns/eac/v2">
    <control maintenanceStatus="revised" publicationStatus="approved">
       <recordId>RU007004</recordId>
+      <maintenanceAgency>
+         <agencyCode>DSI-SIA</agencyCode>
+         <agencyName>Smithsonian Institution Archives</agencyName>
+         <otherAgencyCode localType="">SIA</otherAgencyCode>
+      </maintenanceAgency>
       <maintenanceHistory>
          <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
-            <eventDateTime standardDateTime="2021-01-23T20:43:45.869-05:00"/>
             <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
+            <eventDateTime standardDateTime="2021-02-07T12:18:31.219-05:00"/>
             <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
          </maintenanceEvent>
          <maintenanceEvent maintenanceEventType="created">
-            <eventDateTime standardDateTime="2012-07-11">2012-07-11</eventDateTime>
             <agent agentType="human">Tammy Peters</agent>
+            <eventDateTime standardDateTime="2012-07-11">2012-07-11</eventDateTime>
             <eventDescription>Record Created</eventDescription>
          </maintenanceEvent>
       </maintenanceHistory>
-      <maintenanceAgency>
-         <agencyCode>DSI-SIA</agencyCode>
-         <otherAgencyCode localType="">SIA</otherAgencyCode>
-         <agencyName>Smithsonian Institution Archives</agencyName>
-      </maintenanceAgency>
       <sources>
          <source href="siarchives.si.edu/collections/siris_arc_217204">
             <reference id="d1e52"/>
          </source>
       </sources>
       <otherRecordId>SIA RU007004</otherRecordId>
-      <conventionDeclaration id="cd-ne-2021-01-23T204345.869-0500-1">
+      <conventionDeclaration id="cd-ne-2021-02-07T121831.219-0500-1">
          <reference/>
          <shortCode>LCNAF</shortCode>
       </conventionDeclaration>
@@ -38,7 +38,7 @@
          <nameEntry scriptOfElement="Latn"
                     languageOfElement="eng"
                     status="authorized"
-                    conventionDeclarationReference="cd-ne-2021-01-23T204345.869-0500-1">
+                    conventionDeclarationReference="cd-ne-2021-02-07T121831.219-0500-1">
             <part>Walcott, Charles D. (Charles Doolittle), 1850-1927</part>
             <!--
 <authorizedForm>LCNAF</authorizedForm>

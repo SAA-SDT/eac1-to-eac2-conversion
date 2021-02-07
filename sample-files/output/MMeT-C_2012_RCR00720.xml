@@ -3,29 +3,29 @@
 <eac xmlns="https://archivists.org/ns/eac/v2">
    <control maintenanceStatus="new">
       <recordId>RCR00720</recordId>
-      <maintenanceHistory>
-         <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
-            <eventDateTime standardDateTime="2021-01-23T20:43:49.74-05:00"/>
-            <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
-            <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
-         </maintenanceEvent>
-         <maintenanceEvent maintenanceEventType="revised">
-            <eventDateTime standardDateTime="2012-01-27">2012-01-27</eventDateTime>
-            <agent agentType="human">Rubinstein, Aaron</agent>
-         </maintenanceEvent>
-         <maintenanceEvent maintenanceEventType="revised">
-            <eventDateTime standardDateTime="2011-09-09">2011-09-09</eventDateTime>
-            <agent agentType="human">Martzahl, Veronica</agent>
-         </maintenanceEvent>
-         <maintenanceEvent maintenanceEventType="created">
-            <eventDateTime standardDateTime="2011-02-28">2011-02-28</eventDateTime>
-            <agent agentType="human">Martzahl, Veronica</agent>
-         </maintenanceEvent>
-      </maintenanceHistory>
       <maintenanceAgency>
          <agencyCode>MMeT-C</agencyCode>
          <agencyName>Tufts University Digital Collections and Archives</agencyName>
       </maintenanceAgency>
+      <maintenanceHistory>
+         <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
+            <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
+            <eventDateTime standardDateTime="2021-02-07T12:18:34.935-05:00"/>
+            <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="revised">
+            <agent agentType="human">Rubinstein, Aaron</agent>
+            <eventDateTime standardDateTime="2012-01-27">2012-01-27</eventDateTime>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="revised">
+            <agent agentType="human">Martzahl, Veronica</agent>
+            <eventDateTime standardDateTime="2011-09-09">2011-09-09</eventDateTime>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="created">
+            <agent agentType="human">Martzahl, Veronica</agent>
+            <eventDateTime standardDateTime="2011-02-28">2011-02-28</eventDateTime>
+         </maintenanceEvent>
+      </maintenanceHistory>
       <sources>
          <source>
             <reference>Trustees of Tufts College. Bulletin of Tufts College, 1939-40. Medford, MA:
@@ -55,7 +55,7 @@
             <p>Locally used for their definition of a corporate body.</p>
          </descriptiveNote>
       </conventionDeclaration>
-      <conventionDeclaration id="cd-ne-2021-01-23T204349.74-0500-1">
+      <conventionDeclaration id="cd-ne-2021-02-07T121834.935-0500-1">
          <reference/>
          <shortCode>local</shortCode>
       </conventionDeclaration>
@@ -65,7 +65,7 @@
       <identity>
          <entityType value="corporateBody"/>
          <nameEntry status="authorized"
-                    conventionDeclarationReference="cd-ne-2021-01-23T204349.74-0500-1">
+                    conventionDeclarationReference="cd-ne-2021-02-07T121834.935-0500-1">
             <part>Department of French</part>
             <!--
 <authorizedForm>local</authorizedForm>

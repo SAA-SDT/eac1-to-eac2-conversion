@@ -3,25 +3,25 @@
 <eac xmlns="https://archivists.org/ns/eac/v2">
    <control maintenanceStatus="new">
       <recordId>118583670</recordId>
-      <maintenanceHistory>
-         <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
-            <eventDateTime standardDateTime="2021-01-23T20:44:08.808-05:00"/>
-            <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
-            <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
-         </maintenanceEvent>
-         <maintenanceEvent maintenanceEventType="revised">
-            <eventDateTime standardDateTime="2020-10-01"/>
-            <agent agentType="human">W4</agent>
-         </maintenanceEvent>
-         <maintenanceEvent maintenanceEventType="created">
-            <eventDateTime standardDateTime="1988-07-01"/>
-            <agent agentType="human">W4</agent>
-         </maintenanceEvent>
-      </maintenanceHistory>
       <maintenanceAgency>
          <agencyCode>DE-101</agencyCode>
          <agencyName>Deutsche Nationalbibliothek</agencyName>
       </maintenanceAgency>
+      <maintenanceHistory>
+         <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
+            <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
+            <eventDateTime standardDateTime="2021-02-07T12:19:02.178-05:00"/>
+            <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="revised">
+            <agent agentType="human">W4</agent>
+            <eventDateTime standardDateTime="2020-10-01"/>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="created">
+            <agent agentType="human">W4</agent>
+            <eventDateTime standardDateTime="1988-07-01"/>
+         </maintenanceEvent>
+      </maintenanceHistory>
       <sources>
          <source>
             <reference>Internet</reference>

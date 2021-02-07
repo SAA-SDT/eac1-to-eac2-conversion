@@ -4,29 +4,29 @@
     <!-- Exemple de notice d'autorité pour une famille avec des relations avec ses différents membres et le fonds d'archives de cette famille ; un lien a également été établi avec la notice d'autorité pour la même famille dans le référentiel Personnes de la BnF -->
    <control maintenanceStatus="new" publicationStatus="approved">
       <recordId>FRDAF00APH_NA005</recordId>
-      <maintenanceHistory>
-         <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
-            <eventDateTime standardDateTime="2021-01-23T20:44:12.738-05:00"/>
-            <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
-            <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
-         </maintenanceEvent>
-         <maintenanceEvent maintenanceEventType="updated">
-            <eventDateTime>2012-04-20</eventDateTime>
-            <agent agentType="human">Notice rédigée par Anila Angjeli (Bibliothèque nationale de France), Claire
-                    Sibille - de Grimouard (Service interministériel des Archives de France) et Florence Clavaud (Ecole nationale des chartes)</agent>
-         </maintenanceEvent>
-      </maintenanceHistory>
       <maintenanceAgency>
          <agencyCode>FR-SIAF</agencyCode>
          <agencyName>Service interministériel des Archives de France</agencyName>
       </maintenanceAgency>
+      <maintenanceHistory>
+         <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
+            <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
+            <eventDateTime standardDateTime="2021-02-07T12:19:07.674-05:00"/>
+            <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="updated">
+            <agent agentType="human">Notice rédigée par Anila Angjeli (Bibliothèque nationale de France), Claire
+                    Sibille - de Grimouard (Service interministériel des Archives de France) et Florence Clavaud (Ecole nationale des chartes)</agent>
+            <eventDateTime>2012-04-20</eventDateTime>
+         </maintenanceEvent>
+      </maintenanceHistory>
       <conventionDeclaration id="d1e28">
          <reference>Notice établie conformément aux normes ISAAR (CPF) du Conseil international
                 des Archives et AFNOR NF Z 44-061, 1er juin 1986 Catalogage : forme et structure de
                 vedettes noms de personne, des vedettes titres, des rubriques de classement et des
                 titres forgés</reference>
       </conventionDeclaration>
-      <conventionDeclaration id="cd-ne-2021-01-23T204412.738-0500-1">
+      <conventionDeclaration id="cd-ne-2021-02-07T121907.674-0500-1">
          <reference/>
          <shortCode>AFNOR_NF_Z_44-061</shortCode>
       </conventionDeclaration>
@@ -36,7 +36,7 @@
       <identity>
          <entityType value="family"/>
          <nameEntry status="authorized"
-                    conventionDeclarationReference="cd-ne-2021-01-23T204412.738-0500-1">
+                    conventionDeclarationReference="cd-ne-2021-02-07T121907.674-0500-1">
             <part>Gramont (famille)</part>
             <!--
 <authorizedForm>AFNOR_NF_Z_44-061</authorizedForm>

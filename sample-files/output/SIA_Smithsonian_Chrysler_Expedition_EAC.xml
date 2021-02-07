@@ -3,23 +3,23 @@
 <eac xmlns="https://archivists.org/ns/eac/v2">
    <control maintenanceStatus="revised" publicationStatus="approved">
       <recordId>EACE010</recordId>
+      <maintenanceAgency>
+         <agencyCode>DSI-SIA</agencyCode>
+         <agencyName>Smithsonian Institution Archives</agencyName>
+         <otherAgencyCode localType="">SIA</otherAgencyCode>
+      </maintenanceAgency>
       <maintenanceHistory>
          <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
-            <eventDateTime standardDateTime="2021-01-23T20:44:26.733-05:00"/>
             <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
+            <eventDateTime standardDateTime="2021-02-07T12:19:26.203-05:00"/>
             <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
          </maintenanceEvent>
          <maintenanceEvent maintenanceEventType="created">
-            <eventDateTime standardDateTime="2012-07-12">2012-07-12</eventDateTime>
             <agent agentType="human">Tammy Peters</agent>
+            <eventDateTime standardDateTime="2012-07-12">2012-07-12</eventDateTime>
             <eventDescription>Record Created</eventDescription>
          </maintenanceEvent>
       </maintenanceHistory>
-      <maintenanceAgency>
-         <agencyCode>DSI-SIA</agencyCode>
-         <otherAgencyCode localType="">SIA</otherAgencyCode>
-         <agencyName>Smithsonian Institution Archives</agencyName>
-      </maintenanceAgency>
       <sources>
          <source>
             <reference>Annual Report of the Smithsonian Institution, 1926, pages 5, 29-30, 106-107</reference>
@@ -36,7 +36,7 @@
       </sources>
       <otherRecordId>FBR EACE010</otherRecordId>
       <otherRecordId>Fieldbook Registry EACE010</otherRecordId>
-      <conventionDeclaration id="cd-ne-2021-01-23T204426.733-0500-1">
+      <conventionDeclaration id="cd-ne-2021-02-07T121926.203-0500-1">
          <reference/>
          <shortCode>AACR2</shortCode>
       </conventionDeclaration>
@@ -48,7 +48,7 @@
          <nameEntry scriptOfElement="Latn"
                     languageOfElement="eng"
                     status="authorized"
-                    conventionDeclarationReference="cd-ne-2021-01-23T204426.733-0500-1">
+                    conventionDeclarationReference="cd-ne-2021-02-07T121926.203-0500-1">
             <part>Smithsonian-Chrysler Expedition to East Africa</part>
             <!--
 <authorizedForm>AACR2</authorizedForm>

@@ -3,21 +3,21 @@
 <eac xmlns="https://archivists.org/ns/eac/v2">
    <control maintenanceStatus="new">
       <recordId>RCR00785</recordId>
-      <maintenanceHistory>
-         <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
-            <eventDateTime standardDateTime="2021-01-23T20:43:52.275-05:00"/>
-            <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
-            <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
-         </maintenanceEvent>
-         <maintenanceEvent maintenanceEventType="created">
-            <eventDateTime standardDateTime="2012-03-19">2012-03-19</eventDateTime>
-            <agent agentType="human">Martzahl, Veronica</agent>
-         </maintenanceEvent>
-      </maintenanceHistory>
       <maintenanceAgency>
          <agencyCode>MMeT-C</agencyCode>
          <agencyName>Tufts University Digital Collections and Archives</agencyName>
       </maintenanceAgency>
+      <maintenanceHistory>
+         <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
+            <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
+            <eventDateTime standardDateTime="2021-02-07T12:18:38.419-05:00"/>
+            <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="created">
+            <agent agentType="human">Martzahl, Veronica</agent>
+            <eventDateTime standardDateTime="2012-03-19">2012-03-19</eventDateTime>
+         </maintenanceEvent>
+      </maintenanceHistory>
       <sources>
          <source>
             <reference>PublicEye.org; [accessed March 19, 2012.]</reference>
@@ -38,7 +38,7 @@
             <p>Locally used for their definition of a corporate body.</p>
          </descriptiveNote>
       </conventionDeclaration>
-      <conventionDeclaration id="cd-ne-2021-01-23T204352.275-0500-1">
+      <conventionDeclaration id="cd-ne-2021-02-07T121838.419-0500-1">
          <reference/>
          <shortCode>local</shortCode>
       </conventionDeclaration>
@@ -48,7 +48,7 @@
       <identity>
          <entityType value="corporateBody"/>
          <nameEntry status="authorized"
-                    conventionDeclarationReference="cd-ne-2021-01-23T204352.275-0500-1">
+                    conventionDeclarationReference="cd-ne-2021-02-07T121838.419-0500-1">
             <part>Political Research Associates</part>
             <!--
 <authorizedForm>local</authorizedForm>

@@ -4,30 +4,30 @@
   <!-- Exemple de notice d'autorité pour une collectivité (service déconcentré de l'Etat) avec des relations avec une direction d'administration centrale, un autre service déconcentré de l'Etat et une fonction -->
    <control maintenanceStatus="new" publicationStatus="approved">
       <recordId>FRAF_P_00007</recordId>
-      <maintenanceHistory>
-         <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
-            <eventDateTime standardDateTime="2021-01-23T20:44:07.232-05:00"/>
-            <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
-            <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
-         </maintenanceEvent>
-         <maintenanceEvent maintenanceEventType="revised">
-            <eventDateTime standardDateTime="2012-01-23T03:20:29">23 janvier 2012 03:20:29
-          PST</eventDateTime>
-            <agent agentType="human"/>
-         </maintenanceEvent>
-         <maintenanceEvent maintenanceEventType="created">
-            <eventDateTime standardDateTime="2012-01-13T07:51:44">13 janvier 2012 07:51:44
-          PST</eventDateTime>
-            <agent agentType="human">Notice élaborée par Adeline Denoeud (France. Ministère de l'écologie, de l'énergie du
-          développement durable, des transports et de la mer. Mission des Archives).</agent>
-         </maintenanceEvent>
-      </maintenanceHistory>
       <maintenanceAgency>
          <agencyCode>FR-SIAF</agencyCode>
          <agencyName>Service interministériel des Archives de France - Mission des Archives du
         ministère de l'écologie, de l'énergie du développement durable, des transports et de la
         mer</agencyName>
       </maintenanceAgency>
+      <maintenanceHistory>
+         <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
+            <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
+            <eventDateTime standardDateTime="2021-02-07T12:19:00.369-05:00"/>
+            <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="revised">
+            <agent agentType="human"/>
+            <eventDateTime standardDateTime="2012-01-23T03:20:29">23 janvier 2012 03:20:29
+          PST</eventDateTime>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="created">
+            <agent agentType="human">Notice élaborée par Adeline Denoeud (France. Ministère de l'écologie, de l'énergie du
+          développement durable, des transports et de la mer. Mission des Archives).</agent>
+            <eventDateTime standardDateTime="2012-01-13T07:51:44">13 janvier 2012 07:51:44
+          PST</eventDateTime>
+         </maintenanceEvent>
+      </maintenanceHistory>
       <sources>
          <source href="http://www.developpement-durable.gouv.fr">
             <reference>Site du ministère de l'écologie, du développement durable, des transports et du
@@ -65,7 +65,7 @@
          </descriptiveNote>
          <!-- Lien vers le thésaurus anciennement W dont est issu le terme utilisé dans l'élément <term> de l'élément <function> -->
       </conventionDeclaration>
-      <conventionDeclaration id="cd-ne-2021-01-23T204407.232-0500-1">
+      <conventionDeclaration id="cd-ne-2021-02-07T121900.369-0500-1">
          <reference/>
          <shortCode>AFNOR_NF_Z_44-060</shortCode>
       </conventionDeclaration>
@@ -78,7 +78,7 @@
       <identity>
          <entityType value="corporateBody"/>
          <nameEntry status="authorized"
-                    conventionDeclarationReference="cd-ne-2021-01-23T204407.232-0500-1">
+                    conventionDeclarationReference="cd-ne-2021-02-07T121900.369-0500-1">
             <part>France. Direction interrégionale de la mer (ressort)</part>
             <!-- Forme générique du nom pour une direction interrégionale de la mer -->
             <!--
@@ -86,14 +86,14 @@
 -->
          </nameEntry>
          <nameEntry status="authorized"
-                    conventionDeclarationReference="cd-ne-2021-01-23T204407.232-0500-1">
+                    conventionDeclarationReference="cd-ne-2021-02-07T121900.369-0500-1">
             <part>DIRM</part>
             <!--
 <authorizedForm>AFNOR_NF_Z_44-060</authorizedForm>
 -->
          </nameEntry>
          <nameEntry status="alternative"
-                    conventionDeclarationReference="cd-ne-2021-01-23T204407.232-0500-1">
+                    conventionDeclarationReference="cd-ne-2021-02-07T121900.369-0500-1">
             <part>France. Direction de la mer</part>
             <part localType="scopenote">appellation valable pour l'Outre-Mer</part>
             <!-- Variante de la forme du nom avec une précision sur le contexte d'utilisation ; la valeur "scopenote" de l'attribut LOCALTYPE a été choisie par analogie avec les propriétés de la recommandation SKOS -->
@@ -102,7 +102,7 @@
 -->
          </nameEntry>
          <nameEntry status="alternative"
-                    conventionDeclarationReference="cd-ne-2021-01-23T204407.232-0500-1">
+                    conventionDeclarationReference="cd-ne-2021-02-07T121900.369-0500-1">
             <part>DM</part>
             <part localType="scopenote">appellation valable pour l'Outre-Mer</part>
             <!-- Variante de la forme du nom avec une précision sur le contexte d'utilisation -->

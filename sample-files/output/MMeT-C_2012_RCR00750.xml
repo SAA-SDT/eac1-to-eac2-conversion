@@ -3,33 +3,33 @@
 <eac xmlns="https://archivists.org/ns/eac/v2">
    <control maintenanceStatus="new">
       <recordId>RCR00750</recordId>
-      <maintenanceHistory>
-         <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
-            <eventDateTime standardDateTime="2021-01-23T20:43:57.229-05:00"/>
-            <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
-            <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
-         </maintenanceEvent>
-         <maintenanceEvent maintenanceEventType="revised">
-            <eventDateTime standardDateTime="2012-07-06">2012-07-06</eventDateTime>
-            <agent agentType="human">Martzahl, Veronica</agent>
-         </maintenanceEvent>
-         <maintenanceEvent maintenanceEventType="revised">
-            <eventDateTime standardDateTime="2012-01-27">2012-01-27</eventDateTime>
-            <agent agentType="human">Rubinstein, Aaron</agent>
-         </maintenanceEvent>
-         <maintenanceEvent maintenanceEventType="revised">
-            <eventDateTime standardDateTime="2011-06-17">2011-06-17</eventDateTime>
-            <agent agentType="human">Martzahl, Veronica</agent>
-         </maintenanceEvent>
-         <maintenanceEvent maintenanceEventType="created">
-            <eventDateTime standardDateTime="2011-05-18">2011-05-18</eventDateTime>
-            <agent agentType="human">Williams, Stacie</agent>
-         </maintenanceEvent>
-      </maintenanceHistory>
       <maintenanceAgency>
          <agencyCode>MMeT-C</agencyCode>
          <agencyName>Tufts University Digital Collections and Archives</agencyName>
       </maintenanceAgency>
+      <maintenanceHistory>
+         <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
+            <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
+            <eventDateTime standardDateTime="2021-02-07T12:18:45.661-05:00"/>
+            <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="revised">
+            <agent agentType="human">Martzahl, Veronica</agent>
+            <eventDateTime standardDateTime="2012-07-06">2012-07-06</eventDateTime>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="revised">
+            <agent agentType="human">Rubinstein, Aaron</agent>
+            <eventDateTime standardDateTime="2012-01-27">2012-01-27</eventDateTime>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="revised">
+            <agent agentType="human">Martzahl, Veronica</agent>
+            <eventDateTime standardDateTime="2011-06-17">2011-06-17</eventDateTime>
+         </maintenanceEvent>
+         <maintenanceEvent maintenanceEventType="created">
+            <agent agentType="human">Williams, Stacie</agent>
+            <eventDateTime standardDateTime="2011-05-18">2011-05-18</eventDateTime>
+         </maintenanceEvent>
+      </maintenanceHistory>
       <sources>
          <source>
             <reference>Tufts Daily, Jan. 20, 1993, 6. Tufts University. Digital Collections and
@@ -63,7 +63,7 @@
             <p>Locally used for their definition of a corporate body.</p>
          </descriptiveNote>
       </conventionDeclaration>
-      <conventionDeclaration id="cd-ne-2021-01-23T204357.229-0500-1">
+      <conventionDeclaration id="cd-ne-2021-02-07T121845.661-0500-1">
          <reference/>
          <shortCode>local</shortCode>
       </conventionDeclaration>
@@ -73,7 +73,7 @@
       <identity>
          <entityType value="corporateBody"/>
          <nameEntry status="authorized"
-                    conventionDeclarationReference="cd-ne-2021-01-23T204357.229-0500-1">
+                    conventionDeclarationReference="cd-ne-2021-02-07T121845.661-0500-1">
             <part>Lufkin Engineering Library</part>
             <!--
 <authorizedForm>local</authorizedForm>
