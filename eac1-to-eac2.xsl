@@ -270,7 +270,7 @@
             <!-- and the elements turned attributes -->
             <xsl:apply-templates select="eac:maintenanceStatus, eac:publicationStatus"/> 
             <!-- next, the required elements -->
-            <xsl:apply-templates select="eac:recordId, eac:maintenanceHistory, eac:maintenanceAgency"/>
+            <xsl:apply-templates select="eac:recordId, eac:maintenanceAgency, eac:maintenanceHistory"/>
             <!-- and the rest -->
             <xsl:apply-templates select="eac:sources, eac:otherRecordId"/> <!-- missing here is representation, but that's new to EAC 2.  should we provid an option to seed data to that element? -->
             <xsl:apply-templates select="eac:conventionDeclaration"/>
@@ -290,12 +290,12 @@
                 <xsl:if test="not(ancestor-or-self::eac:*[@xml:lang][1]/@xml:lang eq $default-xml-lang)">
                     <xsl:attribute name="languageOfElement" select="$default-xml-lang"/>
                 </xsl:if>
-                <xsl:element name="eventDateTime" namespace="{$eac-xmlns}">
-                    <xsl:attribute name="standardDateTime" select="current-dateTime()"/>
-                </xsl:element>
                 <xsl:element name="agent" namespace="{$eac-xmlns}">
                     <xsl:attribute name="agentType" select="'machine'"/>
                     <xsl:value-of select="$default-migration-agent-name"/>
+                </xsl:element>
+                <xsl:element name="eventDateTime" namespace="{$eac-xmlns}">
+                    <xsl:attribute name="standardDateTime" select="current-dateTime()"/>
                 </xsl:element>
                 <xsl:element name="eventDescription" namespace="{$eac-xmlns}">
                     <xsl:value-of select="$default-migration-text"/>
@@ -311,7 +311,7 @@
     <xsl:template match="eac:maintenanceEvent">
         <xsl:element name="{local-name()}" namespace="{$eac-xmlns}">
             <xsl:apply-templates select="@* | eac:eventType"/>
-            <xsl:apply-templates select="comment() | eac:eventDateTime, eac:agent, eac:eventDescription"/>
+            <xsl:apply-templates select="comment() | eac:agent, eac:eventDateTime, eac:eventDescription"/>
         </xsl:element>
     </xsl:template>
     
