@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/cpf.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/eac.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/schematron/eac.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- This file was downloaded from https://eac.staatsbibliothek-berlin.de/examples-for-the-eac-cpf-schema-2010/
+   where it was hosted to serve as an example of EAC-CPF encoding practices. -->
 <eac xmlns="https://archivists.org/ns/eac/v2">
    <control maintenanceStatus="new">
       <recordId>beinecke.prr4xtk</recordId>
@@ -10,7 +13,7 @@
       <maintenanceHistory>
          <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
             <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
-            <eventDateTime standardDateTime="2021-02-07T12:19:18.787-05:00"/>
+            <eventDateTime standardDateTime="2021-02-11T20:28:35.744-05:00"/>
             <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
          </maintenanceEvent>
          <maintenanceEvent maintenanceEventType="created">
@@ -42,22 +45,22 @@
          </source>
       </sources>
       <otherRecordId localType="url">http://hdl.handle.net/10079/prr4xtk</otherRecordId>
-      <conventionDeclaration id="d1e29">
+      <conventionDeclaration id="d1e30">
          <reference>Art &amp; Architecture Thesaurus</reference>
          <shortCode>aat</shortCode>
       </conventionDeclaration>
-      <conventionDeclaration id="d1e36">
+      <conventionDeclaration id="d1e37">
          <reference>Describing Archives: A Content Standard</reference>
          <shortCode>dacs</shortCode>
          <descriptiveNote>
             <p>Record created following DACS conventions.</p>
          </descriptiveNote>
       </conventionDeclaration>
-      <conventionDeclaration id="d1e48">
+      <conventionDeclaration id="d1e49">
          <reference>Library of Congress Name Authority File</reference>
          <shortCode>lcnaf</shortCode>
       </conventionDeclaration>
-      <conventionDeclaration id="d1e55">
+      <conventionDeclaration id="d1e56">
          <reference>Library of Congress Subject Headings</reference>
          <shortCode>lcsh</shortCode>
       </conventionDeclaration>
@@ -69,7 +72,7 @@
          <nameEntry scriptOfElement="Latn"
                     languageOfElement="eng"
                     status="authorized"
-                    conventionDeclarationReference="d1e48">
+                    conventionDeclarationReference="d1e49">
             <part localType="100a">Pottle, Frederick A. </part>
             <part localType="100q">(Frederick Albert), </part>
             <part localType="100d">1897-1987 </part>
@@ -80,7 +83,7 @@
          <nameEntry scriptOfElement="Latn"
                     languageOfElement="eng"
                     status="alternative"
-                    conventionDeclarationReference="d1e48">
+                    conventionDeclarationReference="d1e49">
             <part localType="400a">Pottle, Frederick Albert, </part>
             <part localType="400d">1897- </part>
             <!--

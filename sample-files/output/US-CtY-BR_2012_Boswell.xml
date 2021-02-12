@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/cpf.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/eac.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/schematron/eac.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- This file was downloaded from https://eac.staatsbibliothek-berlin.de/examples-for-the-eac-cpf-schema-2010/
+   where it was hosted to serve as an example of EAC-CPF encoding practices. -->
 <eac xmlns="https://archivists.org/ns/eac/v2">
    <control maintenanceStatus="new">
       <recordId>beinecke.7h44jbj</recordId>
@@ -10,7 +13,7 @@
       <maintenanceHistory>
          <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
             <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
-            <eventDateTime standardDateTime="2021-02-07T12:18:51.068-05:00"/>
+            <eventDateTime standardDateTime="2021-02-11T20:28:30.854-05:00"/>
             <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
          </maintenanceEvent>
          <maintenanceEvent maintenanceEventType="created">
@@ -39,18 +42,18 @@
          </source>
       </sources>
       <otherRecordId localType="url">http://hdl.handle.net/10079/7h44jbj</otherRecordId>
-      <conventionDeclaration id="d1e29">
+      <conventionDeclaration id="d1e30">
          <reference>Describing Archives: A Content Standard</reference>
          <shortCode>dacs</shortCode>
          <descriptiveNote>
             <p>Record created following DACS conventions.</p>
          </descriptiveNote>
       </conventionDeclaration>
-      <conventionDeclaration id="d1e41">
+      <conventionDeclaration id="d1e42">
          <reference>Library of Congress Name Authority File</reference>
          <shortCode>lcnaf</shortCode>
       </conventionDeclaration>
-      <conventionDeclaration id="d1e48">
+      <conventionDeclaration id="d1e49">
          <reference>Library of Congress Subject Headings</reference>
          <shortCode>lcsh</shortCode>
       </conventionDeclaration>
@@ -62,7 +65,7 @@
          <nameEntry scriptOfElement="Latn"
                     languageOfElement="eng"
                     status="authorized"
-                    conventionDeclarationReference="d1e41">
+                    conventionDeclarationReference="d1e42">
             <part localType="100a">Boswell family </part>
             <!--
 <authorizedForm>lcnaf</authorizedForm>
@@ -71,7 +74,7 @@
          <nameEntry scriptOfElement="Latn"
                     languageOfElement="eng"
                     status="alternative"
-                    conventionDeclarationReference="d1e41">
+                    conventionDeclarationReference="d1e42">
             <part localType="400a">Bosswell family </part>
             <!--
 <alternativeForm>lcnaf</alternativeForm>
@@ -80,7 +83,7 @@
          <nameEntry scriptOfElement="Latn"
                     languageOfElement="eng"
                     status="alternative"
-                    conventionDeclarationReference="d1e41">
+                    conventionDeclarationReference="d1e42">
             <part localType="400a">Bosweel family </part>
             <!--
 <alternativeForm>lcnaf</alternativeForm>
@@ -89,7 +92,7 @@
          <nameEntry scriptOfElement="Latn"
                     languageOfElement="eng"
                     status="alternative"
-                    conventionDeclarationReference="d1e41">
+                    conventionDeclarationReference="d1e42">
             <part localType="400a">Boswel family </part>
             <!--
 <alternativeForm>lcnaf</alternativeForm>
@@ -98,7 +101,7 @@
          <nameEntry scriptOfElement="Latn"
                     languageOfElement="eng"
                     status="alternative"
-                    conventionDeclarationReference="d1e41">
+                    conventionDeclarationReference="d1e42">
             <part localType="400a">Boswells family </part>
             <!--
 <alternativeForm>lcnaf</alternativeForm>
@@ -107,7 +110,7 @@
          <nameEntry scriptOfElement="Latn"
                     languageOfElement="eng"
                     status="alternative"
-                    conventionDeclarationReference="d1e41">
+                    conventionDeclarationReference="d1e42">
             <part localType="400a">Boswill family </part>
             <!--
 <alternativeForm>lcnaf</alternativeForm>
@@ -116,7 +119,7 @@
          <nameEntry scriptOfElement="Latn"
                     languageOfElement="eng"
                     status="alternative"
-                    conventionDeclarationReference="d1e41">
+                    conventionDeclarationReference="d1e42">
             <part localType="400a">Bozwell family </part>
             <!--
 <alternativeForm>lcnaf</alternativeForm>
@@ -125,7 +128,7 @@
          <nameEntry scriptOfElement="Latn"
                     languageOfElement="eng"
                     status="alternative"
-                    conventionDeclarationReference="d1e41">
+                    conventionDeclarationReference="d1e42">
             <part localType="400a">Buswell family </part>
             <!--
 <alternativeForm>lcnaf</alternativeForm>
@@ -134,7 +137,7 @@
          <nameEntry scriptOfElement="Latn"
                     languageOfElement="eng"
                     status="alternative"
-                    conventionDeclarationReference="d1e41">
+                    conventionDeclarationReference="d1e42">
             <part localType="400a">Buzwell family </part>
             <!--
 <alternativeForm>lcnaf</alternativeForm>
@@ -150,9 +153,9 @@
          </languagesUsed>
          <places>
             <place vocabularySource="lcsh">
-               <placeName xmlns:ns0="https://archivists.org/ns/eac/migration"
-                          ns0:latitude="55.4667"
-                          ns0:longitude="-4.3000">Auchinleck (Scotland)</placeName>
+               <placeName xmlns:eac1="https://archivists.org/ns/eac/migration"
+                          eac1:latitude="55.4667"
+                          eac1:longitude="-4.3000">Auchinleck (Scotland)</placeName>
                <geographicCoordinates coordinateSystem="">55.4667 -4.3000</geographicCoordinates>
                <placeRole>family seat</placeRole>
                <dateRange>

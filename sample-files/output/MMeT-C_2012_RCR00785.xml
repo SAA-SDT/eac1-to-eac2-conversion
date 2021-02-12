@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/cpf.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/eac.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/schematron/eac.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- This file was downloaded from https://eac.staatsbibliothek-berlin.de/examples-for-the-eac-cpf-schema-2010/
+   where it was hosted to serve as an example of EAC-CPF encoding practices. -->
 <eac xmlns="https://archivists.org/ns/eac/v2">
    <control maintenanceStatus="new">
       <recordId>RCR00785</recordId>
@@ -10,7 +13,7 @@
       <maintenanceHistory>
          <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
             <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
-            <eventDateTime standardDateTime="2021-02-07T12:18:38.419-05:00"/>
+            <eventDateTime standardDateTime="2021-02-11T20:28:28.729-05:00"/>
             <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
          </maintenanceEvent>
          <maintenanceEvent maintenanceEventType="created">
@@ -23,7 +26,7 @@
             <reference>PublicEye.org; [accessed March 19, 2012.]</reference>
          </source>
       </sources>
-      <conventionDeclaration id="d1e25">
+      <conventionDeclaration id="d1e26">
          <reference>Describing Archives: a Content Standard, Society of American Archivists.
         2004</reference>
          <shortCode>DACS</shortCode>
@@ -31,14 +34,14 @@
             <p>Locally using rules from chapter 10 and 11.</p>
          </descriptiveNote>
       </conventionDeclaration>
-      <conventionDeclaration id="d1e38">
+      <conventionDeclaration id="d1e39">
          <reference>Anglo-American Cataloging Rules, Revised.</reference>
          <shortCode>AACR2R</shortCode>
          <descriptiveNote>
             <p>Locally used for their definition of a corporate body.</p>
          </descriptiveNote>
       </conventionDeclaration>
-      <conventionDeclaration id="cd-ne-2021-02-07T121838.419-0500-1">
+      <conventionDeclaration id="cd-ne-2021-02-11T202828.729-0500-1">
          <reference/>
          <shortCode>local</shortCode>
       </conventionDeclaration>
@@ -48,7 +51,7 @@
       <identity>
          <entityType value="corporateBody"/>
          <nameEntry status="authorized"
-                    conventionDeclarationReference="cd-ne-2021-02-07T121838.419-0500-1">
+                    conventionDeclarationReference="cd-ne-2021-02-11T202828.729-0500-1">
             <part>Political Research Associates</part>
             <!--
 <authorizedForm>local</authorizedForm>

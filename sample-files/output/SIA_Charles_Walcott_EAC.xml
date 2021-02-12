@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/cpf.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/eac.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/schematron/eac.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- This file was downloaded from https://eac.staatsbibliothek-berlin.de/examples-for-the-eac-cpf-schema-2010/
+   where it was hosted to serve as an example of EAC-CPF encoding practices. -->
 <eac xmlns="https://archivists.org/ns/eac/v2">
    <control maintenanceStatus="revised" publicationStatus="approved">
       <recordId>RU007004</recordId>
@@ -11,7 +14,7 @@
       <maintenanceHistory>
          <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
             <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
-            <eventDateTime standardDateTime="2021-02-07T12:18:31.219-05:00"/>
+            <eventDateTime standardDateTime="2021-02-11T20:28:27.32-05:00"/>
             <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
          </maintenanceEvent>
          <maintenanceEvent maintenanceEventType="created">
@@ -22,11 +25,11 @@
       </maintenanceHistory>
       <sources>
          <source href="siarchives.si.edu/collections/siris_arc_217204">
-            <reference id="d1e52"/>
+            <reference id="d1e53"/>
          </source>
       </sources>
       <otherRecordId>SIA RU007004</otherRecordId>
-      <conventionDeclaration id="cd-ne-2021-02-07T121831.219-0500-1">
+      <conventionDeclaration id="cd-ne-2021-02-11T202827.32-0500-1">
          <reference/>
          <shortCode>LCNAF</shortCode>
       </conventionDeclaration>
@@ -38,7 +41,7 @@
          <nameEntry scriptOfElement="Latn"
                     languageOfElement="eng"
                     status="authorized"
-                    conventionDeclarationReference="cd-ne-2021-02-07T121831.219-0500-1">
+                    conventionDeclarationReference="cd-ne-2021-02-11T202827.32-0500-1">
             <part>Walcott, Charles D. (Charles Doolittle), 1850-1927</part>
             <!--
 <authorizedForm>LCNAF</authorizedForm>

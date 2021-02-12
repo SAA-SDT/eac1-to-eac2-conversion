@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/cpf.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/eac.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/schematron/eac.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- This file was downloaded from https://eac.staatsbibliothek-berlin.de/examples-for-the-eac-cpf-schema-2010/
+   where it was hosted to serve as an example of EAC-CPF encoding practices. -->
 <eac xmlns="https://archivists.org/ns/eac/v2">
     <!-- Exemple de notice d'autorité pour une personne avec une relation avec la notice d'autorité décrivant la famille dont cette personne est membre -->
    <control maintenanceStatus="new" publicationStatus="approved">
@@ -11,7 +14,7 @@
       <maintenanceHistory>
          <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
             <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
-            <eventDateTime standardDateTime="2021-02-07T12:18:58.498-05:00"/>
+            <eventDateTime standardDateTime="2021-02-11T20:28:32.091-05:00"/>
             <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
          </maintenanceEvent>
          <maintenanceEvent maintenanceEventType="updated">
@@ -20,13 +23,13 @@
             <eventDateTime>2012-04-20</eventDateTime>
          </maintenanceEvent>
       </maintenanceHistory>
-      <conventionDeclaration id="d1e28">
+      <conventionDeclaration id="d1e29">
          <reference>Notice établie conformément aux normes ISAAR (CPF) du Conseil international
                 des Archives et AFNOR NF Z 44-061, 1er juin 1986 Catalogage : forme et structure de
                 vedettes noms de personne, des vedettes titres, des rubriques de classement et des
                 titres forgés</reference>
       </conventionDeclaration>
-      <conventionDeclaration id="cd-ne-2021-02-07T121858.498-0500-1">
+      <conventionDeclaration id="cd-ne-2021-02-11T202832.091-0500-1">
          <reference/>
          <shortCode>AFNOR_NF_Z_44-061</shortCode>
       </conventionDeclaration>
@@ -36,7 +39,7 @@
       <identity>
          <entityType value="person"/>
          <nameEntry status="authorized"
-                    conventionDeclarationReference="cd-ne-2021-02-07T121858.498-0500-1">
+                    conventionDeclarationReference="cd-ne-2021-02-11T202832.091-0500-1">
             <part localType="nom">Gramont</part>
             <part localType="prenom">Armand de</part>
             <part localType="dates_biographiques">1879-1962</part>

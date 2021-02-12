@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- This file was created by the TS-EAS schema team in early 2021 to serve as a sample EAC file, which
+    includes all elements and attributes, so that it could be used for testing the migration process 
+    from EAC 1.x to EAC 2.0 -->
 <eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="urn:isbn:1-931666-33-4 https://eac.staatsbibliothek-berlin.de/schema/cpf.xsd"
     xmlns:mods="http://www.loc.gov/mods/v3" xml:id="eac-cpf"

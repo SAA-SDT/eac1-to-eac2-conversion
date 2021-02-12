@@ -7,15 +7,14 @@
     xmlns:xlink="http://www.w3.org/1999/xlink" exclude-result-prefixes="#all"
     version="3.0">
     
+    <!-- XSLT3 conversion process to transform EAC-CPF 1.0 documents to EAC-CPF 2.0 -->
+    
     <!-- to do:
-        1) clean up comments;
-        2) review if outline/level to list/list is output as expected;
-        3) add notes (or messages) when we create empty elements with attributes, just to achieve validity;
-        4) add more options?;
-        5) re-consider how elements/attributes are copied into comments.
+        1) review if outline/level to list/list is output as expected;
+        2) add a separate XSLT file to handle the sorting of elements, which would cut down on the file size of this one considerably?;
+        2) add more options?;
     -->
 
-    <!-- XSLT3 conversion process to transform EAC-CPF 1.0 documents to EAC-CPF 2.0 -->
     <xsl:output method="xml" encoding="UTF-8" indent="true"/>
     <xsl:mode on-no-match="shallow-copy"/>
     
@@ -24,7 +23,7 @@
     <xsl:param name="eac-xmlns" select="'https://archivists.org/ns/eac/v2'" as="xs:string"/>  
     <xsl:param name="eac-xlmns-migration" select="'https://archivists.org/ns/eac/migration'" as="xs:string"/>
     <xsl:param name="default-cpf-type" select="'agent'" as="xs:string"/>
-    <xsl:param name="default-empty-part-element-text" select="'***** WARNING: name parts are now required, but this element is missing one. Nothing to add, so please fix manually *****'" as="xs:string"/>
+    <xsl:param name="default-empty-element-text" select="'***** WARNING: content is now required when this element is utilized in this way. Nothing to add, aside from this warning message, so please fix manually *****'" as="xs:string"/>
     <xsl:param name="default-empty-message" select="'This empty element would be invalid in the new EAC 2.0 data model. Because of that, the transformation is adding some extra structure to the output. Please review.'"/>
     <xsl:param name="retain-xlink-actuate-show-and-type" select="false()" as="xs:boolean"/>
     <xsl:param name="attempt-to-convert-to-geocoordinates" select="true()" as="xs:boolean"/>
@@ -35,15 +34,18 @@
     <xsl:param name="default-migration-agent-name" select="'EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)'" as="xs:string"/>
     <xsl:param name="default-migration-text" select="'EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)'" as="xs:string"/>
     <xsl:param name="include-migration-maintenanceEvent" select="true()" as="xs:boolean"/>
+    <!-- by default, if the above parameter is true, then when a new maintenanceEvent is added, all maintenanceEvents will be sorted in descending order. change to 'ascending' if you would prefer the reverse. -->
+    <xsl:param name="maintenanceEvent-sort-order" select="'descending'" as="xs:string"/>
     
     <!-- by default, the output will be associated with the RNG schema. You can switch to 'xsd', or pass 'xsd' to the transformation process, to associate your output files with the XSD schema instead of the RNG schema -->
     <xsl:param name="schema-output-version" select="'rng'" as="xs:string"/>
 
     <!-- replace with Staatsbibliothek zu Berlin URL path once the files have been migrated -->
     <xsl:param name="schema-path" select="'https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/'" as="xs:string"/>
-    <xsl:param name="schema-name" select="'cpf' || '.' || $schema-output-version" as="xs:string"/>
+    <xsl:param name="schema-name" select="'eac' || '.' || $schema-output-version" as="xs:string"/>
+    <xsl:param name="schematron-file" select="'https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/schematron/eac.sch'" as="xs:string"/>
     
-    <!-- if the cpfRelation type cannot be discerened from the input data, this value will be used as a backup. other valid options are: corporateBody, person, family -->
+    <!-- if the cpfRelation type cannot be discerned from the input data, this value will be used as a backup. other valid options: corporateBody, person, family -->
     <xsl:param name="default-cpfRelation" select="'agent'" as="xs:string"/>
 
 
@@ -113,8 +115,10 @@
             <xsl:processing-instruction name="xml-model">
                 <xsl:text expand-text="true">href="{$schema-path}{$schema-name}" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:text>
             </xsl:processing-instruction>
-            <!-- also add schematron...  optionally? -->
         </xsl:if>
+        <xsl:processing-instruction name="xml-model">
+                <xsl:text expand-text="true">href="{$schematron-file}" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:text>
+            </xsl:processing-instruction>
         <xsl:apply-templates select="comment() | *:eac-cpf"/>
     </xsl:template>
     
@@ -125,7 +129,6 @@
         </xsl:element>
     </xsl:template>
 
-    <!-- Document-node EAC element (could also be hiding in objectXMLWrap, and in that case we will do a copy-of select to preserve the original namespace) -->
     <xsl:template match="eac:eac-cpf">
         <xsl:element name="{map:get($changed-element-names, local-name())}" namespace="{$eac-xmlns}">
             <xsl:if test="$schema-output-version eq 'xsd'">
@@ -144,9 +147,6 @@
         </xsl:element>
     </xsl:template>
     
-    <!-- also see where this gets called with mode='relations' -->
-    <!-- and we ALSO need a special rule for chronItem.... where it has to be moved before
-        event -->
     <xsl:template match="eac:placeEntry">
         <xsl:element name="{map:get($changed-element-names, local-name())}" namespace="{$eac-xmlns}">
             <xsl:apply-templates select="@xml:id, @xml:lang, @localType, @countryCode, @scriptCode, @transliteration"/>
@@ -198,7 +198,7 @@
     
     <xsl:template match="@xml:id" mode="element-becomes-attribute">
         <xsl:variable name="attribute-name" select="../local-name() || '-' || local-name()"/>
-        <xsl:attribute name="em:{$attribute-name}" namespace="{$eac-xlmns-migration}">
+        <xsl:attribute name="eac1:{$attribute-name}" namespace="{$eac-xlmns-migration}">
             <xsl:value-of select="." />
         </xsl:attribute>
     </xsl:template>
@@ -210,7 +210,7 @@
         </xsl:attribute>
     </xsl:template>
      
-    <!-- change to copy in another namespace, perhaps.  see the next template. --> 
+    <!-- change to copy in as the migration namespace, perhaps.  see the next template. --> 
     <xsl:template match="@lastDateTimeVerified | @localType" mode="standalone-comment">
         <xsl:comment>
             <xsl:value-of select="name() || '=&quot;' || . || '&quot;'"/>
@@ -219,7 +219,7 @@
     
     <xsl:template match="@*" mode="copy-into-local-namespace">
         <xsl:variable name="attribute-name" select="if (local-name() eq 'accuarcy') then 'accuracy' else local-name()"/>
-        <xsl:attribute name="{$attribute-name}" namespace="{$eac-xlmns-migration}" select="."/>
+        <xsl:attribute name="eac1:{$attribute-name}" namespace="{$eac-xlmns-migration}" select="."/>
     </xsl:template>
     
     <xsl:template match="@*" mode="copy-into-a-comment">
@@ -236,22 +236,12 @@
         <xsl:value-of select="$newline"/>
     </xsl:template>
     
-    <!-- @scriptCode, as defined in EAC 1:
-        
-        "A standard four-letter code for the writing script used with a given language. The scriptCode attribute is required for the <script> element, and is available on other elements where language designations may be used."
-        
-        This is not a one-to-one mapping for how EAC 2 has defined @scriptCode + @scriptOfElement.
-        
-        Anything else needed for the transformation, or is this a senisble approach?
-        i.e. everything aside from eac1:script/@scriptCode will wind up with @scriptOfElement.
-    -->
     <xsl:template match="@scriptCode[parent::eac:* except parent::eac:script]">
         <xsl:attribute name="scriptOfElement">
             <xsl:copy/>
         </xsl:attribute>
     </xsl:template>
     
-    <!-- currently used on "term" and a few other places, since the nameEntry process is more involved (but should be combined) -->
     <xsl:template match="@transliteration">
         <xsl:attribute name="conventionDeclarationReference">
             <xsl:value-of select="($eac-existing-conventions[normalize-space() eq current()/normalize-space()]/../@xml:id
@@ -272,12 +262,12 @@
             <!-- next, the required elements -->
             <xsl:apply-templates select="eac:recordId, eac:maintenanceAgency, eac:maintenanceHistory"/>
             <!-- and the rest -->
-            <xsl:apply-templates select="eac:sources, eac:otherRecordId"/> <!-- missing here is representation, but that's new to EAC 2.  should we provid an option to seed data to that element? -->
+            <xsl:apply-templates select="eac:sources, eac:otherRecordId"/> <!-- missing here is representation, but that's new to EAC 2. -->
             <xsl:apply-templates select="eac:conventionDeclaration"/>
             <xsl:call-template name="nameforms-to-convention"/>
             <xsl:call-template name="transliteration-to-convention"/>
             <xsl:apply-templates select="eac:languageDeclaration, eac:localTypeDeclaration, eac:localControl, eac:rightsDeclaration"/>
-            <!-- not great to throw at the end, but here we are, since we have to be very strict about the order elsewhere -->
+            <!-- not ideal to throw at the end, but since we have to be very strict about the order elsewhere... -->
             <xsl:apply-templates select="comment() | processing-instruction()"/>
         </xsl:element>
     </xsl:template>
@@ -309,8 +299,7 @@
                 </xsl:element>
             </xsl:element>
             <xsl:apply-templates>
-                <!-- confirm descending order is agreeable as a default... but why not? -->
-                <xsl:sort select="eac:eventDateTime/@standardDateTime" order="descending"/>
+                <xsl:sort select="eac:eventDateTime/@standardDateTime" order="{$maintenanceEvent-sort-order}"/>
             </xsl:apply-templates>
         </xsl:element>
     </xsl:template>
@@ -336,6 +325,20 @@
         </xsl:attribute>
     </xsl:template>
     
+    <xsl:template match="eac:agencyName[not(normalize-space())][not(../eac:agencyCode[normalize-space()])]">
+        <xsl:element name="{local-name()}" namespace="{$eac-xmlns}">
+            <xsl:apply-templates select="@*"/>
+            <xsl:value-of select="$default-empty-element-text"/>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="eac:eventDateTime[not(@standardDateTime)][not(normalize-space())]">
+        <xsl:element name="{local-name()}" namespace="{$eac-xmlns}">
+            <xsl:apply-templates select="@*"/>
+            <xsl:value-of select="$default-empty-element-text"/>
+        </xsl:element>
+    </xsl:template>
+    
     <xsl:template match="eac:languageDeclaration">
         <xsl:element name="{local-name()}" namespace="{$eac-xmlns}">
             <xsl:apply-templates select="@* | eac:language/@languageCode | eac:script/@scriptCode"/>         
@@ -343,7 +346,6 @@
         </xsl:element>
     </xsl:template>
     
-    <!-- we have a lot re-ordering to do. might be clearner to do that in a second transformation to keep this one short, but we'll combine everything here (most likely) -->
     <xsl:template match="eac:conventionDeclaration | eac:localTypeDeclaration | eac:rightsDeclaration">
         <xsl:element name="{local-name()}" namespace="{$eac-xmlns}">
             <xsl:apply-templates select="@* except @localType"/>
@@ -352,7 +354,6 @@
             </xsl:if>
             <xsl:apply-templates select="eac:citation, eac:* except eac:citation | comment() | processing-instruction()"/>
         </xsl:element>
-        <!-- unless we want to check + create maintenanceEvent values with that specific dateTime???-->
         <xsl:apply-templates select="@localType" mode="standalone-comment"/>
     </xsl:template>
     
@@ -368,7 +369,6 @@
         </xsl:element>
     </xsl:template>
     
-    <!-- okay to leave reference empty in next two groupings, or should we repeat the shortCode value? -->
     <xsl:template name="transliteration-to-convention">
         <xsl:for-each select="$eac-transliterations/transliterations/value[not(normalize-space() = $eac-existing-conventions)]">
             <xsl:element name="conventionDeclaration" namespace="{$eac-xmlns}">
@@ -377,14 +377,6 @@
                 <xsl:element name="shortCode" namespace="{$eac-xmlns}">
                     <xsl:value-of select="."/>
                 </xsl:element>
-                <!--
-            Add something like? 
-                    <descriptiveNote>
-                        <p>This value was migrated from a transliteration attribute, which was previously available in EAC versions 2010 and 2018. Note that it is now linked via the @conventionDeclarationReference attribute in the body of the EAC 2.0 file.</p>
-                        <p>The value of the attribute has been moved to the new shortCode element.</p>
-                        <p>The reference element will be empty, but since it is required, it should be updated to include a linked reference to the transliteration scheme.</p>
-                    </descriptiveNote>
-                    -->
             </xsl:element>
         </xsl:for-each>
     </xsl:template>
@@ -397,11 +389,6 @@
                 <xsl:element name="shortCode" namespace="{$eac-xmlns}">
                     <xsl:value-of select="."/>
                 </xsl:element>
-                <!--
-                    <descriptiveNote>
-                        <p></p>
-                    </descriptiveNote>
-                    -->
             </xsl:element>
         </xsl:for-each>
     </xsl:template>
@@ -451,19 +438,17 @@
             <xsl:apply-templates select="@* | comment() | processing-instruction()"/>
             
             <xsl:apply-templates select="eac:nameEntry"/>
-            <!-- see http://www.archivesportaleurope.net/Portal/profiles/apeEAC-CPF.xsd -->
             <xsl:if test="not(eac:nameEntry[2])">
                 <xsl:element name="nameEntry" namespace="{$eac-xmlns}">
                     <xsl:call-template name="create-empty-element">
                         <xsl:with-param name="element-name" select="'part'"/>
-                        <xsl:with-param name="default-empty-text" select="$default-empty-part-element-text"/>
+                        <xsl:with-param name="default-empty-text" select="$default-empty-element-text"/>
                     </xsl:call-template>
                 </xsl:element>
             </xsl:if>
             
             <xsl:apply-templates select="eac:useDates"/>
             
-            <!-- refine the whole comment approach -->
             <xsl:if test="eac:authorizedForm or eac:alternativeForm">
                 <xsl:comment>
                       <xsl:apply-templates select="eac:authorizedForm | eac:alternativeForm" mode="copy-into-a-comment"/>
@@ -479,14 +464,12 @@
             <xsl:apply-templates select="eac:preferredForm[1]" mode="element-becomes-attribute"/>           
             <xsl:call-template name="determine-nameEntry-status"/>
             <xsl:call-template name="construct-conventionDeclaration-references"/>
-            <!-- refine the whole comment approach -->
             <xsl:if test="@transliteration">
                 <xsl:comment>
                       <xsl:apply-templates select="@transliteration" mode="copy-into-a-comment"/>
                 </xsl:comment>
             </xsl:if>
             <xsl:apply-templates select="eac:* except (eac:alternativeForm, eac:authorizedForm, eac:preferredForm) | comment() | processing-instruction()"/>   
-            <!-- refine the whole comment approach -->
             <xsl:if test="eac:alternativeForm or eac:authorizedForm or eac:preferredForm">
                 <xsl:comment>
                       <xsl:apply-templates select="eac:alternativeForm | eac:authorizedForm | eac:preferredForm" mode="copy-into-a-comment"/>
@@ -499,7 +482,7 @@
         <xsl:element name="{local-name()}" namespace="{$eac-xmlns}">
             <xsl:apply-templates select="@* | comment() | processing-instruction()"/>
             <xsl:message select="$default-empty-message" terminate="no"/>
-            <xsl:value-of select="$default-empty-part-element-text"/>
+            <xsl:value-of select="$default-empty-element-text"/>
         </xsl:element>
     </xsl:template>
     
@@ -511,8 +494,7 @@
             <xsl:value-of select="$default-empty-text"/>
         </xsl:element>
     </xsl:template>
-        
-    
+           
     <xsl:template name="determine-nameEntry-status">
         <xsl:choose>
             <xsl:when test="eac:authorizedForm | ../eac:authorizedForm">
@@ -624,7 +606,6 @@
     
     <xsl:template match="eac:*[local-name() = $description-singular-and-plural/term/@plural]" priority="2">
         <xsl:apply-templates select="comment() | processing-instruction()"/>
-        <!-- empty plural elements will otherwise be silently dropped -->
         <xsl:if test="@*">
             <xsl:comment>
                 <xsl:apply-templates select="@*" mode="copy-into-a-comment"/>
@@ -638,13 +619,11 @@
     </xsl:template>
 
     
-    <!-- an extra template, just due to placeRole/@lastDateTimeVerified no longer being a thing.
-    Alternatively, we could add this as a new attribute in the migration namespace.  ???? -->
+    <!-- an extra template, just due to placeRole/@lastDateTimeVerified no longer being an option. Alternatively, we could add this as a new attribute in the migration namespace. -->
     <xsl:template match="eac:placeRole">
         <xsl:element name="{local-name()}" namespace="{$eac-xmlns}">
             <xsl:apply-templates select="@* except @lastDateTimeVerified | node()"/>
         </xsl:element>
-        <!-- unless we want to check + create maintenanceEvent values with that specific dateTime???-->
         <xsl:apply-templates select="@lastDateTimeVerified" mode="standalone-comment"/>
     </xsl:template>
     
@@ -676,16 +655,14 @@
             <xsl:apply-templates select="@xml:id | @xml:lang | @scriptCode | @transliteration"/>
             <xsl:apply-templates select="node()"/>
         </xsl:element>
-        <!-- unless we want to check + create maintenanceEvent values with that specific dateTime???-->
         <xsl:apply-templates select="@lastDateTimeVerified" mode="standalone-comment"/>
     </xsl:template>
     
     <xsl:template match="eac:citation" mode="descriptiveNote">
         <xsl:element name="descriptiveNote" namespace="{$eac-xmlns}">
-            <xsl:attribute name="citation" namespace="{$eac-xlmns-migration}" select="'migrated-' || local-name()"/>
+            <xsl:attribute name="eac1:citation" namespace="{$eac-xlmns-migration}" select="'migrated-' || local-name()"/>
             <xsl:apply-templates select="." mode="element-to-paragraph"/>
         </xsl:element>
-        <!-- unless we want to check + create maintenanceEvent values with that specific dateTime???-->
         <xsl:apply-templates select="@lastDateTimeVerified" mode="standalone-comment"/>
     </xsl:template>
     
@@ -696,7 +673,7 @@
     
     <xsl:template match="eac:*" mode="element-to-paragraph">
         <xsl:element name="p" namespace="{$eac-xmlns}">
-            <xsl:attribute name="migrationType" namespace="{$eac-xlmns-migration}" select="'migrated-' || local-name()"/>
+            <xsl:attribute name="eac1:migrationType" namespace="{$eac-xlmns-migration}" select="'migrated-' || local-name()"/>
             <xsl:choose>
                 <xsl:when test="self::eac:citation">
                     <xsl:element name="{map:get($changed-element-names, local-name())}" namespace="{$eac-xmlns}">
@@ -708,7 +685,6 @@
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:element>
-        <!-- unless we want to check + create maintenanceEvent values with that specific dateTime???-->
         <xsl:apply-templates select="@lastDateTimeVerified" mode="standalone-comment"/>
     </xsl:template>
    
@@ -717,7 +693,6 @@
     
     <!-- RELATIONS SECTION -->
     
-    <!-- turn this into a named template, as well, for removing and commenting upon empty elements. could also be on description, i think, etc.-->
     <xsl:template match="eac:relations[not(*)]">
         <xsl:comment expand-text="true">The following empty element was encountered and has been removed: {name()}. If that element had attributes present in the source file, then those will appear in following comments.</xsl:comment>
         <xsl:apply-templates select="@*" mode="standalone-comment"/>
@@ -742,8 +717,8 @@
                 
                 <xsl:if test="not(eac:relationEntry[normalize-space()])">
                     <xsl:element name="part" namespace="{$eac-xmlns}">
-                        <xsl:message select="$default-empty-part-element-text" terminate="false"/>
-                        <xsl:value-of select="$default-empty-part-element-text"/>
+                        <xsl:message select="$default-empty-element-text" terminate="false"/>
+                        <xsl:value-of select="$default-empty-element-text"/>
                     </xsl:element>
                 </xsl:if>
             </xsl:element>
@@ -752,7 +727,6 @@
             
             <xsl:apply-templates select="@cpfRelationType, @functionRelationType, @resourceRelationType"/>
             
-            <!-- make sure we're mapping arcrole vs. role correctly -->
             <xsl:apply-templates select="@xlink:arcrole" mode="relations"/>
             
             <xsl:apply-templates select="eac:placeEntry" mode="relations"/> <!-- will need to promote to place -->
@@ -772,7 +746,7 @@
         </xsl:element>
     </xsl:template>
     
-    <!-- what else could we map this to?  stumped right now, so just keeping in the xlink namespace -->
+    <!-- what else could we map this to? not sure, so keeping in the xlink namespace -->
     <xsl:template match="@xlink:title | @xlink:role" mode="relations">
         <xsl:copy>
             <xsl:value-of select="."/>
@@ -783,10 +757,9 @@
         <xsl:attribute name="valueURI" select="normalize-space()"/>
     </xsl:template>
     
-    <!-- a template for empty relationEntry elements is above, paired with the empty part element -->
     <xsl:template match="eac:relationEntry">
         <xsl:apply-templates select="comment() | processing-instruction()"/>
-        <!-- might be better to repeat the relation for multiple relationEntry elements, but for now i am parking these all in part elements -->
+        <!-- might be better to repeat the relation for multiple relationEntry elements, but for now i am parking these in part elements -->
         <xsl:element name="part" namespace="{$eac-xmlns}">
             <xsl:apply-templates select="@* | text()"/>
         </xsl:element>
@@ -800,7 +773,6 @@
     
     <!-- ALTERNATIVE SET SECTION -->
     
-    <!-- only need this since we're switching the order or descriptiveNote and objectXMLWrap -->
     <xsl:template match="eac:setComponent">
         <xsl:element name="{local-name()}" namespace="{$eac-xmlns}">
             <xsl:apply-templates select="@* | comment() | processing-instruction()"/>
