@@ -13,7 +13,7 @@
       <maintenanceHistory>
          <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
             <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
-            <eventDateTime standardDateTime="2021-02-11T20:28:34.784-05:00"/>
+            <eventDateTime standardDateTime="2021-02-12T10:59:09.719-05:00"/>
             <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
          </maintenanceEvent>
          <maintenanceEvent maintenanceEventType="created">
@@ -37,7 +37,7 @@
       <conventionDeclaration id="d1e24">
          <reference>unknown</reference>
       </conventionDeclaration>
-      <conventionDeclaration id="cd-ne-2021-02-11T202834.784-0500-1">
+      <conventionDeclaration id="cd-ne-2021-02-12T105909.719-0500-1">
          <reference/>
          <shortCode>unknown</shortCode>
       </conventionDeclaration>
@@ -48,7 +48,7 @@
          <entityType value="corporateBody"/>
          <nameEntry localType="http://www.loc.gov/MARC21/"
                     status="authorized"
-                    conventionDeclarationReference="cd-ne-2021-02-11T202834.784-0500-1">
+                    conventionDeclarationReference="cd-ne-2021-02-12T105909.719-0500-1">
             <part localType="http://www.loc.gov/MARC21/110/a">National Museum of American History (U.S.)</part>
             <!--
 <authorizedForm>unknown</authorizedForm>

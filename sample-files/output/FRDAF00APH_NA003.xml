@@ -14,7 +14,7 @@
       <maintenanceHistory>
          <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
             <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
-            <eventDateTime standardDateTime="2021-02-11T20:28:34.495-05:00"/>
+            <eventDateTime standardDateTime="2021-02-12T10:59:09.495-05:00"/>
             <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
          </maintenanceEvent>
          <maintenanceEvent maintenanceEventType="updated">
@@ -90,7 +90,7 @@
                 titres forgés</reference>
          <!-- On a choisi dans cette notice de regrouper dans un seul élément <citation> toutes les références aux normes utilisées pour élaborer la notice -->
       </conventionDeclaration>
-      <conventionDeclaration id="cd-ne-2021-02-11T202834.495-0500-1">
+      <conventionDeclaration id="cd-ne-2021-02-12T105909.495-0500-1">
          <reference/>
          <shortCode>AFNOR_NF_Z_44-061</shortCode>
       </conventionDeclaration>
@@ -100,7 +100,7 @@
       <identity>
          <entityType value="person"/>
          <nameEntry status="authorized"
-                    conventionDeclarationReference="cd-ne-2021-02-11T202834.495-0500-1">
+                    conventionDeclarationReference="cd-ne-2021-02-12T105909.495-0500-1">
             <part localType="nom">Henrard</part>
             <part localType="prenom">Roger</part>
             <part localType="dates_biographiques">1900-1975</part>
