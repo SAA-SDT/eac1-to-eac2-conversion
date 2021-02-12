@@ -86,7 +86,7 @@
         <transliterations>
             <xsl:for-each select="distinct-values(//eac:*/@transliteration)">
                 <xsl:sort data-type="text"/>
-                <value id="{'cd-t-' || current-dateTime() => string() => replace(':', '') || '-' || position()}">
+                <value id="{'cd-t-' || current-dateTime() => string() => replace(':|\+', '') || '-' || position()}">
                     <xsl:value-of select="."/>
                 </value>
             </xsl:for-each>
@@ -97,7 +97,7 @@
         <agencies>
             <xsl:for-each select="distinct-values((//eac:authorizedForm/normalize-space(), //eac:alternativeForm/normalize-space(), //eac:preferredForm/normalize-space()))">
                 <xsl:sort data-type="text"/>
-                <value id="{'cd-ne-' || current-dateTime() => string() => replace(':', '') || '-' || position()}">
+                <value id="{'cd-ne-' || current-dateTime() => string() => replace(':|\+', '') || '-' || position()}">
                     <xsl:value-of select="."/>
                 </value>
             </xsl:for-each>        
