@@ -1,7 +1,7 @@
 # eac1-to-eac2-conversion
 
 ## Requirements
-XSLT 3 processor, such as Saxon 9 or 10 HE (e.g.https://github.com/SAA-SDT/eac-cpf-schema/tree/development/vendor/SaxonHE10-1J)
+XSLT 3 processor, such as Saxon 9 or 10 HE (e.g. https://www.saxonica.com/documentation/documentation.xml)
 
 ## Steps
 
