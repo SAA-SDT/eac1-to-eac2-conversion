@@ -43,7 +43,7 @@
     <!-- replace with Staatsbibliothek zu Berlin URL path once the files have been migrated -->
     <xsl:param name="schema-path" select="'https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/'" as="xs:string"/>
     <xsl:param name="schema-name" select="'eac' || '.' || $schema-output-version" as="xs:string"/>
-    <xsl:param name="schematron-file" select="'https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/schematron/eac.sch'" as="xs:string"/>
+    <xsl:param name="schematron-file" select="'https://raw.githubusercontent.com/SAA-SDT/eas-schematrons/development/schematron/shared-rules.sch'" as="xs:string"/>
     
     <!-- if the cpfRelation type cannot be discerned from the input data, this value will be used as a backup. other valid options: corporateBody, person, family -->
     <xsl:param name="default-cpfRelation" select="'agent'" as="xs:string"/>

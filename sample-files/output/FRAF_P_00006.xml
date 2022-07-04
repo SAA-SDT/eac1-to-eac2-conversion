@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/eac.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eac-cpf-schema/development/xml-schemas/eac-cpf/schematron/eac.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eas-schematrons/development/schematron/shared-rules.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!-- This file was downloaded from https://eac.staatsbibliothek-berlin.de/examples-for-the-eac-cpf-schema-2010/
    where it was hosted to serve as an example of EAC-CPF encoding practices. -->
 <eac xmlns="https://archivists.org/ns/eac/v2">
@@ -16,7 +16,7 @@
       <maintenanceHistory>
          <maintenanceEvent maintenanceEventType="updated" languageOfElement="eng">
             <agent agentType="machine">EAC-CPF 1.x to EAC 2.0 Migration Style Sheet (eac1-to-eac2.xsl)</agent>
-            <eventDateTime standardDateTime="2021-02-12T10:59:08.4-05:00"/>
+            <eventDateTime standardDateTime="2022-07-04T14:02:09.088374-04:00"/>
             <eventDescription>EAC-CPF 1.x (urn:isbn:1-931666-33-4) instance migrated to EAC 2.0 (https://archivists.org/ns/eac/v2)</eventDescription>
          </maintenanceEvent>
          <maintenanceEvent maintenanceEventType="revised">
@@ -52,7 +52,7 @@
         d’information -- Représentation de la date et de l’heure.</reference>
          <shortCode>ISO 8601</shortCode>
       </conventionDeclaration>
-      <conventionDeclaration id="cd-ne-2021-02-12T105908.4-0500-1">
+      <conventionDeclaration id="cd-ne-2022-07-04T140209.088374-0400-1">
          <reference/>
          <shortCode>AFNOR_NF_Z_44-060</shortCode>
       </conventionDeclaration>
@@ -69,7 +69,7 @@
       <identity>
          <entityType value="corporateBody"/>
          <nameEntry status="authorized"
-                    conventionDeclarationReference="cd-ne-2021-02-12T105908.4-0500-1">
+                    conventionDeclarationReference="cd-ne-2022-07-04T140209.088374-0400-1">
             <part>France. Direction des affaires maritimes</part>
             <!-- Forme autorisée du nom conforme à la norme AFNOR NF Z 44-060 -->
             <!--
@@ -77,7 +77,7 @@
 -->
          </nameEntry>
          <nameEntry status="alternative"
-                    conventionDeclarationReference="cd-ne-2021-02-12T105908.4-0500-1">
+                    conventionDeclarationReference="cd-ne-2022-07-04T140209.088374-0400-1">
             <part>DAM</part>
             <!-- Forme alternative du nom -->
             <!--
